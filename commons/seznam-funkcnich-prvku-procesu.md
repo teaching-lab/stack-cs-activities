@@ -72,6 +72,3 @@ Fyzické prvky:
 Jiné:
 
 * Náhodný proces, tipování
-
-
-

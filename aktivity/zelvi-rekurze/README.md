@@ -1,6 +1,6 @@
 # Želví rekurze
 
-tags: samostatná práce, multiple choice questions
+tags: samostatná práce, multiple choice questions, základní programátorské koncepty
 
 ## Abstrakt
 
@@ -35,9 +35,9 @@ Student:
 * Proces: funkční prvky: čtení kódu, kritické posouzení kódu, diskuse, přesvědčování, pozorování
 * Artefakty:
   * Materiály:
-    * několik výtisků \(počet podle hloubky rekurze\) [kódu funkce](../artefakty/zelvi_rekurze/funkce.pdf) velkým fontem
+    * několik výtisků \(počet podle hloubky rekurze\) [kódu funkce](funkce.pdf) velkým fontem
     * _volitelně_ kód funkce menším fontem jako handout pro každého studenta
-    * 4 velké obrázky, které budou sloužit jako možnosti k výběru správné odpovědi pro studenty \(jeden správný a 3 „věrohodné“ podobné obrázky\) \(např. [správný](../artefakty/zelvi_rekurze/strom_spravny.pdf), [distraktor1](../artefakty/zelvi_rekurze/strom_distraktor_1.pdf), [distraktor2](../artefakty/zelvi_rekurze/strom_distraktor_2.pdf), [distraktor3](../artefakty/zelvi_rekurze/strom_distraktor_3.pdf), [distraktor4](../artefakty/zelvi_rekurze/strom_distraktor_4.pdf)\)
+    * 4 velké obrázky, které budou sloužit jako možnosti k výběru správné odpovědi pro studenty \(jeden správný a 3 „věrohodné“ podobné obrázky\) \(např. [správný](strom_spravny.pdf), [distraktor1](strom_distraktor_1.pdf), [distraktor2](strom_distraktor_2.pdf), [distraktor3](strom_distraktor_3.pdf), [distraktor4](strom_distraktor_4.pdf)\)
   * Předměty:
     * whiteboard: fixy na whiteboard, magnety, fix na papír
     * křídová tabule: křídy, lepící páska, nůžky, fix na papír
@@ -94,7 +94,7 @@ Student:
 
 #### Rozuzlení
 
-1. Dokončit simulaci a vykreslit celý obrázek, ideálně s pomocí studentů, kteří budou říkat, co by měla želva dělat.
+* Dokončit simulaci a vykreslit celý obrázek, ideálně s pomocí studentů, kteří budou říkat, co by měla želva dělat.
 
 ### Časté chyby studentů a nápovědy
 
@@ -119,12 +119,12 @@ Se studenty je možné diskutovat, jak se jim cvičení líbilo a jeho náročno
 
 ## Vzorové řešení
 
-* [správný](../artefakty/zelvi_rekurze/strom_spravny.pdf) obrázek pro volání _draw\(3\)_ 
-* [celý kód](../artefakty/zelvi_rekurze/strom_spravny.py)
-* [kód generující distraktora 1](../artefakty/zelvi_rekurze/strom_distraktor_1.py)
-* [kód generující distraktora 2](../artefakty/zelvi_rekurze/strom_distraktor_2.py)
-* [kód generující distraktora 3](../artefakty/zelvi_rekurze/strom_distraktor_3.py)
-* [kód generující distraktora 4](../artefakty/zelvi_rekurze/strom_distraktor_4.py)
+* [správný](strom_spravny.pdf) obrázek pro volání _draw\(3\)_ 
+* [celý kód](strom_spravny.py)
+* [kód generující distraktora 1](strom_distraktor_1.py)
+* [kód generující distraktora 2](strom_distraktor_2.py)
+* [kód generující distraktora 3](strom_distraktor_3.py)
+* [kód generující distraktora 4](strom_distraktor_4.py)
 
 ## Možná rozšíření
 
@@ -137,6 +137,3 @@ Se studenty je možné diskutovat, jak se jim cvičení líbilo a jeho náročno
 ## Autor
 
 * Jaroslav Čechák
-
-
-

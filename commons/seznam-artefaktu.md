@@ -40,8 +40,3 @@ Jídlo:
 
 * Rýže, luštěniny
 * Bonbóny
-
-
-
-
-

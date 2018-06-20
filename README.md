@@ -1,18 +1,24 @@
-# Zásobník
+# Zásobník: Sbírka aktivit do výuky informatiky
 
-## Sbírka aktivit do výuky informatiky
+Našim cílem je tvorba centralizovaného _open-source_ repozitáře výukových aktivit pro učitele. Jako cvičící na [Fakultě informatiky Masarykovy univerzity](https://www.fi.muni.cz/) a členové týmu [*Teaching Lab*](https://is.muni.cz/predmet/fi/DUCIT) se zaměřujeme na použití daných aktivit ve výuce informatiky. Většina aktivit je však snadno přizpůsobitelná i na výuku jiných předmětů.
 
----
+## Užitečné seznamy
 
-### O co jde?
+* [Šablona pro nové aktivity](commons/sablona.md)
+* [Seznam funkčních prvků \(procesů\)](commons/seznam-funkcnich-prvku-procesu.md)
+* [Seznam artefaktů](commons/seznam-artefaktu.md)
 
-Našim cílem je tvorba centralizovaného _open-source_ repozitáře výukových aktivit pro učitele. Jako cvičící na [Fakultě informatiky Masarykovy univerzity](https://www.fi.muni.cz/) se zaměřujeme na použití daných aktivit ve výuce informatiky. Většina aktivit je však snadno přizpůsobitelná i na výuku jiných předmětů.
+## Seznam aktivit
 
-### Editor a kontaktní osoba
+* [Želví rekurze](aktivity/zelvi-rekurze/README.md)
+* [Tvorba testovacích otázek](aktivity/tvorba-otazek/README.md)
+* [Vzájemné zkoušení se](aktivity/vzajemne-zkouseni-se/README.md)
+* [Otázková eliminace](aktivity/otazkova-eliminace/README.md)
+* [Aktivity na rozdělení do dvojic](aktivity/ib111/deleni/README.md)
+* [Společné vytváření diagramu na tabuli](aktivity/spolecne-vytvareni-celku/README.md)
+* [Vyjímky v C\#](aktivity/vyjimky-csharp/README.md)
 
-[Valdemar Švábenský](https://www.fi.muni.cz/~xsvabens/), valdemar\[zavináč\]mail.muni.cz
-
-### Autoři aktivit a statistiky
+## Autoři aktivit a statistiky
 
 | Autor              | Počet aktivit |
 | ------------------ |:-------------:|
@@ -23,4 +29,12 @@ Našim cílem je tvorba centralizovaného _open-source_ repozitáře výukových
 | Valdemar Švábenský | 3             |
 |                    | **14**        |
 
-### 
+## Editor a kontaktní osoba
+
+[Valdemar Švábenský](https://www.fi.muni.cz/~xsvabens/), valdemar\[zavináč\]mail.muni.cz
+
+## Licence
+
+<img align="right" width="88" height="31" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons Licence BY NC SA 4.0" title="Creative Commons Licence BY NC SA 4.0">
+
+Celý obsah repozitáře je licencován pod [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).

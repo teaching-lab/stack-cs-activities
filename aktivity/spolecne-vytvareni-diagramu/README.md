@@ -25,7 +25,7 @@ Studenti:
   * Vhodný prostor: učebna s projektorem a tabulí
 * Proces: funkční prvky: čtení textového zadání, kreslení diagramu, diskuse, hlasování
 * Artefakty:
-  * Materiály: [zadání](artefakty/spolecne-vytvareni-celku/SkolskyKurz.pdf)
+  * Materiály: [zadání](SkolskyKurz.pdf)
   * Předměty: projektor, tabule
 * Dramaturgie:
   * Předmět: Softwarové inženýrství
@@ -66,7 +66,7 @@ Studenti:
 
 ## Vzorové řešení
 
-* [Řešení v PDF](artefakty/spolecne-vytvareni-celku/SkolskyKurz-riesenie.pdf)
+* [Řešení v PDF](SkolskyKurz-riesenie.pdf)
 
 ## Možná rozšíření
 

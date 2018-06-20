@@ -1,6 +1,6 @@
 # Název aktivity
 
-tags: opakování, skupiny
+Tagy: opakování, skupiny
 
 ## Abstrakt
 
@@ -101,6 +101,3 @@ Jednotlivé kroky rozdělené tak, aby se dali dobře dávkovat \(student nemus�
 ## Autor
 
 * Petr Novák
-
-
-

@@ -29,9 +29,9 @@ Student:
 * Proces:
   * Funkční prvky: Řazení/třízení objektů, závěrečné shrnutí
 * Artefakty:
-  * [Kartičky](/artefakty/vyjimky_csharp/Karticky.pdf)
-  * [Řešení](/artefakty/vyjimky_csharp/Reseni.pdf)
-  * [Řešení pro projektor](/artefakty/vyjimky_csharp/Reseni-Projektor.pdf)
+  * [Kartičky](Karticky.pdf)
+  * [Řešení](Reseni.pdf)
+  * [Řešení pro projektor](Reseni-Projektor.pdf)
   * Projektor
 * Dramaturgie:
   * Předmět: Úvodní kurz C\#
@@ -85,8 +85,8 @@ Student:
 
 ## Vzorové řešení
 
-* [Řešení](/artefakty/vyjimky_csharp/Reseni.pdf)
-* [Řešení pro projektor](/artefakty/vyjimky_csharp/Reseni-Projektor.pdf)
+* [Řešení](Reseni.pdf)
+* [Řešení pro projektor](Reseni-Projektor.pdf)
 
 ## Možná rozšíření
 
@@ -96,6 +96,3 @@ Student:
 ## Autor
 
 * Lukáš Daubner
-
-
-
