@@ -15,13 +15,13 @@ Našim cílem je tvorba centralizovaného _open-source_ repozitáře výukových
 * [Vzájemné zkoušení se](aktivity/vzajemne-zkouseni-se/README.md)
 * [Otázková eliminace](aktivity/otazkova-eliminace/README.md)
 * [Aktivity na rozdělení do dvojic](aktivity/ib111/deleni/README.md)
-* [Společné vytváření diagramu na tabuli](aktivity/spolecne-vytvareni-celku/README.md)
-* [Vyjímky v C\#](aktivity/vyjimky-csharp/README.md)
+* [Společné vytváření diagramu na tabuli](aktivity/spolecne-vytvareni-diagramu/README.md)
+* [Vyjímky v C\#](aktivity/vyjimky-c-sharp/README.md)
 
 ## Autoři aktivit a statistiky
 
 | Autor              | Počet aktivit |
-| ------------------ |:-------------:|
+| ------------------ | -------------:|
 | Jaroslav Čechák    | 1             |
 | Lukáš Daubner      | 1             |
 | Martin Macák       | 1             |
