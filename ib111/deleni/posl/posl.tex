@@ -1,0 +1,152 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[unicode,colorlinks=true]{hyperref}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multicol}
+\textwidth 16cm \textheight 24.6cm
+\topmargin -1.3cm
+\oddsidemargin 0cm
+\begin{document}
+\pagestyle{empty}
+\noindent
+
+\begin{multicols}{2}
+
+\begin{align*}
+a_0 &= 0 \\
+a_n &= a_{n-1} + 2
+\end{align*}
+
+\[
+\forall n \in \mathbb{N}_0: a_n = 2 \cdot n
+\]
+
+%%%%%%%%%%
+
+\begin{align*}
+a_0 &= 0 \\
+a_n &= a_{n-1} - 5
+\end{align*}
+
+\[
+\forall n \in \mathbb{N}_0: a_n = -5 \cdot n
+\]
+
+%%%%%%%%%%
+
+\begin{align*}
+a_0 &= 1 \\
+a_n &= a_{n-1} + 2
+\end{align*}
+
+\[
+\forall n \in \mathbb{N}_0: a_n = 2 \cdot n + 1
+\]
+
+%%%%%%%%%%
+
+\begin{align*}
+a_0 &= 1 \\
+a_n &= n * a_{n-1}
+\end{align*}
+
+\[
+\forall n \in \mathbb{N}_0: a_n = n!
+\]
+
+%%%%%%%%%%
+
+\begin{align*}
+a_0 &= 1 \\
+a_n &= 2 * a_{n-1}
+\end{align*}
+
+\[
+\forall n \in \mathbb{N}_0: a_n = 2^n
+\]
+
+%%%%%%%%%%
+
+\begin{align*}
+a_0 &= 0 \\
+a_1 &= 1 \\
+a_n &= a_{n-1} + a_{n-2}
+\end{align*}
+
+\[
+\forall n \in \mathbb{N}_0: a_n \approx \frac{\left(1+\sqrt{5}\right)^n - \left(1-\sqrt{5}\right)^n}{2^n \sqrt{5}}
+\]
+
+%%%%%%%%%%
+
+\begin{align*}
+a_0 &= 1 \\
+a_n &= -2 * a_{n-1}
+\end{align*}
+
+\[
+\forall n \in \mathbb{N}_0: a_n = (-2)^n
+\]
+
+%%%%%%%%%%
+
+\begin{align*}
+a_0 &= 1 \\
+a_n &= \frac{1}{2} * a_{n-1}
+\end{align*}
+
+\[
+\forall n \in \mathbb{N}_0: a_n = 2^{-n}
+\]
+
+%%%%%%%%%%
+
+\begin{align*}
+a_0 &= 1 \\
+a_n &= \frac{1}{4} * a_{n-1}
+\end{align*}
+
+\[
+\forall n \in \mathbb{N}_0: a_n = 4^{-n}
+\]
+
+%%%%%%%%%%
+
+\end{multicols}
+
+\noindent\rule{\textwidth}{1pt}
+
+\begin{multicols}{2}
+
+\[
+0\ 1\ 1\ 2\ 3\ 5\ 8\ 13\ 21\ ...
+\]
+
+\begin{align*}
+a_0 &= 2 \\
+a_n &= a_{n-1} + 2
+\end{align*}
+
+\[
+\forall n \in \mathbb{N}_0: a_n = 2 \cdot n + 2
+\]
+
+\begin{align*}
+a_0 &= 0 \\
+a_n &= n * a_{n-1}
+\end{align*}
+
+\[
+\forall n \in \mathbb{N}_0: a_n = 0
+\]
+
+%%%%%%%%%%
+
+\end{multicols}
+
+\end{document}

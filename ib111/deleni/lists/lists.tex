@@ -1,0 +1,149 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[unicode,colorlinks=true]{hyperref}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{listings}
+\textwidth 16cm \textheight 24.6cm
+\topmargin -1.3cm
+\oddsidemargin 0cm
+
+\lstset{
+language=python,
+morekeywords={bool, true, false},
+morecomment=[l]{//},
+basicstyle=\footnotesize,
+% basewidth=0.52em, % trochu smrsknout pro úzkou sazbu
+breaklines=true,
+breakatwhitespace=true,
+breakindent=1.5em,
+% showstringspaces=true,
+numbers=left,
+numberstyle=\tiny,
+numbersep=1mm,
+% showspaces=true,
+% lineskip=0.01pt,
+% aboveskip=2pt,
+% belowskip=2pt,
+xleftmargin=4mm,
+xrightmargin=1mm,
+frame=single,
+framexleftmargin=3mm,
+framexrightmargin=0mm,
+% framesep=0pt,
+% linewidth=7cm,
+columns=fixed,
+% backgroundcolor=\color{gray},
+extendedchars=true,
+escapeinside={//+}{+//},
+}
+
+\begin{document}
+\pagestyle{empty}
+\noindent
+
+\begin{multicols}{2}
+
+\begin{lstlisting}
+[x for x in range(10)]
+\end{lstlisting}
+
+\begin{lstlisting}
+l = []
+for i in range(10):
+    l.append(i)
+\end{lstlisting}
+
+%%%%%%%%%%
+
+\begin{lstlisting}
+[x+1 for x in range(10)]
+\end{lstlisting}
+
+\begin{lstlisting}
+[x for x in range(1, 11)]
+\end{lstlisting}
+
+%%%%%%%%%%
+
+\begin{lstlisting}
+[2*x for x in range(5)]
+\end{lstlisting}
+
+\begin{lstlisting}
+l = []
+for x in range(10):
+    if x % 2 == 0:
+        l.append(x)
+\end{lstlisting}
+
+%%%%%%%%%%
+
+\begin{lstlisting}
+[2*x-1 for x in range(10)]
+\end{lstlisting}
+
+\begin{lstlisting}
+l = [-1]
+for x in range(19):
+    if x % 2 == 1:
+        l.append(x)
+\end{lstlisting}
+
+%%%%%%%%%%
+
+\begin{lstlisting}
+[2*x-1 for x in range(11)]
+\end{lstlisting}
+
+\begin{lstlisting}
+l = [-1]
+for x in range(20):
+    if x % 2 == 1:
+        l.append(x)
+\end{lstlisting}
+
+%%%%%%%%%%
+
+\begin{lstlisting}
+[3+3*x for x in range(4)]
+\end{lstlisting}
+
+\begin{lstlisting}
+[3, 6, 9, 12]
+\end{lstlisting}
+
+%%%%%%%%%%
+
+\begin{lstlisting}
+[2**x for x in range(20)]
+\end{lstlisting}
+
+\begin{lstlisting}
+l = [1]
+for x in range(19):
+    l.append(2 * l[-1])
+\end{lstlisting}
+
+%%%%%%%%%%
+
+\begin{lstlisting}
+[5 for _ in range(10)]
+\end{lstlisting}
+
+\begin{lstlisting}
+l = []
+for x in range(10):
+    l.append(5)
+\end{lstlisting}
+
+%%%%%%%%%%
+
+\end{multicols}
+
+\end{document}
