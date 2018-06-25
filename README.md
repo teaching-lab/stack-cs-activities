@@ -8,26 +8,28 @@ Našim cílem je tvorba centralizovaného _open-source_ repozitáře výukových
 * [Seznam funkčních prvků \(procesů\)](commons/seznam-funkcnich-prvku-procesu.md)
 * [Seznam artefaktů](commons/seznam-artefaktu.md)
 
-## Seznam aktivit
+## Seznam aktivit (abecedně)
 
-* [Želví rekurze](aktivity/zelvi-rekurze/README.md)
-* [Tvorba testovacích otázek](aktivity/tvorba-otazek/README.md)
-* [Vzájemné zkoušení se](aktivity/vzajemne-zkouseni-se/README.md)
-* [Otázková eliminace](aktivity/otazkova-eliminace/README.md)
 * [Aktivity na rozdělení do dvojic](aktivity/ib111/deleni/README.md)
+* [Otázková eliminace](aktivity/otazkova-eliminace/README.md)
 * [Společné vytváření diagramu na tabuli](aktivity/spolecne-vytvareni-diagramu/README.md)
+* [Tvorba testovacích otázek](aktivity/tvorba-otazek/README.md)
+* [Vlastnosti funkcí a relací](aktivity/funkce-relace/README.md)
 * [Vyjímky v C\#](aktivity/vyjimky-c-sharp/README.md)
+* [Vzájemné zkoušení se](aktivity/vzajemne-zkouseni-se/README.md)
+* [Želví rekurze](aktivity/zelvi-rekurze/README.md)
 
 ## Autoři aktivit a statistiky
 
 | Autor              | Počet aktivit |
 | ------------------ | -------------:|
+| Radka Cieslarová   | 1             |
 | Jaroslav Čechák    | 1             |
 | Lukáš Daubner      | 1             |
 | Martin Macák       | 1             |
 | Jan Horáček        | 8             |
 | Valdemar Švábenský | 3             |
-|                    | **14**        |
+|                    | **15**        |
 
 ## Editor a kontaktní osoba
 
