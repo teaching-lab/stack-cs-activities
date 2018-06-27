@@ -39,4 +39,4 @@ We also thank the authors of the activities (in alphabetical order): Radka Ciesl
 
 <img align="right" width="88" height="31" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons Licence BY NC SA 4.0" title="Creative Commons Licence BY NC SA 4.0">
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). When using an activity, please credit "Teaching Lab, Faculty of Informatics, Masaryk University".
