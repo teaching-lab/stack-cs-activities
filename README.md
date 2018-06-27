@@ -1,6 +1,6 @@
-# Zásobník: Sbírka aktivit do výuky informatiky
+# Stack of Computer Science Teaching Activities
 
-Našim cílem je tvorba centralizovaného _open-source_ repozitáře výukových aktivit pro učitele. Jako cvičící na [Fakultě informatiky Masarykovy univerzity](https://www.fi.muni.cz/) a členové týmu [*Teaching Lab*](https://is.muni.cz/predmet/fi/DUCIT) se zaměřujeme na použití daných aktivit ve výuce informatiky. Většina aktivit je však snadno přizpůsobitelná i na výuku jiných předmětů.
+The Stack is an open-source collection of teaching activities for computer science. Each activity includes a thorough description for a teacher who wishes to apply it in his or her classes. Printable handouts and supporting materials lower the preparation barrier for teachers who use active learning methods.
 
 ## Užitečné seznamy
 
@@ -19,24 +19,17 @@ Našim cílem je tvorba centralizovaného _open-source_ repozitáře výukových
 * [Vzájemné zkoušení se](aktivity/vzajemne-zkouseni-se/README.md)
 * [Želví rekurze](aktivity/zelvi-rekurze/README.md)
 
-## Autoři aktivit a statistiky
+## Authors and contact
 
-| Autor              | Počet aktivit |
-| ------------------ | -------------:|
-| Radka Cieslarová   | 1             |
-| Jaroslav Čechák    | 1             |
-| Lukáš Daubner      | 1             |
-| Martin Macák       | 1             |
-| Jan Horáček        | 8             |
-| Valdemar Švábenský | 3             |
-|                    | **15**        |
+The Stack was conceived and is maintained by [Valdemar Švábenský](https://www.fi.muni.cz/~xsvabens/), a member of the [*Teaching Lab*](https://is.muni.cz/predmet/fi/DUCIT) community at the [Faculty of Informatics, Masaryk University](https://fi.muni.cz).
 
-## Editor a kontaktní osoba
+However, the Stack wouldn't exist without the significant contributions of other Teaching Lab members, especially Martin Ukrop and Ondráš Přibyla. We also thank the authors of the activities, in alphabetical order: Radka Cieslarová, Jaroslav Čechák, Lukáš Daubner, Jan Horáček, and Martin Macák.
 
-[Valdemar Švábenský](https://www.fi.muni.cz/~xsvabens/), valdemar\[zavináč\]mail.muni.cz
+We highly appreciate suggestions for improvement, notes on your experience or any other comments.  
+Please email Valdemar at *valdemar@mail.muni.cz*.
 
 ## Licence
 
 <img align="right" width="88" height="31" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons Licence BY NC SA 4.0" title="Creative Commons Licence BY NC SA 4.0">
 
-Celý obsah repozitáře je licencován pod [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
