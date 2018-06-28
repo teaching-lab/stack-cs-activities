@@ -1,14 +1,19 @@
-# Název aktivity
+# Activity name
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
 
 Tagy: opakování, skupiny
 
-## Abstrakt
+## Summary
 
 1 až 3 věty nejdůležitějších informací: o čem aktivita je. Téma, ústřední myšlenka.
 
 Příklad: Tématem aktivity je trénink typového systému na cvičení hodin úvodního programování. Účastníci v malých skupinkách seskupují výrazy stejného typu. Následně své výsledky srovnávají s jinou skupinou.
 
-## Cíle
+## Learning outcomes
 
 Co se mají studenti aktivitou naučit? Odrážkový seznam "learning outcomes".
 
