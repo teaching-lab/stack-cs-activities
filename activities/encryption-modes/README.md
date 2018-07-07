@@ -56,6 +56,7 @@ Hands-on team activity for understanding block cipher modes of operation. From m
   * If possible, print on paper of 3 different colors: encryption & decryption schemes on the first, features on the second and use cases on the third. This will help both you and the students.
   * On some pages, there are extra cards – if printing for multiple groups, some combinatory analysis can save you paper.
 * Print an [answer table](key.pdf) for each instructor.
+* If you need it, there are editable formats in the [source folder](sources).
 
 ## Tips and tricks
 
