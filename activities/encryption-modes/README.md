@@ -2,10 +2,10 @@
 
 Hands-on team activity for understanding block cipher modes of operation. From motivation, via getting to know the principles, reasoning about features to justifying appropriate use cases. Based on matching given paper tiles and discussing within and between groups.
 
-| Duration:  | 1.5–2 hrs                          | Participants: | 6–30 students |
-| ---------: | :--------------------------------- | ------------: | :------------ |
-| Class:     | table for each group, projector    | Instructors:  | 1+ (ideally 1 per 6-8 participants) |
-| Resources: | printed activity tiles, intro presentation | Needed prior knowledge: | understanding XOR, intuition of using encryption (works well with smart secondary school students) |
+| **Duration:**  | 1.5 hrs                            | **Participants:** | 6–30 students |
+| -------------: | :--------------------------------- | ----------------: | :------------ |
+| **Class:**     | table for each group, projector    | **Instructors:**  | 1+ (ideally 1 per 6-8 participants) |
+| **Resources:** | printed activity tiles, intro presentation | **Needed prior knowledge:** | understanding XOR, intuition of using encryption |
 
 ## Learning outcomes
 
@@ -20,60 +20,58 @@ Hands-on team activity for understanding block cipher modes of operation. From m
   * Emphasize we presume the key is fixed for the whole activity.
   * Make sure they understand how bitwise XOR works and what properties it has (e.g. XORing with the same string twice results in the plaintext).
 * Division into groups
-  * Let people divide into groups of 3-4 people each as they see fit.
+  * Let people divide into groups of 3–4 people each as they see fit.
 * Encryption schemes ([scheme cards with mode names](cards.pdf))
-  * Give cards with encryption schemes into each group.
-  * Task: Go over the schemes, identify differences, find out if they understand the notation.
+  * Give cards with encryption schemes to each group.
+  * Task for the group: *Go over the schemes, identify differences, find out if you understand the notation.*
   * If necessary, explain the schematics, field coloring, XOR, nonce, counter and string concatenation.
 * Decryption schemes ([scheme cards with letters](cards.pdf))
-  * Give cards with decryption schemes into each group.
-  * Task: Assin the decryption scheme to corresponding encryption schemes.
-* Rozdat "features"
-  * Task: Priradit k modom (kazdy feature maju prave tolko krat, kolko ju potrebuju)
-  * Bonusove: Rozdat komplikovanejsie "features"  a vysvetlit predictably/unpredictably a synchronizaciu
-  * Bonusove davat skupinam, ktore su rychlejsie
-* Rozdat "use cases"
-  * Vybrat najvhodnejsi mod (+zdovodnit vyber)
-  * voting: diskusia ecb vs. cbc (ecb staci, cbc je menej nachylne na chyby pri buducom rozsirovani)
-  * video: crt/ofb (ale crt je standard)
-  * embeded, IM, settings encryptoin: asi cbc (standard)
-  * backups: nic nie je velmi dobre, idealne xts
-* Spolocna diskusia
-  * kto kam pridelil aky use case
-  * Ako je to v realite
+  * Give cards with decryption schemes to each group.
+  * Task for the group: *Match the decryption schemes to corresponding encryption schemes.*
+* Mode features ([feature cards](cards.pdf))
+  * Give basic feature cards to each group.
+  * Task for the group: *Assign given features to the encryption modes. If a mode applies to multiple modes, you have it multiple times.*
+  * After the group reads the features, make sure they understand all of them.
+  * If time and knowledge permits, give out bonus features after matching the basic ones. After the gourp reads them, make sure they udnerstand them fully. (Don't underestimate these, they are much more complicated than the basic.)
+* Real-world use cases ([use case cards](cards.pdf))
+  * Give each group a set of cards with real-world use cases.
+  * Task for the group: *Choose the appropriate mode for the given use cases and justify your selection.*
+  * It may be worth noting that there are no "correct" answers now (it all stands on the justification). Debatable points have note below.
+    * voting: ECB/CBC (ECB is simple and sufficient but CBC is less error-prone for extensions)
+    * video: CRT/OFB (CRT is much more common than OFB)
+    * embeded system, IM, settings encryptoin: probably CBC (it's a de facto standard)
+    * backups: neither of give modes is very good (ideally XTS or other modes)
+* Group discussion
+  * Have pairs of groups compare their selection of encryption modes for the given use cases. Let them justify their choice to the other group. (Experience: Start with discussing the 'video' use case.)
+  * If there's enough instructors, keep 1 instructor with each group pair.
+  * When relevant or asked for, offer your own opinion or extra information.
+* Conclusion
+  * Mention related material (especially AES in pictures)
+  * Optionally summarize the activity and have participants reflect what they have learned.
 
 ## Setup and preparation
 
-## Vseobecne poznamky
+* Go over the [introductory presentation](slides.pdf) and adjust it to your needs (add/remove info according to what your students know). 
+* Print the set of [paper cards](cards.pdf) for each group.
+  * If possible, print on paper of 3 different colors: encryption & decryption schemes on the first, features on the second and use cases on the third. This will help both you and the students.
+  * On some pages, there are extra cards – if printing for multiple groups, some combinatory analysis can save you paper.
+* Print an [answer table](key.pdf) for each instructor.
 
-  * From now on, work with the groups individually (if there's enough instructors)
-  * work with groups individually
+## Tips and tricks
 
-* Timova aktivita
-* Predosle znalosti kryptografie nie su nutne
-* Praca v skupinkach o velkosti 3-4
-* Pocas prace obchadzat, dovysvetlovavat, co je treba a kontrolovat odpovede
-* Skupiny nechat rozkladat papieriky niekde, kde je dost miesta (idealne stol, moze byt zem, stolicka nestaci!)
-* Tlac: Encryption/decryption schemy na biely papier, use cases na modry, features na zlty (bonusove na iny zlty?)
-
-## Poznamky z uvedenia Poznej FI 2017
-
-* Uvedenie na 1.5 h pre stredoskolakov, casovo akurat.
-* Na konci spajat skupiny a nechat argumentovat navzajom, preco zvolili ktory rezim kam.
-* Idealne teda polovicny pocet organizatorov, ako je skupin, aby po spojeni do dvojic skupin mohol byt s kazdou vacsou skupinou jeden org.
-* Spomenut AES comic
-* Feature "precomputation" zlozitejsia na pochopenie (ale s dovysvetlenim ok)
-* (un)predictability je v pohode, ak uz v predoslej casti ich vedieme k zamysleniu, ktore bloky sa rozbiju
-* Stredoskolaci nepoznaju XOR
-* Diskusiu zacat use casom video
-* Feature 8 -- kolko sa rozbije blokov kvoli synchro?
-* Ako naformulovat pri uvodnych slidoch otazku na ECB (aby vymysleli ECB)
+* Once the groups form, work with them individually, if there's enough instructors (there is no need to have them perfectly synchronized). If some groups are much faster than other, give them advanced features (and don't give them to the slower groups).
+* If possible convince groups that they want to use the table (as opposed to laying cards on the floor). The full matching takes quite a lot of space (and working on the floor for long tends to become uncomfortable).
+* Before giving a new set of cards to a group, check their matching according to the [answer table](key.pdf). If there's enough time, have them correct their own mistake instead of pointing it out straight away.
+* The activity does not require previous knowledge of cryptography (intuition will often do). The activity worked well for smart secondary school students, they just needed to understand XOR.
+* Group size is up to your choice, but 3–4 people turned out best (enough for discussion but still keeping everyone engaged).
+* The activity will progress faster with skilled participants and slower with less skilled ones.
+* The conclusion can be together for the whole group or have each gruop pair with an instructor conclude independently (in such case, synchronize rough ending).
 
 ## Related material
 
+* If you are interested in how the block cipher blackbox works, see for example [A Stick Figure Guide to the Advanced Encryption Standard (AES)](http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html)
 * Ange Albertini has a nice [illustration of modes of operation's failures](https://raw.githubusercontent.com/corkami/pics/master/binary/CryptoModes.png) and an intriguing [AES crypto-binary magic trick](https://speakerdeck.com/ange/when-aes-equals-episode-v). More interesting stuff from Ange (reverse engingeernig, binary stuff, crypto, visualizations) can be found at [Corkami GitHub](https://github.com/corkami) or at [Speaker Deck](https://speakerdeck.com/ange).
 * For generating your own hi-res ECB penguin (or pop-art thereof), see for example the [blog post tutorial](https://blog.filippo.io/the-ecb-penguin/) by Filippo Valsorda.
-* If you are interested in how the block cipher blackbox works, see for example [A Stick Figure Guide to the Advanced Encryption Standard (AES)](http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html)
 
 ## Author
 
