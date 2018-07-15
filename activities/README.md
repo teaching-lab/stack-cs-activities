@@ -2,13 +2,14 @@
 
 Here comes a short and comprehensive summary of the activity (2–3 sentences).
 
-| **Duration:**               | XX minutes                          |
-| --------------------------: | :---------------------------------- |
-| **Participants:**           | X–XX students                       |
-| **Instructors:**            | X teachers                          |
-| **Class:**                  | tables/PCs/board/outdoor/...        |
-| **Resources:**              | stuff you need to have              |
-| **Prerequisite knowledge:** | things students need to know before |
+| Parameters:        |                                     |
+| -----------------: | :---------------------------------- |
+| **Duration:**      | XX minutes                          |
+| **Participants:**  | X–XX students                       |
+| **Instructors:**   | X teachers                          |
+| **Class:**         | tables/PCs/board/outdoor/...        |
+| **Resources:**     | stuff you need to have              |
+| **Prerequisites:** | things students need to know before |
 
 ## Learning outcomes
 
