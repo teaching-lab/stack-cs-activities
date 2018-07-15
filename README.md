@@ -4,6 +4,8 @@ Teaching computer science concepts in lecture halls? Boring! We prefer active le
 
 ## Activities (alphabetical order)
 
+* [Encryption Modes](/activities/encryption-modes/README.md)
+
 ## Activities under development (alphabetical order)
 
 * [Aktivity na rozdělení do dvojic](aktivity/ib111/deleni/README.md)
