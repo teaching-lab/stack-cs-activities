@@ -2,7 +2,7 @@
 
 Here comes a short and comprehensive summary of the activity (2–3 sentences).
 
-| **Duration:**  | X.X hrs                            | **Participants:** | X–XX students |
+| **Duration:**  | X minutes                          | **Participants:** | X–XX students |
 | -------------: | :--------------------------------- | ----------------: | :------------ |
 | **Class:**     | tables/PCs/board/outdoor/...       | **Instructors:**  | XX teachers   |
 | **Resources:** | stuff you need to have             | **Needed prior knowledge:** | things students need to know before |
