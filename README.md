@@ -4,7 +4,7 @@ Teaching computer science concepts in lecture halls? Boring! We prefer active le
 
 ## Activities (alphabetical order)
 
-* [Encryption Modes](/activities/encryption-modes/README.md)
+* [Encryption modes](/activities/encryption-modes/README.md)
 
 ## Activities under development (alphabetical order)
 
