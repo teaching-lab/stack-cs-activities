@@ -75,10 +75,10 @@ You can discuss the learning outcomes and difficulty of the activity with the st
 * The part of this activity is for the students to make mistakes and then re-evaluate and correct their judgement.
 * Typically, the students have troubles with the part of the code *after* the recursive call. Consider this when selecting distractors.
 * The following modifications are possible:
-** Set a number of recursive calls (parameter _depth_) other than the default 3. Every other recursive call will prolong the activity by 5 minutes. Be careful that if the depth is too large, the activity becomes boring. On the other hand, too small depth is not a challenge.
-** You can change the drawing parameters, such as line length or rotation angle, based on the recursion depth.
-** Instead of Turtle graphics, you can use any other recursive computation (such as a Fibonacci sequence), but this is more abstract and might be more difficult.
-** The activity can be easily modified to another language than Python.
+  * Set a number of recursive calls (parameter _depth_) other than the default 3. Every other recursive call will prolong the activity by 5 minutes. Be careful that if the depth is too large, the activity becomes boring. On the other hand, too small depth is not a challenge.
+  * You can change the drawing parameters, such as line length or rotation angle, based on the recursion depth.
+  * Instead of Turtle graphics, you can use any other recursive computation (such as a Fibonacci sequence), but this is more abstract and might be more difficult.
+  * The activity can be easily modified to another language than Python.
 
 ## Related material
 
