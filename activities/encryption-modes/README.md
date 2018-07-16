@@ -2,10 +2,14 @@
 
 Hands-on team activity for understanding block cipher modes of operation. From motivation, via getting to know the principles, reasoning about features to justifying appropriate use cases. Based on matching given paper tiles and discussing within and between groups.
 
-| **Duration:**  | 1.5 hrs                            | **Participants:** | 6–30 students |
-| -------------: | :--------------------------------- | ----------------: | :------------ |
-| **Class:**     | table for each group, projector    | **Instructors:**  | 1–X teachers (ideally 1 per 6-8 participants) |
-| **Resources:** | printed activity tiles, intro presentation | **Needed prior knowledge:** | understanding XOR, intuition of using encryption |
+| Parameters:        |                                     |
+| -----------------: | :---------------------------------- |
+| **Duration:**      | 90 minutes                          |
+| **Participants:**  | 6–30 students                       |
+| **Instructors:**   | 1–X teachers (ideally 1 per 6-8 participants)    |
+| **Class:**         | table for each group, projector                  |
+| **Resources:**     | printed activity tiles, intro presentation       |
+| **Prerequisites:** | understanding XOR, intuition of using encryption |
 
 ## Learning outcomes
 
