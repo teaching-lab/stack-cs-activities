@@ -4,7 +4,8 @@ Teaching computer science concepts in lecture halls? Boring! We prefer active le
 
 ## Activities (alphabetical order)
 
-* [Encryption modes](/activities/encryption-modes/README.md)
+* [Encryption modes](activities/encryption-modes/README.md)
+* [Recursion with turtle graphics](activities/recursion-turtle-graphics/README.md)
 
 ## Activities under development (alphabetical order)
 
@@ -15,12 +16,11 @@ Teaching computer science concepts in lecture halls? Boring! We prefer active le
 * [Vlastnosti funkcí a relací](aktivity/funkce-relace/README.md)
 * [Vyjímky v C\#](aktivity/vyjimky-c-sharp/README.md)
 * [Vzájemné zkoušení se](aktivity/vzajemne-zkouseni-se/README.md)
-* [Želví rekurze](aktivity/zelvi-rekurze/README.md)
 
 ## Useful links
 
-* [A template for new activities](commons/sablona.md)
-* [Draft ideas for new activities](ideas.md)
+* [A template for new activities](activities/README.md)
+* [Draft ideas for new activities](activities-wip/ideas.md)
 * [A list of processes](commons/seznam-funkcnich-prvku-procesu.md)
 * [A list of artefacts](commons/seznam-artefaktu.md)
 * [External resources](references.md)
