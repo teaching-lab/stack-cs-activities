@@ -6,6 +6,7 @@ Teaching computer science concepts in lecture halls? Boring! We prefer active le
 
 * [Encryption modes](activities/encryption-modes/README.md)
 * [Recursion with turtle graphics](activities/recursion-turtle-graphics/README.md)
+* [Rubric of introductory programming skills](activities/rubric-introductory-programming-skills/README.md)
 
 ## Activities under development (alphabetical order)
 
