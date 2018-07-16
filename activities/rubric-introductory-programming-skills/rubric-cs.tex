@@ -1,0 +1,56 @@
+\documentclass{article}
+\usepackage[czech]{babel}			% Language
+\usepackage[utf8]{inputenc}			% Encoding of characters in this .tex file
+\usepackage{cmap}					% Make PDF file searchable and copyable (ASCII characters)
+\usepackage{lmodern}				% Make PDF file searchable and copyable (Accented characters)
+\usepackage[T1]{fontenc}			% Hyphenate accented words
+\usepackage[landscape, margin=1.5cm]{geometry}	% Paper size and margins
+\usepackage[protrusion]{microtype}	% Better typeset results
+\usepackage{float}
+
+\pagenumbering{gobble}
+\def\arraystretch{1.5}
+
+\begin{document}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|p{2.5cm}|l|l|p{4.5cm}|l|l|p{4.5cm}|l|l|p{4.5cm}|}
+\hline
+& \textbf{Neznalý(á)} & & & \textbf{Začátečník} & & & \textbf{Absolvent kurzu} & & & \textbf{Ideál (vize do budoucna)} \\ \hline
+
+\textbf{1. Algoritmizace}
+& Nevím, co je algoritmus nebo je vůbec neumím navrhovat. & &
+& S dostatkem času anebo s pomocí dokážu navrhnout jednoduchý algoritmus. Často ale udělám chybu nebo se zaseknu. & & 
+& Dokážu algoritmicky myslet a vyjádřit kroky algoritmu v~kódu. & & 
+& Umím vymyslet a pochopit různé způsoby řešení problému a porovnat výhody, nevýhody a efektivitu jednotlivých přístupů. CLRS je moje oblíbená kniha. \\ \hline
+
+\textbf{2. Datové struktury}
+& Neznám nebo neumím používat datové struktury. & &
+& Znám základní datové struktury jako je seznam a zkusil(a) jsem je použít. & & 
+& Znám a umím použít seznam, slovník, a jednoduché objekty v Pythonu. & & 
+& Detailně znám implementaci a způsob reprezentace datových struktur, rozumím časové a paměťové složitosti jednotlivých operací a beru je v potaz při programování. \\ \hline
+
+\textbf{3. Funkce}
+& Nevím dělit kód do funkcí. & &
+& Dokážu napsat jednoduchou funkci bez návratové hodnoty. & & 
+& Dokážu rozdělit problém do několika samostatných funkcí, které vzájemné využívají své návratové hodnoty. & & 
+& Vhodně člením celý program do funkcí, můj kód je dobře čitelný. Moje funkce mají jedinou zodpovědnost a jasný kontrakt. \\ \hline
+
+\textbf{4. Práce s~chybama}
+& Bojím se chyb v kódu. Nedokážu opravit kód v případě chyby. & &
+& Dokážu opravit jednoduché syntaktické chyby (například chybějící závorka), ale s jinými chybami obvykle potřebuju pomoc. & & 
+& Rozumím chybovým hláškám v Pythonu a dokážu samostatně opravit běžné syntaktické, sémantické i logické chyby. & & 
+& Dokážu porozumět i cizímu kódu. I v případě složitých problémů umím pomoct kolegům/spolužákům. \\ \hline
+
+\textbf{5. Dokumentace}
+& Nikdy jsem nečetl(a) oficiální dokumentaci. & &
+& Už jsem četl(a) oficiální dokumentaci k Pythonu nebo k nějakému jeho modulu, ale občas se v ní těžko orientuju. & & 
+& Pokud nerozumím nějaké funkci v Pythonu, najdu si k ní oficiální dokumentaci, přečtu si ji a na základě toho pochopím použití funkce. & & 
+& Vím, jaká kritéria má splňovat kvalitní dokumentace a už jsem i nějakou napsal(a). \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{center}
+\small Autor: Valdemar Švábenský, verze: 16.7.2018
+\end{center}
+\end{document}
