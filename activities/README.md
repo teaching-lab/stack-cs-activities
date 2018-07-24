@@ -16,18 +16,18 @@ Here comes a short and comprehensive summary of the activity (2–3 sentences).
 * What will students learn/practice?
 * Several bullet points (about 2–5).
 
+## Setup and preparation
+
+* What should be done before the activity?
+* Cards printed and cut? Tables in a class reassembled?
+* In this section, you should mention (and link!) all files provided for the activity.
+
 ## Activity overview
 
 * What happens during the activity?
 * Does it have multiple phases?
 * What is the teacher doing/saying?
 * Try to keep it short, comprehensible and well-structured.
-
-## Setup and preparation
-
-* What should be done before the activity?
-* Cards printed and cut? Tables in a class reassembled?
-* In this section, you should mention (and link!) all files provided for the activity.
 
 ## Tips and tricks
 

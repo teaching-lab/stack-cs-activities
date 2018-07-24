@@ -15,6 +15,3 @@ Konkrétne nápady:
 * In/Pre/Post order
 * Kompozícia funkcií
 * ISO/OSI model
-
-Hotové pre inšpiráciu:
-* Sieťové toky: https://is.muni.cz/auth/th/396474/fi_m

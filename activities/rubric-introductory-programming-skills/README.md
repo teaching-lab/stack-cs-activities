@@ -16,6 +16,10 @@ This rubric allows the student to self-assess his/her programming skills at the 
 * The student gains an overview of the core skills that (s)he will learn in the course.
 * The student can use this as a motivational element to track his/her progress over the semester.
 
+## Setup and preparation
+
+* Print the rubric \([English](rubric-en.pdf) or [Czech](rubric-cs.pdf) version\) for each student in the class.
+
 ## Activity overview
 
 1. Decide on the purpose of the rubric. Do you want to leave it just for the students or do you want to look at the results too?
@@ -32,10 +36,6 @@ This rubric allows the student to self-assess his/her programming skills at the 
 6. (Optional) Collect the rubric from the students to make a picture about the group. Be sure to bring it back for the next class and return each rubric back to its owner.
 7. Instruct students to keep it to track their progress over the semester. Remind them not to lose it :)
 8. At the final session of the semester, ask the students to fill it again (print a new one to avoid bias). Then, let each of them compare the versions from the first and final session and discuss in group whether they made any progress.
-
-## Setup and preparation
-
-* Print the rubric \([English](rubric-en.pdf) or [Czech](rubric-cs.pdf) version\) for each student in the class.
 
 ## Tips and tricks
 

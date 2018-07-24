@@ -17,6 +17,18 @@ The goal of the activity is to practice recursion on a concrete example of a sim
 * Practice code understanding.
 * Explain and reason about the code with a peer.
 
+## Setup and preparation
+
+* For a classroom with a magnetic whiteboard, bring whiteboard markers and magnets.
+* Print the following files:
+  * Three times \(based on the recursion depth\) [the main drawing function](print/main_function.pdf) in a big font \([source code](code/main_function.py)\)
+  * (Optional) the same drawing function in a smaller font as a handout for each student
+  * [The correct solution](print/tree_correct.pdf) for calling the function _draw\(3\)_ \([source code](code/tree_correct.py)\)
+  * [Distractor 1](print/tree_distractor_1.pdf) \([source code](code/tree_distractor_1.py)\)
+  * [Distractor 2](print/tree_distractor_2.pdf) \([source code](code/tree_distractor_2.py)\)
+  * [Distractor 3](print/tree_distractor_3.pdf) \([source code](code/tree_distractor_3.py)\)
+  * [Distractor 4](print/tree_distractor_4.pdf) \([source code](code/tree_distractor_4.py)\)
+
 ## Activity overview
 
 The activity has four phases detailed below.
@@ -54,18 +66,6 @@ You can discuss the learning outcomes and difficulty of the activity with the st
 * Which line of code did exactly what you expected?
 * (Extension) How would you need to change the function so that it draws one of the distractors?
 * (Extension) How would the result look like if we removed line X from the drawing function?
-
-## Setup and preparation
-
-* For a classroom with a magnetic whiteboard, bring whiteboard markers and magnets.
-* Print the following files:
-  * Three times \(based on the recursion depth\) [the main drawing function](print/main_function.pdf) in a big font \([source code](code/main_function.py)\)
-  * (Optional) the same drawing function in a smaller font as a handout for each student
-  * [The correct solution](print/tree_correct.pdf) for calling the function _draw\(3\)_ \([source code](code/tree_correct.py)\)
-  * [Distractor 1](print/tree_distractor_1.pdf) \([source code](code/tree_distractor_1.py)\)
-  * [Distractor 2](print/tree_distractor_2.pdf) \([source code](code/tree_distractor_2.py)\)
-  * [Distractor 3](print/tree_distractor_3.pdf) \([source code](code/tree_distractor_3.py)\)
-  * [Distractor 4](print/tree_distractor_4.pdf) \([source code](code/tree_distractor_4.py)\)
 
 ## Tips and tricks
 
