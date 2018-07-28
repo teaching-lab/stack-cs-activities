@@ -8,7 +8,7 @@ This is the full list of activities in the Stack divided into categories. The ac
 
 ### Flagship activities
 
-Tested in practice numerous times, iteratively improved, and beautifully designed, these are the activities we're especially proud of.
+Tested in practice many times, iteratively improved, and beautifully designed, these are the activities we're especially proud of.
 
 * [Encryption modes](activities/encryption-modes/README.md) -- Learn block cipher modes of operation, their properties and use cases from scratch.
 
@@ -24,6 +24,9 @@ If you teach programming, this is the right section for you.
 
 * [Recursion with turtle graphics](activities/recursion-turtle-graphics/README.md)
 * [Rubric of introductory programming skills](activities/rubric-introductory-programming-skills/README.md)
+* [Aktivity na rozdělení do dvojic](aktivity/ib111/deleni/README.md) -- (Translation from Czech in progress)
+* [Společné vytváření diagramu na tabuli](aktivity/spolecne-vytvareni-diagramu/README.md) -- (Translation from Czech in progress)
+* [Vyjímky v C\#](aktivity/vyjimky-c-sharp/README.md) -- (Translation from Czech in progress)
 
 ### Applied computing
 
@@ -36,14 +39,8 @@ Networks, operating systems, information technology, and other practical aspects
 These activities are content-agnostic and can be easily adapted for teaching various topics.
 
 * [Creating quiz questions](activities/creating-quiz-questions/README.md)
-* [Vzájemné zkoušení se](aktivity/vzajemne-zkouseni-se/README.md)
-* [Otázková eliminace](aktivity/otazkova-eliminace/README.md)
-
-### Activities under development
-
-* [Aktivity na rozdělení do dvojic](aktivity/ib111/deleni/README.md)
-* [Společné vytváření diagramu na tabuli](aktivity/spolecne-vytvareni-diagramu/README.md)
-* [Vyjímky v C\#](aktivity/vyjimky-c-sharp/README.md)
+* [Vzájemné zkoušení se](aktivity/vzajemne-zkouseni-se/README.md) -- (Translation from Czech in progress)
+* [Otázková eliminace](aktivity/otazkova-eliminace/README.md) -- (Translation from Czech in progress)
 
 ## Useful links
 
