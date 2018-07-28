@@ -1,0 +1,41 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage{amsmath} % Advanced math typesetting
+\usepackage[utf8]{inputenc} % Unicode support (Umlauts etc.)
+\usepackage{listings} % Source code formatting and highlighting
+\usepackage[a4paper, margin=1.2cm]{geometry}
+\usepackage{amsmath,amssymb}
+\pagenumbering{gobble}
+
+\newcommand{\assignment}{
+    \noindent
+	\begin{tabular}{cccc}
+	$\{a, b, c, d\} \to \{1,2,3\}$: & $\{a, b, c\} \to \{1,2,3\}$: & \{all people\}$ \to \mathbb{N}$: & \{Czech citizens\} $\to \mathbb{N}$: \\
+	$(a,1), (b, 1), (c, 2), (d,3)$ & $(a,1), (b, 1), (c, 2), (c, 3)$ & (person, their height) & (person, their national ID)\\
+	&&&\\
+	$\mathbb{Z} \to \mathbb{Z}$: & $\mathbb{R} \to \mathbb{R}$: & $\mathbb{Z} \to \mathbb{Z}$: & $\mathbb{R} \to \mathbb{R}$:  \\
+	$f(x) = x + 7$ & $f(x) = x + 7$ & $f(x) = 3x + 1$ & $f(x) = 3x + 1$\\
+
+	&&&\\
+	$\mathbb{Z} \to \mathbb{Z}$: & $\mathbb{R} \to \mathbb{R}$: & $\mathbb{Z} \to \mathbb{Z}$: & $\mathbb{R} \to \mathbb{R}$:  \\
+	$f(x) = x^2 + x + 1$ & $f(x) = x^2 + x + 1$ & $f(x) = \tan(x)$ & $f(x) = \tan(x)$ \\
+	&&&\\
+	\end{tabular}
+
+	\begin{tabular}{ccc}
+	\{students of this course\} $\to$ \{their grades\}: & \{all people\} $\to$ \{all people\}: & $\mathbb{N} \to \mathbb{N}$:\\
+	(student, their grade) & \{(a, b)$\mid$ $a$ a $b$ are twins\} & $\{(a, b)\mid b=a+1 \}$\\
+	&&\\
+	\end{tabular}
+	
+	\hrule
+	\medskip
+}
+
+
+\begin{document}
+\assignment
+\assignment
+\assignment
+\assignment
+\end{document}

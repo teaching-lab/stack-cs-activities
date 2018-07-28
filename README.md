@@ -6,6 +6,7 @@ Teaching computer science concepts in lecture halls? Boring! We prefer active le
 
 * [Encryption modes](activities/encryption-modes/README.md)
 * [Network flow monitoring](activities/network-flow-monitoring/README.md)
+* [Properties of functions](activities/properties-functions/README.md)
 * [Recursion with turtle graphics](activities/recursion-turtle-graphics/README.md)
 * [Rubric of introductory programming skills](activities/rubric-introductory-programming-skills/README.md)
 
@@ -15,7 +16,6 @@ Teaching computer science concepts in lecture halls? Boring! We prefer active le
 * [Otázková eliminace](aktivity/otazkova-eliminace/README.md)
 * [Společné vytváření diagramu na tabuli](aktivity/spolecne-vytvareni-diagramu/README.md)
 * [Tvorba testovacích otázek](aktivity/tvorba-otazek/README.md)
-* [Vlastnosti funkcí a relací](aktivity/funkce-relace/README.md)
 * [Vyjímky v C\#](aktivity/vyjimky-c-sharp/README.md)
 * [Vzájemné zkoušení se](aktivity/vzajemne-zkouseni-se/README.md)
 
@@ -23,8 +23,8 @@ Teaching computer science concepts in lecture halls? Boring! We prefer active le
 
 * [A template for new activities](activities/README.md)
 * [Draft ideas for new activities](activities-wip/ideas.md)
-* [A list of processes](commons/seznam-funkcnich-prvku-procesu.md)
-* [A list of artefacts](commons/seznam-artefaktu.md)
+* [A list of processes](knowledge-base/seznam-funkcnich-prvku-procesu.md)
+* [A list of artefacts](knowledge-base/seznam-artefaktu.md)
 * [External resources](references.md)
 
 ## Contact us and join our efforts
@@ -37,7 +37,7 @@ The Stack was conceived and is maintained by [Valdemar Švábenský](https://www
 
 However, the Stack wouldn't exist without the significant contributions of other Teaching Lab members, especially Martin Ukrop and Ondráš Přibyla.
 
-We also thank the authors of the activities (in alphabetical order): Radka Cieslarová, Jaroslav Čechák, Lukáš Daubner, Jan Horáček, and Martin Macák.
+We also thank the authors of the activities (in alphabetical order): Radka Cieslarová, Jaroslav Čechák, Lukáš Daubner, Jan Horáček, Martin Macák, and the CSIRT-MU team.
 
 ## Licence
 
