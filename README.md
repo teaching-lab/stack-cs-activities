@@ -2,22 +2,48 @@
 
 Teaching computer science concepts in lecture halls? Boring! We prefer active learning methods. That's why we created the Stack: an open-source collection of teaching activities. Each activity in the Stack features a thorough description, printable handouts, and supporting materials for teachers to easily use in their classes. For free.
 
-## Activities (alphabetical order)
+## List of activities
 
-* [Encryption modes](activities/encryption-modes/README.md)
-* [Network flow monitoring](activities/network-flow-monitoring/README.md)
-* [Properties of functions](activities/properties-functions/README.md)
+This is the full list of activities in the Stack divided into categories. The activities within each category are listed in the alphabetical order and include a brief description.
+
+### Flagship activities
+
+Tested in practice numerous times, iteratively improved, and beautifully designed, these are the activities we're especially proud of.
+
+* [Encryption modes](activities/encryption-modes/README.md) -- Learn block cipher modes of operation, their properties and use cases from scratch.
+
+### Theoretical CS and math
+
+Activities to learn theoretical aspects of computer science and mathematics.
+
+* [Properties of functions](activities/properties-functions/README.md) -- Practice the concepts of injective, surjective, and bijective functions.
+
+### Programming and software engineering
+
+If you teach programming, this is the right section for you.
+
 * [Recursion with turtle graphics](activities/recursion-turtle-graphics/README.md)
 * [Rubric of introductory programming skills](activities/rubric-introductory-programming-skills/README.md)
 
-## Activities under development (alphabetical order)
+### Applied computing
+
+Networks, operating systems, information technology, and other practical aspects of computer science.
+
+* [Network flow monitoring](activities/network-flow-monitoring/README.md)
+
+### Generic activities
+
+These activities are content-agnostic and can be easily adapted for teaching various topics.
+
+* [Creating quiz questions](activities/creating-quiz-questions/README.md)
+* [Vzájemné zkoušení se](aktivity/vzajemne-zkouseni-se/README.md)
+* [Otázková eliminace](aktivity/otazkova-eliminace/README.md)
+
+### Activities under development
 
 * [Aktivity na rozdělení do dvojic](aktivity/ib111/deleni/README.md)
-* [Otázková eliminace](aktivity/otazkova-eliminace/README.md)
 * [Společné vytváření diagramu na tabuli](aktivity/spolecne-vytvareni-diagramu/README.md)
-* [Tvorba testovacích otázek](aktivity/tvorba-otazek/README.md)
 * [Vyjímky v C\#](aktivity/vyjimky-c-sharp/README.md)
-* [Vzájemné zkoušení se](aktivity/vzajemne-zkouseni-se/README.md)
 
 ## Useful links
 
