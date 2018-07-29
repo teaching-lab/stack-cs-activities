@@ -53,9 +53,7 @@ Example questions for an introductory Python programming class:
 
 ## Related material
 
-* Completing this activity can lead to more practice activities, such as:
-  * [Mutual practice exam](activities/mutual-practice-exam/README.md)
-  * [Question elimination](activities/question-elimination/README.md)
+* Completing this activity can lead to more practice activities, see [Mutual practice exam](activities/mutual-practice-exam/README.md)
 
 ## Author
 

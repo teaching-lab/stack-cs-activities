@@ -36,13 +36,19 @@ The students prepare quiz questions \(see [Creating quiz questions](activities/c
 
 * This is a good practice activity before a midterm or a final exam.
 * You can have the students select from all the questions of the whole class, not only the ones they themselves created.
-* You can incorporate competitive elements, such as:
+* You can incorporate competitive elements, for example:
   * Giving 1 points for a correct answer and 0 \(easier\) or -1 \(strict\) point for an incorrect answer. Award the top scoring teams.
   * Have more groups compete against each other \(such as A and B together against C and D\).
+* You can play a "Question elimination game":
+  * The students stand in a circle.
+  * The teacher selects one student and randomly generates a number of the question that student will receive.
+  * If the student answers incorrectly, (s)he sits down.
+  * The last N standing receive an award (such as points for the course).
+  * Teams can play against each other, while each team has a certain amount of "lives".
 
 ## Related material
 
-* See the [Question elimination](activities/question-elimination/README.md) activity as a further extension.
+* [Creating quiz questions](activities/creating-quiz-questions/README.md) activity.
 
 ## Author
 
