@@ -36,7 +36,7 @@ Networks, operating systems, information technology, and other practical aspects
 
 ### Cybersecurity
 
-Cryptography, network security, or human aspects of computer security.
+Cryptography, network security, and human aspects of computer security.
 
 * [Encryption modes](activities/encryption-modes/README.md) -- Learn block cipher modes of operation, their properties and use cases from scratch.
 
@@ -67,7 +67,7 @@ However, the Stack wouldn't exist without the significant contributions of other
 
 We also thank the authors of the activities (in alphabetical order): Radka Cieslarová, Jaroslav Čechák, Lukáš Daubner, Jan Horáček, Martin Macák, and the CSIRT-MU team.
 
-## === Licence ===
+## ● License ●
 
 <img align="right" width="88" height="31" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons Licence BY NC SA 4.0" title="Creative Commons Licence BY NC SA 4.0">
 
