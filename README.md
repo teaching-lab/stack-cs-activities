@@ -22,6 +22,7 @@ Activities to learn theoretical aspects of computer science and mathematics.
 
 If you teach programming, this is the right section for you.
 
+* [Data types in Python](activities/data-types-python/README.md)
 * [Recursion with turtle graphics](activities/recursion-turtle-graphics/README.md)
 * [Rubric of introductory programming skills](activities/rubric-introductory-programming-skills/README.md)
 * [Aktivity na rozdělení do dvojic](aktivity/ib111/deleni/README.md) -- (Translation from Czech in progress)
@@ -46,7 +47,6 @@ These activities are content-agnostic and can be easily adapted for teaching var
 
 * [Creating quiz questions](activities/creating-quiz-questions/README.md)
 * [Mutual practice exam](activities/mutual-practice-exam/README.md)
-* [Question elimination](activities/question-elimination/README.md)
 
 ## ● Useful links ●
 

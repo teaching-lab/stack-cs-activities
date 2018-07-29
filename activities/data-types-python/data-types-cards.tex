@@ -1,0 +1,77 @@
+\documentclass[12pt,a5paper]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1cm]{geometry}
+\usepackage{cmap}		% Make PDF file search­able and copy­able (ASCII characters)
+\usepackage{lmodern}	% Make PDF file search­able and copy­able (Accented characters)
+\usepackage[T1]{fontenc}	% Hyphenate accented words
+\usepackage{inconsolata}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage[protrusion]{microtype}	% Better typeset results
+
+% Typeset in typewriter font
+\makeatletter
+\renewenvironment{table}%
+  {\renewcommand{\familydefault}{\ttdefault}\selectfont
+  \@float{table}}
+  {\end@float}
+\makeatother
+
+\newcolumntype{a}{>{\columncolor[gray]{0.8}}p{1.1cm}}
+\newcolumntype{b}{p{2cm}}
+\renewcommand*\arraystretch{2}
+
+\usepackage{pgfpages}
+\pgfpagesuselayout{2 on 1}[a4paper,landscape]
+
+
+\date{}
+\author{Valdemar Švábenský}
+\title{Data types assignment}
+
+
+\begin{document}
+\pagenumbering{gobble} % Remove page numbers (and reset to 1)
+
+\begin{table}[t]
+\resizebox{\textwidth}{!}{%
+\centering
+\begin{tabular}{|a|a|a|}
+\hline
+bool & int & float\\ \hline
+\end{tabular}}
+\resizebox{\textwidth}{!}{%
+\centering
+\begin{tabular}{|b|b|b|}
+\hline
+True & False & 8 != 6 + 3 \\[0.4cm] \hline
+4 > 5 and 5 > 4 & not 1/3 == 0.33 & 12345678 + int(7.2) \\ \hline
+0 & 42 & -7 \\[0.4cm] \hline
+3 // 2 + 15 \% 2 & 1.6258e2 & 4**2 + 1/4 \\ \hline
+0.0 & 12.3 & -4.56 \\[0.4cm] \hline
+\end{tabular}}
+\end{table}
+
+%copy paste
+\begin{table}[t]
+\resizebox{\textwidth}{!}{%
+\centering
+\begin{tabular}{|a|a|a|}
+\hline
+bool & int & float\\ \hline
+\end{tabular}}
+\resizebox{\textwidth}{!}{%
+\centering
+\begin{tabular}{|b|b|b|}
+\hline
+True & False & 8 != 6 + 3 \\[0.4cm] \hline
+4 > 5 and 5 > 4 & not 1/3 == 0.33 & 12345678 + int(7.2) \\ \hline
+0 & 42 & -7 \\[0.4cm] \hline
+3 // 2 + 15 \% 2 & 1.6258e2 & 4**2 + 1/4 \\ \hline
+0.0 & 12.3 & -4.56 \\[0.4cm] \hline
+\end{tabular}}
+\end{table}
+
+\end{document}
