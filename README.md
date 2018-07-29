@@ -2,7 +2,7 @@
 
 Teaching computer science concepts in lecture halls? Boring! We prefer active learning methods. That's why we created the Stack: an open-source collection of teaching activities. Each activity in the Stack features a thorough description, printable handouts, and supporting materials for teachers to easily use in their classes. For free.
 
-## === List of activities ===
+## ● List of activities ●
 
 This is the full list of activities in the Stack divided into categories. The activities within each category are listed in the alphabetical order and include a brief description.
 
@@ -48,18 +48,18 @@ These activities are content-agnostic and can be easily adapted for teaching var
 * [Mutual practice exam](activities/mutual-practice-exam/README.md)
 * [Question elimination](activities/question-elimination/README.md)
 
-## === Useful links ===
+## ● Useful links ●
 
 * [A template for new activities](activities/README.md)
 * [Draft ideas for new activities](activities-wip/ideas.md)
 * A list of [processes](knowledge-base/seznam-funkcnich-prvku-procesu.md) and [artefacts](knowledge-base/seznam-artefaktu.md) (Czech)
-* [External resources](references.md)
+* [External resources](knowledge-base/references.md)
 
-## === Contact us and join our efforts ===
+## ● Contact us and join our efforts ●
 
 Feel free to contribute your own activities (by creating a pull request). We also appreciate suggestions for improvement, notes on your experience or any other comments. Please, email Valdemar at *valdemar@mail.muni.cz*.
 
-## === Contributing authors ===
+## ● Contributing authors ●
 
 The Stack was conceived and is maintained by [Valdemar Švábenský](https://www.fi.muni.cz/~xsvabens/), a member of the [*Teaching Lab*](https://is.muni.cz/predmet/fi/DUCIT) community at the [Faculty of Informatics, Masaryk University](https://fi.muni.cz).
 
