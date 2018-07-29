@@ -22,9 +22,10 @@ Activities to learn theoretical aspects of computer science and mathematics.
 
 If you teach programming, this is the right section for you.
 
-* [Data types in Python](activities/data-types-python/README.md)
-* [Recursion with turtle graphics](activities/recursion-turtle-graphics/README.md)
-* [Rubric of introductory programming skills](activities/rubric-introductory-programming-skills/README.md)
+* [Data types in Python](activities/data-types-python/README.md) -- A quick practice of basic Python data types.
+* [Recursion with turtle graphics](activities/recursion-turtle-graphics/README.md) -- Interactive activity for understanding recursion by using turtle graphics in Python.
+* [Rubric of introductory programming skills](activities/rubric-introductory-programming-skills/README.md) -- A self-assessment of core skills at the beginning of an introductory programming course.
+* [Turtle graphics drawing](activities/turtle-graphics-drawing/README.md) -- A pen-and-paper drawing exercise that subsequently translates to code.
 * [Aktivity na rozdělení do dvojic](aktivity/ib111/deleni/README.md) -- (Translation from Czech in progress)
 * [Společné vytváření diagramu na tabuli](aktivity/spolecne-vytvareni-diagramu/README.md) -- (Translation from Czech in progress)
 * [Vyjímky v C\#](aktivity/vyjimky-c-sharp/README.md) -- (Translation from Czech in progress)
@@ -33,7 +34,7 @@ If you teach programming, this is the right section for you.
 
 Networks, operating systems, information technology, and other practical aspects of computer science.
 
-* [Network flow monitoring](activities/network-flow-monitoring/README.md)
+* [Network flow monitoring](activities/network-flow-monitoring/README.md) -- Understand and practice the concept of network traffic flows.
 
 ### Cybersecurity
 
@@ -45,8 +46,8 @@ Cryptography, network security, and human aspects of computer security.
 
 These activities are content-agnostic and can be easily adapted for teaching various topics.
 
-* [Creating quiz questions](activities/creating-quiz-questions/README.md)
-* [Mutual practice exam](activities/mutual-practice-exam/README.md)
+* [Creating quiz questions](activities/creating-quiz-questions/README.md) -- A homework activity for students to create own exam questions.
+* [Mutual practice exam](activities/mutual-practice-exam/README.md) -- A set of activities for students to prepare for exams.
 
 ## ● Useful links ●
 

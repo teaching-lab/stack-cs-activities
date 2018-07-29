@@ -31,6 +31,7 @@ Each student receives cards with names of data types and cards with expressions.
 ## Tips and tricks
 
 * If a student is stuck, ask him/her to evaluate the expression to a single value.
+* A brief follow-up activity can be to let the students think about as many operations as possible for the given data types, and then comparing the results with a neighbor.
 
 ## Related material
 
