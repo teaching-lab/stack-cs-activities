@@ -54,8 +54,8 @@ Example questions for an introductory Python programming class:
 ## Related material
 
 * Completing this activity can lead to more practice activities, such as:
-  * [Vzájemné zkoušení se](TODO)
-  * [Otázková eliminace](TODO)
+  * [Mutual practice exam](activities/mutual-practice-exam/README.md)
+  * [Question elimination](activities/question-elimination/README.md)
 
 ## Author
 

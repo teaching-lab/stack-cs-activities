@@ -2,7 +2,7 @@
 
 Teaching computer science concepts in lecture halls? Boring! We prefer active learning methods. That's why we created the Stack: an open-source collection of teaching activities. Each activity in the Stack features a thorough description, printable handouts, and supporting materials for teachers to easily use in their classes. For free.
 
-## List of activities
+## === List of activities ===
 
 This is the full list of activities in the Stack divided into categories. The activities within each category are listed in the alphabetical order and include a brief description.
 
@@ -34,27 +34,32 @@ Networks, operating systems, information technology, and other practical aspects
 
 * [Network flow monitoring](activities/network-flow-monitoring/README.md)
 
+### Cybersecurity
+
+Cryptography, network security, or human aspects of computer security.
+
+* [Encryption modes](activities/encryption-modes/README.md) -- Learn block cipher modes of operation, their properties and use cases from scratch.
+
 ### Generic activities
 
 These activities are content-agnostic and can be easily adapted for teaching various topics.
 
 * [Creating quiz questions](activities/creating-quiz-questions/README.md)
-* [Vzájemné zkoušení se](aktivity/vzajemne-zkouseni-se/README.md) -- (Translation from Czech in progress)
-* [Otázková eliminace](aktivity/otazkova-eliminace/README.md) -- (Translation from Czech in progress)
+* [Mutual practice exam](activities/mutual-practice-exam/README.md)
+* [Question elimination](activities/question-elimination/README.md)
 
-## Useful links
+## === Useful links ===
 
 * [A template for new activities](activities/README.md)
 * [Draft ideas for new activities](activities-wip/ideas.md)
-* [A list of processes](knowledge-base/seznam-funkcnich-prvku-procesu.md)
-* [A list of artefacts](knowledge-base/seznam-artefaktu.md)
+* A list of [processes](knowledge-base/seznam-funkcnich-prvku-procesu.md) and [artefacts](knowledge-base/seznam-artefaktu.md) (Czech)
 * [External resources](references.md)
 
-## Contact us and join our efforts
+## === Contact us and join our efforts ===
 
 Feel free to contribute your own activities (by creating a pull request). We also appreciate suggestions for improvement, notes on your experience or any other comments. Please, email Valdemar at *valdemar@mail.muni.cz*.
 
-## Contributing authors
+## === Contributing authors ===
 
 The Stack was conceived and is maintained by [Valdemar Švábenský](https://www.fi.muni.cz/~xsvabens/), a member of the [*Teaching Lab*](https://is.muni.cz/predmet/fi/DUCIT) community at the [Faculty of Informatics, Masaryk University](https://fi.muni.cz).
 
@@ -62,7 +67,7 @@ However, the Stack wouldn't exist without the significant contributions of other
 
 We also thank the authors of the activities (in alphabetical order): Radka Cieslarová, Jaroslav Čechák, Lukáš Daubner, Jan Horáček, Martin Macák, and the CSIRT-MU team.
 
-## Licence
+## === Licence ===
 
 <img align="right" width="88" height="31" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons Licence BY NC SA 4.0" title="Creative Commons Licence BY NC SA 4.0">
 
