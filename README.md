@@ -1,6 +1,6 @@
 # The Stack of Computer Science Teaching Activities
 
-Teaching computer science concepts in lecture halls? Boring! We prefer active learning methods. That's why we created the Stack: an open-source collection of teaching activities. Each activity in the Stack features a thorough description, printable handouts, and supporting materials for teachers to easily use in their classes. For free.
+Teaching computer science in lecture halls? Boring! We prefer active learning methods. That's why we created the Stack: an open-source collection of teaching activities for understanding and practicing CS concepts. Each activity in the Stack features a thorough description, printable handouts, and supporting materials for teachers to easily use in their classes. For free.
 
 ## ● List of activities ●
 

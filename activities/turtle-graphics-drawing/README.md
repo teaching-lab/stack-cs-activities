@@ -31,14 +31,15 @@ In this exercise, the students draw a simple picture on paper. In pairs, one of 
 4. Pair the students and let them decide who will be explaining (A) and who will be drawing (B).
 	* Alternative: The one who is taller/born sooner/etc. will be explaining.
 5. In each pair, A explains his/her picture and B is drawing based on the instructions. The important thing is that A cannot look whether B is drawing correctly or not. However, B can ask for clarification of certain instructions.
-	* A more difficult alternative is that B can't ask for clarification, with the exception that B hasn't heard the instruction.
-6. When B finishes drawing, A checks the result. They both discuss any differences and their cause.
-7. At this point, walk around the groups and ask them if they had any problems and why. They will usually answer that some of the instructions were not precisely given or understood. Make a connection to algorithms: specific instructions are necessary for the computation to be performed.
-8. Both A and B write code that draws the given picture using turtle graphics. Afterward, they compare their code.
+	* A more difficult alternative is that B can't ask for clarification, with the exception when B hasn't heard the instruction.
+6. When B finishes drawing, A checks the result. They both discuss any differences and what was their cause.
+7. At this point, walk around the groups and ask them if they had any problems and why. They will usually answer that some of the instructions were not precisely given or understood. Make a connection to writing programs: specific instructions are necessary for the computation to be performed.
+8. Both A and B write code that draws the given picture using turtle graphics. Afterward, they compare their code and discuss their approach.
 
 ## Tips and tricks
 
 * Usually, one round of drawing and explaining is enough. However, offer the students the option to swap roles and repeat the activity. Or, you can assign it as homework.
+* The programming phase tends to be quite fast since both students in the pair already understand the process of drawing of the given picture. Point out that when a programmer has this conceptual understanding, the actual coding is easier.
 
 ## Related material
 
