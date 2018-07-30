@@ -8,9 +8,10 @@ This is the full list of activities in the Stack divided into categories. The ac
 
 ### Flagship activities
 
-Tested in practice many times, iteratively improved, and beautifully designed, these are the activities we're especially proud of.
+Tested in practice many times, iteratively improved, and nicely designed, these are the activities we're especially proud of.
 
 * [Encryption modes](activities/encryption-modes/README.md) -- Learn block cipher modes of operation, their properties and use cases from scratch.
+* [Incident handling: A suspicious e-mail communication](activities/incident-handling-suspicious-email/README.md) -- Spot an e-mail scam within a corporate scenario that actually happened.
 
 ### Theoretical CS and math
 
@@ -41,6 +42,7 @@ Networks, operating systems, information technology, and other practical aspects
 Cryptography, network security, and human aspects of computer security.
 
 * [Encryption modes](activities/encryption-modes/README.md) -- Learn block cipher modes of operation, their properties and use cases from scratch.
+* [Incident handling: A suspicious e-mail communication](activities/incident-handling-suspicious-email/README.md) -- Spot an e-mail scam within a corporate scenario that actually happened.
 
 ### Generic activities
 
