@@ -43,4 +43,4 @@ In this activity, the students practice four proofs that demonstrate Pumping lem
 
 ## Author
 
-Karel Kubíček <karel.kubicek@mail.muni.cz>, 2016.
+Karel Kubíček, 2016.
