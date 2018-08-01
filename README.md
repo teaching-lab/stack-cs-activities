@@ -18,6 +18,7 @@ Tested in practice many times, iteratively improved, and nicely designed, these 
 Activities to learn theoretical aspects of computer science and mathematics.
 
 * [Properties of functions](activities/properties-functions/README.md) -- Practice the concepts of injective, surjective, and bijective functions.
+* [Pumping lemma for context-free languages](activities/pumping-lemma-cfl/README.md) -- Practice Pumping lemma on four progressively harder proofs.
 
 ### Programming and software engineering
 

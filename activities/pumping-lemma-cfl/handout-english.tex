@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[resetfonts]{cmap}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amssymb, amsmath}
+\usepackage[margin=3cm]{geometry}
+
+% par intendation
+\usepackage[parfill]{parskip}
+
+\newcommand{\blank}[1]{\hspace*{#1}}
+
+\usepackage{mathtools}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\newcommand{\proofconclusion}{\vfill To conclude, for every natural number $n$ we found a word $z$ from the language $L$ longer than $n$, so that for any its division on five substrings $u, v, w, x, y$ that fulfill the conditions of Pumping lemma there exists a non-negative integer $i$, such that $uv^{i}wx^{i}y$ is not in $L$. Therefore, based on the Pumping lemma for context-free languages, $L$ is not context-free.}
+
+\begin{document}
+
+\textbf{Proof that the language $L = \{ a^jb^jca^jb^j \mid j \in \mathbb{N} \}$ is not context-free:}
+
+\begin{itemize}
+    \item Let $n \in \mathbb{N}$ be an arbitrary fixed natural number.
+    \item Select $z=a^nb^nca^{n}b^{n}$ from the language $L$ so that $\lvert z \rvert = 4n+1 \geq n$.
+    \item Consider any division of the word $z$ on 5 substrings $u, v, w, x, y \in \Sigma^{*}$, for which $z=uvwxy$, $\lvert vwx \rvert \leq n$ a $vx \neq \varepsilon$. For any such division, we consider the following cases based on which substring contains $c$:
+
+    \begin{description}
+        \item[Letter $c$ is in substring $y$] (so $vx = a^kb^l$, where $k+l \geq 1$).
+        
+        Let $i=0$, then $uv^iwx^iy=a^{n-k}b^{n-l}ca^{n}b^{n}$ and since the pumped part is non-empty, we shortened the part of the word before letter $c$, and so $uv^iwx^iy \notin L$.
+
+        \item[Letter $c$ is in substring $v$ or $x$.]
+        
+        Let $i=0$, then $uv^iwx^iy$ does not include $c$. Then, it is not of a form $a^jb^jca^jb^j$, and so $uv^iwx^iy \notin L$.
+
+        \item[Letter $c$ is in substring $w$] (then $vx = b^ka^l$, where $k+l \geq 1$).
+        
+        Let $i=0$, then $uv^iwx^iy =$ \vspace{2cm} %$a^{n}b^{n-k}ca^{n-l}b^{n}$ and since the pumped part is non-empty, the either there are more letters $a$ before the letter $c$ or more letters $b$ after the letter $c$, and so $uv^iwx^iy \notin L$.
+
+        \item[Letter $c$ is in substring $u$] (then $vx = a^kb^l$, where $k+l \geq 1$).
+        
+        %Let $i=0$, then $uv^iwx^iy=a^{n}b^{n}ca^{n-k}b^{n-l}$ and since the pumped part is non-empty, we shortened the part of the word before letter $c$, and so $uv^iwx^iy \notin L$.
+
+    \end{description}
+\end{itemize}
+
+\proofconclusion
+
+\newpage
+
+\textbf{Proof that the language $L = \{ a^jb^jca^jb^j \mid j \in \mathbb{N} \}$ is not context-free:}
+
+\begin{itemize}
+    \item Let $n \in \mathbb{N}$ be an arbitrary fixed natural number.
+    \item Select a word $z=a^{\ceil{\frac{n}{2}}}b^{\ceil{\frac{n}{2}}}ca^{\ceil{\frac{n}{2}}}b^{\ceil{\frac{n}{2}}}$ from the language $L$, so that $z$ is longer than $n$.
+    \item Consider any division of the word $z$ on 5 substrings $u, v, w, x, y \in \Sigma^{*}$, for which $z=uvwxy$, $\lvert vwx \rvert \leq n$ a $vx \neq \varepsilon$:
+\end{itemize}
+
+\proofconclusion
+
+\newpage
+
+\textbf{Proof that the language $L = \{  ucv \mid u, v \in \{ a,b \}^{*}, \#_{a}(u) = \#_{b}(v) \textnormal{ a } \#_{b}(u) = \#_{a}(v) \}$ is not context-free:}
+
+\begin{itemize}
+    \item Let $n \in \mathbb{N}$ be an arbitrary fixed natural number.
+    \item Select a word $z =$
+    \item Consider any division of the word $z$ on 5 substrings $u, v, w, x, y \in \Sigma^{*}$, for which $z=uvwxy$, $\lvert vwx \rvert \leq n$ a $vx \neq \varepsilon$:
+\end{itemize}
+
+\proofconclusion
+
+\newpage
+
+\textbf{Proof that the language $L = \{  a^{j}b^{k}c^{l} \mid j < k < l \}$ is not context-free:}
+\end{document}

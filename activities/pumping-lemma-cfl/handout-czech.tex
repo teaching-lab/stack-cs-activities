@@ -1,0 +1,86 @@
+\documentclass[12pt]{article}
+\usepackage[resetfonts]{cmap}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amssymb, amsmath}
+
+% par intendation
+\usepackage[parfill]{parskip}
+
+\newcommand{\blank}[1]{\hspace*{#1}}
+
+\usepackage{mathtools}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+
+\textbf{Důkaz, že jazyk $L = \{ a^jb^jca^jb^j \mid j \in \mathbb{N} \}$ není bezkontextový:}
+
+\begin{itemize}
+    \item Nechť $n \in \mathbb{N}$ je libovolné, dále pevné číslo.
+    \item Zvolíme $z=a^nb^nca^{n}b^{n}$ z jazyka $L$ tak, že $\lvert z \rvert = 4n+1 \geq n$.
+    \item Uvažme libovolné rozdělení slova $z$ na 5 podslov $u, v, w, x, y \in \Sigma^{*}$, pro která platí $z=uvwxy$, $\lvert vwx \rvert \leq n$ a $vx \neq \varepsilon$. Pro libovolné takové rozdělení rozlišme následující případy podle toho, ve kterém z podslov se nachází písmeno $c$:
+
+    \begin{description}
+        \item[Písmeno $c$ se nachází v podslově $y$] (tedy $vx = a^kb^l$, přičemž $k+l \geq 1$).
+        
+        Zvolíme $i=0$, pak $uv^iwx^iy=a^{n-k}b^{n-l}ca^{n}b^{n}$ a jelikož je pumpovaná část neprázdná, tak jsme zkrátili část slova před znakem $c$, a tedy $uv^iwx^iy \notin L$.
+
+        \item[Písmeno $c$ se nachází v podslovech $v$ nebo $x$.]
+        
+        Zvolíme $i=0$, pak $uv^iwx^iy$ neobsahuje $c$, tedy není tvaru $a^jb^jca^jb^j$, a tedy $uv^iwx^iy \notin L$.
+
+        \item[Písmeno $c$ se nachází v podslově $w$] (tedy $vx = b^ka^l$, přičemž $k+l \geq 1$).
+        
+        Zvolíme $i=0$, pak $uv^iwx^iy =$ \vspace{2cm} %$a^{n}b^{n-k}ca^{n-l}b^{n}$ a jelikož je pumpovaná část neprázdná, tak je buďto více $a$ v části před znakem $c$ a nebo více $b$ v části za znakem $c$, a tedy $uv^iwx^iy \notin L$.
+
+        \item[Písmeno $c$ se nachází v podslově $u$] (tedy $vx = a^kb^l$, přičemž $k+l \geq 1$).
+        
+        \vspace{2cm} 
+        %Zvolíme $i=0$, pak $uv^iwx^iy=a^{n}b^{n}ca^{n-k}b^{n-l}$ a jelikož je pumpovaná část neprázdná, tak jsme zkrátili část slova před znakem $c$, a tedy $uv^iwx^iy \notin L$.
+
+    \end{description}
+\end{itemize}
+
+Celkově jsme pro každé přirozené číslo $n$ našli slovo $z$ z jazyka $L$ délky větší než $n$ takové, že pro libovolné jeho rozdělení na pět slov $u, v, w, x, y$ splňujících podmínky z lemmatu o vkládání existuje nezáporné celé číslo $i$ takové, že $uv^{i}wx^{i}y$ není v jazyce $L$, a tedy z lemmatu o vkládání pro bezkontextové jazyky vyplývá, že jazyk $L$ není bezkontextový.
+
+\newpage{}
+
+\textbf{Důkaz, že jazyk $L = \{ a^jb^jca^jb^j \mid j \in \mathbb{N} \}$ není bezkontextový:}
+
+\begin{itemize}
+    \item Nechť $n \in \mathbb{N}$ je libovolné, dále pevné číslo.
+    \item Zvolíme $z=a^{\ceil{\frac{n}{2}}}b^{\ceil{\frac{n}{2}}}ca^{\ceil{\frac{n}{2}}}b^{\ceil{\frac{n}{2}}}$ z jazyka $L$, délka $z$ je větší než $n$.
+    \item Uvažme libovolné rozdělení slova $z$ na 5 podslov $u, v, w, x, y \in \Sigma^{*}$, pro která platí $z=uvwxy$, $\lvert vwx \rvert \leq n$ a $vx \neq \varepsilon$:
+
+    \vspace{13cm}
+\end{itemize}
+
+Celkově jsme pro každé přirozené číslo $n$ našli slovo $z$ z jazyka $L$ délky větší než $n$ takové, že pro libovolné jeho rozdělení na pět slov $u, v, w, x, y$ splňujících podmínky z lemmatu o vkládání existuje nezáporné celé číslo $i$ takové, že $uv^{i}wx^{i}y$ není v jazyce $L$, a tedy z lemmatu o vkládání pro bezkontextové jazyky vyplývá, že jazyk $L$ není bezkontextový.
+
+
+\newpage{}
+
+\textbf{Důkaz, že jazyk $L = \{  ucv \mid u, v \in \{ a,b \}^{*}, \#_{a}(u) = \#_{b}(v) \textnormal{ a } \#_{b}(u) = \#_{a}(v) \}$ není bezkontextový:}
+
+\begin{itemize}
+    \item Nechť $n \in \mathbb{N}$ je libovolné, dále pevné číslo.
+    \item Zvolíme slovo $z =$
+    \item Uvažme libovolné rozdělení slova $z$ na 5 podslov $u, v, w, x, y \in \Sigma^{*}$, pro která platí $z=uvwxy$, $\lvert vwx \rvert \leq n$ a $vx \neq \varepsilon$:
+
+    \vspace{12cm}
+\end{itemize}
+
+Celkově jsme pro každé přirozené číslo $n$ našli slovo $z$ z jazyka $L$ délky větší než $n$ takové, že pro libovolné jeho rozdělení na pět slov $u, v, w, x, y$ splňujících podmínky z lemmatu o vkládání existuje nezáporné celé číslo $i$ takové, že $uv^{i}wx^{i}y$ není v jazyce $L$, a tedy z lemmatu o vkládání pro bezkontextové jazyky vyplývá, že jazyk $L$ není bezkontextový.
+
+
+\newpage{}
+
+\textbf{Důkaz, že jazyk $L = \{  a^{j}b^{k}c^{l} \mid j < k < l \}$ není bezkontextový:}
+
+
+
+% todo (najit alespon 5) L = \{ ucu^Rdv^r \mid u, v \in \{a, b\}^* \}
+\end{document}
