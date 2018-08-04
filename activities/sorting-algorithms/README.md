@@ -1,6 +1,6 @@
 # Live sorting algorithms
 
-In this activity, the students receive cards with numbers and demonstrate sorting algorithms.
+In this activity, the students receive cards with numbers and demonstrate sorting algorithms by sorting themselves.
 
 | Parameters:        |                                     |
 | -----------------: | :---------------------------------- |
@@ -13,12 +13,12 @@ In this activity, the students receive cards with numbers and demonstrate sortin
 
 ## Learning outcomes
 
-* Understand the principle of Bubble Sort and Selection Sort.
-* Code both algorithms in a selected programming language.
+* Understand the principle of selected sorting algorithms (in this case, Bubble Sort and Selection Sort).
+* Code the algorithms in a selected programming language.
 
 ## Setup and preparation
 
-* Print the number cards and cut them.
+* Print the [number cards](number-cards.pdf) and cut them.
 
 ## Activity overview
 
@@ -40,8 +40,7 @@ In this activity, the students receive cards with numbers and demonstrate sortin
 
 ## Related material
 
-* TODO materials (also Shell, Shaker, ..?)
-* TODO number cards
+* [Wikipedia](https://en.wikipedia.org/wiki/Sorting_algorithm) has an excellent comparison and explanation of various sorting algorithms.
 
 ## Author
 
