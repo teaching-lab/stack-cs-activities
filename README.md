@@ -54,14 +54,15 @@ These activities are content-agnostic and can be easily adapted for teaching var
 
 ## ● Useful links ●
 
-* [A template for new activities](activities/README.md)
 * [Draft ideas for new activities](activities-wip/ideas.md)
 * A list of [processes](knowledge-base/seznam-funkcnich-prvku-procesu.md) and [artefacts](knowledge-base/seznam-artefaktu.md) (Czech)
 * [External resources](knowledge-base/references.md)
 
 ## ● Contact us and join our efforts ●
 
-Feel free to contribute your own activities (by creating a pull request). We also appreciate suggestions for improvement, notes on your experience or any other comments. Please, email Valdemar at *valdemar@mail.muni.cz*.
+Feel free to contribute your own activities (by creating a pull request). Please, use [the template for new activities](activities/README.md) and look at the flagship activities above to see an example of how the description is structured. If you are unsure about your English, we accept submissions in Czech or Slovak language, too.
+
+We also appreciate suggestions for improvement, notes on your experience or any other comments. Please, email Valdemar at *valdemar@mail.muni.cz*.
 
 ## ● Contributing authors ●
 
