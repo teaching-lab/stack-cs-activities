@@ -4,7 +4,7 @@ Teaching computer science in lecture halls? Boring! We prefer active learning me
 
 ## ● List of activities ●
 
-This is the full list of activities in the Stack divided into categories. The activities within each category are listed in the alphabetical order and include a brief description.
+This is the full list of activities in the Stack divided into several categories. The activities within each category are listed in the alphabetical order and include a brief description.
 
 ### Flagship activities
 
@@ -20,6 +20,13 @@ Activities to learn theoretical aspects of computer science and mathematics.
 * [Properties of functions](activities/properties-functions/README.md) -- Practice the concepts of injective, surjective, and bijective functions.
 * [Pumping lemma for context-free languages](activities/pumping-lemma-cfl/README.md) -- Practice Pumping lemma on four progressively harder proofs.
 
+### Algorithms and data structures
+
+Bordering theoretical CS and practical programming, activities in this section deal with conceptual as well as applied aspects of algorithms and data structures.
+
+* [Data structures in Python](activities/data-structures-python/README.md) -- Practice properties and use cases of basic Python data structures.
+* [Live sorting algorithms](activities/sorting-algorithms/README.md) -- Fun activity in which the students experience sorting algorithms.
+
 ### Programming and software engineering
 
 If you teach programming, this is the right section for you.
@@ -28,13 +35,14 @@ If you teach programming, this is the right section for you.
 * [Recursion with turtle graphics](activities/recursion-turtle-graphics/README.md) -- Interactive activity for understanding recursion by using turtle graphics in Python.
 * [Rubric of introductory programming skills](activities/rubric-introductory-programming-skills/README.md) -- A self-assessment of core skills at the beginning of an introductory programming course.
 * [Turtle graphics drawing](activities/turtle-graphics-drawing/README.md) -- A pen-and-paper drawing exercise that subsequently translates to code.
+
 * [Aktivity na rozdělení do dvojic](aktivity/ib111/deleni/README.md) -- (Translation from Czech in progress)
 * [Společné vytváření diagramu na tabuli](aktivity/spolecne-vytvareni-diagramu/README.md) -- (Translation from Czech in progress)
 * [Vyjímky v C\#](aktivity/vyjimky-c-sharp/README.md) -- (Translation from Czech in progress)
 
 ### Applied computing
 
-Networks, operating systems, information technology, and other practical aspects of computer science.
+Networks, operating systems, information technology, and other practical aspects of informatics and computer science.
 
 * [Network flow monitoring](activities/network-flow-monitoring/README.md) -- Understand and practice the concept of network traffic flows.
 
