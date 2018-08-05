@@ -33,12 +33,14 @@ If you teach programming, this is the right section for you.
 
 * [Data types in Python](activities/data-types-python/README.md) -- A quick practice of basic Python data types.
 * [Recursion with turtle graphics](activities/recursion-turtle-graphics/README.md) -- Interactive activity for understanding recursion by using turtle graphics in Python.
-* [Rubric of introductory programming skills](activities/rubric-introductory-programming-skills/README.md) -- A self-assessment of core skills at the beginning of an introductory programming course.
+* [Rubric of introductory programming skills](activities/rubric-introductory-programming-skills/README.md) -- A self-assessment of core skills at the start of an intro programming course.
+* [The good, the bad, and the ugly](activities/good-bad-ugly/README.md) -- Categorize pieces of code as good, bad, or ugly.
 * [Turtle graphics drawing](activities/turtle-graphics-drawing/README.md) -- A pen-and-paper drawing exercise that subsequently translates to code.
 
-* [Aktivity na rozdělení do dvojic](aktivity/ib111/deleni/README.md) -- (Translation from Czech in progress)
-* [Společné vytváření diagramu na tabuli](aktivity/spolecne-vytvareni-diagramu/README.md) -- (Translation from Czech in progress)
-* [Vyjímky v C\#](aktivity/vyjimky-c-sharp/README.md) -- (Translation from Czech in progress)
+Translation from Czech in progress:
+* [Aktivity na rozdělení do dvojic](aktivity/ib111/deleni/README.md)
+* [Společné vytváření diagramu na tabuli](aktivity/spolecne-vytvareni-diagramu/README.md)
+* [Vyjímky v C\#](aktivity/vyjimky-c-sharp/README.md)
 
 ### Applied computing
 
@@ -62,15 +64,15 @@ These activities are content-agnostic and can be easily adapted for teaching var
 
 ## ● Useful links ●
 
-* [Draft ideas for new activities](activities-wip/ideas.md)
+* [Ideas for new activities](activities-wip/ideas.md)
 * A list of [processes](knowledge-base/seznam-funkcnich-prvku-procesu.md) and [artefacts](knowledge-base/seznam-artefaktu.md) (Czech)
 * [External resources](knowledge-base/references.md)
 
 ## ● Contact us and join our efforts ●
 
-Feel free to contribute your own activities (by creating a pull request). Please, use [the template for new activities](activities/README.md) and look at the flagship activities above to see an example of how the description is structured. If you are unsure about your English, we accept submissions in Czech or Slovak language, too.
+Feel free to contribute your own activities (by creating a pull request). Please, use [the template for new activities](activities/README.md) and look at the flagship activities above to see an example of how the description is structured. If you are unsure about your English, we gladly accept submissions in Czech or Slovak language, too!
 
-We also appreciate suggestions for improvement, notes on your experience or any other comments. Please, email Valdemar at *valdemar@mail.muni.cz*.
+We also appreciate suggestions for improvement, notes on your experience, or any other comments. Please, email Valdemar at *valdemar@mail.muni.cz*.
 
 ## ● Contributing authors ●
 
@@ -78,7 +80,7 @@ The Stack was conceived and is maintained by [Valdemar Švábenský](https://www
 
 However, the Stack wouldn't exist without the significant contributions of other Teaching Lab members, especially Martin Ukrop and Ondráš Přibyla.
 
-We also thank the authors of the activities (in alphabetical order): Radka Cieslarová, Jaroslav Čechák, Lukáš Daubner, Jan Horáček, Martin Macák, and the CSIRT-MU team.
+We also thank the authors of the activities (in alphabetical order): Radka Cieslarová, Jaroslav Čechák, Lukáš Daubner, Jan Horáček, Karel Kubíček, Martin Macák, Michaela Pokludová, Vlasta Šťavová, Martin Ukrop, and the CSIRT-MU team.
 
 ## ● License ●
 

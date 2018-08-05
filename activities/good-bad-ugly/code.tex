@@ -1,0 +1,171 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fullpage}
+\usepackage{inconsolata}
+\usepackage[protrusion]{microtype}
+\usepackage[table]{xcolor}
+
+% Typesetting code
+\definecolor{base-blue}{RGB}{13, 91, 201}
+\definecolor{keywords}{RGB}{129, 19, 8}    % red
+\definecolor{identifiers}{RGB}{19, 8, 129} % blue
+\definecolor{strings}{RGB}{8, 129, 19}     % green
+\definecolor{comments}{RGB}{104, 104, 110} % gray
+\definecolor{error}{RGB}{220, 50, 47}      % bright red
+\usepackage{listings}	% listlisting environment
+\usepackage{upquote}
+\lstset{
+  basicstyle=\ttfamily\small\bfseries,
+  breakatwhitespace=false,
+  breaklines=true,
+  captionpos=b,
+  commentstyle=\ttfamily\color{comments}\bfseries,
+  escapeinside={\$}{)},
+  identifierstyle=\color{identifiers},
+  keywordstyle=\ttfamily\color{keywords},
+  language=Python,
+  mathescape=true,
+  numbers=left,
+  stepnumber=1,
+  showspaces=false,
+  showstringspaces=false,
+  showtabs=false,
+  stringstyle=\ttfamily\color{strings},
+  tabsize=2,
+  aboveskip=-0.3em,
+  belowskip=-0.3em,
+  xleftmargin=2.15em,
+}
+% Frames around code lstlistings
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{etoolbox}
+\mdfdefinestyle{listingstyle}{%
+	innerleftmargin=0pt,
+	innerrightmargin=0pt,
+	rightmargin=0pt,
+	linewidth=0pt,
+	backgroundcolor=base-blue!5!white,
+}
+\BeforeBeginEnvironment{lstlisting}{\begin{mdframed}[style=listingstyle]}
+\AfterEndEnvironment{lstlisting}{\end{mdframed}}
+
+\begin{document}
+
+\section*{The good (correct and proper style)}
+
+\begin{lstlisting}
+def is_prime(number):
+    """Primality test by trial division."""
+    if number < 2:
+        return False
+    if number == 2:
+        return True
+    if number % 2 == 0:
+        return False
+    for candidate in range(3, int(sqrt(number)) + 1):
+        if number % candidate == 0:
+            return False
+    return True
+\end{lstlisting}
+
+\begin{lstlisting}
+def reverse(string):
+    """Revert the order of characters in <string>."""
+    result = ""
+    for character in string:
+        result = character + result
+    return result
+\end{lstlisting}
+
+\begin{lstlisting}
+class Dragon:
+    """Represents a dragon in a fantasy computer game."""
+    def __init__(self, param_name, param_level, param_life):
+        self.name = param_name
+        self.level = param_level
+        self.life = param_life
+
+object_smaug = Dragon("Smaug", 84, 112233)
+object_norbert = Dragon("Norbert", 11, 2048)
+\end{lstlisting}
+
+\section*{The bad (syntactic, semantic, or logical error)}
+
+\begin{lstlisting}
+def sum_while(how_many):
+    """Sum the first <how_many> natural numbers."""
+    result = 0
+    while how_many > 0:
+        result = result + how_many
+    how_many = how_many - 1
+    return result
+\end{lstlisting}
+% Line 6 should be indented within the while cycle
+
+\begin{lstlisting}
+def recursive_list_sum(numbers):
+    return numbers[0] + list_sum(numbers[1:])
+\end{lstlisting}
+% Missing halting case for an empty list
+
+\begin{lstlisting}
+def find_maximum(lst):
+    maximum = lst[0]
+    for number in lst:
+        if number < maximum:
+            maximum = number
+    return maximum
+\end{lstlisting}
+% Line 4 should be: if number > maximum
+
+\begin{lstlisting}
+class Player:
+    """Represents the player's character."""
+    def __init__(self, name, health_max):
+        self.name = name
+        self.health = health_max
+        self.health_max = health_max
+        self.level = 1
+
+
+def level_up():
+    """Level up the player."""
+    self.level += 1
+    self.health_max += 1
+    self.health += health_max
+    print("{} feels stronger!".format(self.name))
+\end{lstlisting}
+% Missing self parameter definition on line 10
+
+\section*{The ugly (correct but improper style)}
+
+\begin{lstlisting}
+def can_buy_beer(persons_age):
+    if persons_age >= 18:
+        return True
+    else:
+        return False
+\end{lstlisting}
+% Use a one-liner: return persons_age >= 18
+
+\begin{lstlisting}
+def find_maximum(lst):
+    maximum = lst[0]
+    for index in range (1, len(lst)):
+        if lst[index] > maximum:
+            maximum = lst[index]
+    return maximum
+\end{lstlisting}
+% Python style suggests iterating for each element instead of using range, also a space after range on line 3
+
+\begin{lstlisting}
+def letter_distribution_analysis(string):
+    dictionary = {}
+    for letter in string:
+        if letter not in dictionary: dictionary[ letter ] = 1
+        else: dictionary[ letter ] += 1
+    print_dictionary(dictionary)
+\end{lstlisting}
+% Multiple statements on one line are generally discouraged, spaces inside brackets
+
+\end{document}
