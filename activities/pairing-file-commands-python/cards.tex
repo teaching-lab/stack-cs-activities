@@ -1,0 +1,64 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{multicol}
+\textwidth 19cm \textheight 24.6cm
+\topmargin -1.3cm
+\oddsidemargin -1.5cm
+
+\begin{document}
+\pagestyle{empty}
+
+\setlength\parindent{0pt}
+\setlength{\columnsep}{60pt}
+
+\begin{multicols}{2}
+
+\Large
+
+\texttt{f = open('myfile.txt')}\\
+
+Open a file for reading.\\
+
+\texttt{f = open('myfile.txt', 'w')}\\
+
+Open a file for writing.\\
+
+\texttt{f.close()}\\
+
+Close a file.\\
+
+\texttt{f.readline()}\\
+
+Read a line without using \texttt{with}.\\
+
+\texttt{f.readlines()}\\
+
+Read all lines without using \texttt{with}.\\
+
+\texttt{f.write(text)}\\
+
+Writing to file without using \texttt{with}.
+
+\begin{verbatim}
+with open('text.txt') as f:
+    lines = f.readlines()
+\end{verbatim}
+
+Safe reading from a file (it closes when the block is finished).
+
+\begin{verbatim}
+with open('abc', 'w') as f:
+    f.write('ahoj')
+\end{verbatim}
+
+Safe writing to a file (it closes when the block is finished).\\
+
+\rule{\linewidth}{1pt}
+
+\begin{verbatim}
+with open('test.txt') as f:
+    line = f.readline()
+\end{verbatim}
+
+\end{multicols}
+
+\end{document}
