@@ -1,10 +1,11 @@
 # Exceptions in C#
 
 The activity aims to present an overview of types of exceptions in C#. Participants will work in small groups to get familiar with commonly used exceptions, and model situations when to throw or catch the particular exception. It also aids in developing of good programming habits.
+
 | Parameters:        |                                     |
 | -----------------: | :---------------------------------- |
 | **Duration:**      | 30 minutes                          |
-| **Participants:**  | 4–20 students                       |
+| **Participants:**  | 4â€“20 students                       |
 | **Instructors:**   | 1 teacher                           |
 | **Class:**         | table/board                         |     
 | **Resources:**     | printed cards for each group        |	
@@ -14,6 +15,7 @@ The activity aims to present an overview of types of exceptions in C#. Participa
 
 * Student will gain an overview of common exceptions in C#.
 * Motivates good programming habits.
+
 ## Setup and preparation
 
 * Print and cut the cards ([ENGLISH](en/Exceptions-CSharp_Cards.pdf), [CZECH](cs/Exceptions-CSharp_Cards.pdf)). One set for each group.
@@ -41,4 +43,4 @@ The activity aims to present an overview of types of exceptions in C#. Participa
 
 ## Author
 
-Lukáš Daubner 2018
+LukÃ¡Å¡ Daubner 2018
