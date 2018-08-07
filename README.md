@@ -38,10 +38,10 @@ If you teach programming, this is the right section for you.
 * [Rubric of introductory programming skills](activities/rubric-introductory-programming-skills/README.md) -- A self-assessment of core skills at the start of an intro programming course.
 * [The good, the bad, and the ugly](activities/good-bad-ugly/README.md) -- Categorize pieces of code as good, bad, or ugly.
 * [Turtle graphics drawing](activities/turtle-graphics-drawing/README.md) -- A pen-and-paper drawing exercise that subsequently translates to code.
+* [Exceptions in C#](activities/exceptions-csharp/README.md)
 
 Translation from Czech in progress:
 * [Společné vytváření diagramu na tabuli](activities-wip/spolecne-vytvareni-diagramu/README.md)
-* [Vyjímky v C\#](activities-wip/vyjimky-c-sharp/README.md)
 
 ### Applied computing
 
