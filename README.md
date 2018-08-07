@@ -32,13 +32,13 @@ Bordering theoretical CS and practical programming, activities in this section d
 If you teach programming, this is the right section for you.
 
 * [Data types in Python](activities/data-types-python/README.md) -- A brief practice of basic Python data types.
+* [Exceptions in C#](activities/exceptions-csharp/README.md) -- Understand exceptions in C\# and when to throw/catch them
 * [Pairing students based on file commands](activities/pairing-file-commands-python/README.md) -- Quickly group students based on pairing Python file commands with their description.
 * [Pairing students based on list comprehensions](activities/pairing-list-comprehensions-python/README.md) -- Quickly group students who have a Python list comprehension that generates the same list.
 * [Recursion with turtle graphics](activities/recursion-turtle-graphics/README.md) -- Interactive activity for understanding recursion by using turtle graphics in Python.
 * [Rubric of introductory programming skills](activities/rubric-introductory-programming-skills/README.md) -- A self-assessment of core skills at the start of an intro programming course.
 * [The good, the bad, and the ugly](activities/good-bad-ugly/README.md) -- Categorize pieces of code as good, bad, or ugly.
 * [Turtle graphics drawing](activities/turtle-graphics-drawing/README.md) -- A pen-and-paper drawing exercise that subsequently translates to code.
-* [Exceptions in C#](activities/exceptions-csharp/README.md)
 
 Translation from Czech in progress:
 * [Společné vytváření diagramu na tabuli](activities-wip/spolecne-vytvareni-diagramu/README.md)
