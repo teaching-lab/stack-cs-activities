@@ -1,4 +1,6 @@
-![The Stack of Computer Science Teaching Activities](logotype.jpg?raw=true)
+![The Stack Logo](logotype.jpg?raw=true)
+
+<img align="center" src="logotype.png" alt="The Stack Logo">
 
 # The Stack of Computer Science Teaching Activities
 
