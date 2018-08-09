@@ -32,9 +32,9 @@ The Stack was conceived and is maintained by [Valdemar Švábenský](https://www
 
 However, the Stack wouldn't exist without the significant contributions of other Teaching Lab members, especially Martin Ukrop and Ondráš Přibyla.
 
-We also thank the authors of the activities (in alphabetical order): Radka Cieslarová, Jaroslav Čechák, Lukáš Daubner, Jan Horáček, Karel Kubíček, Martin Macák, Michaela Pokludová, Vlasta Šťavová, Martin Ukrop, and the CSIRT-MU team.
+A big 'thank you' goes to the authors of the activities (in alphabetical order): Radka Cieslarová, Jaroslav Čechák, Lukáš Daubner, Jan Horáček, Karel Kubíček, Martin Macák, Michaela Pokludová, Vlasta Šťavová, Martin Ukrop, and the CSIRT-MU team.
 
-The logo was created by [Waldemarski](http://www.waldemarski.com/).
+Finally, thanks to [Waldemarski](http://www.waldemarski.com/) for creating the logotype.
 
 ## License
 
