@@ -1,5 +1,5 @@
 <p align="center"> 
-<img src="logotype.png" alt="The Stack Logo">
+<img src="logo.png" alt="The Stack Logo">
 </p>
 
 # The Stack of Computer Science Teaching Activities
