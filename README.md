@@ -28,9 +28,7 @@ We also appreciate suggestions for improvement, notes on your experience, or any
 
 ## Contributing authors
 
-The Stack was conceived and is maintained by [Valdemar Švábenský](https://www.fi.muni.cz/~xsvabens/), a member of the [*Teaching Lab*](https://is.muni.cz/predmet/fi/DUCIT) community at the [Faculty of Informatics, Masaryk University](https://fi.muni.cz).
-
-However, the Stack wouldn't exist without the significant contributions of other Teaching Lab members, especially Martin Ukrop and Ondráš Přibyla.
+The Stack was conceived and is maintained by [Valdemar Švábenský](https://www.fi.muni.cz/~xsvabens/), a member of the [*Teaching Lab*](https://is.muni.cz/predmet/fi/DUCIT) community at the [Faculty of Informatics, Masaryk University](https://fi.muni.cz). However, the Stack wouldn't exist without the significant contributions of other Teaching Lab members, especially Martin Ukrop and Ondráš Přibyla.
 
 A big 'thank you' goes to the authors of the activities (in alphabetical order): Radka Cieslarová, Jaroslav Čechák, Lukáš Daubner, Jan Horáček, Karel Kubíček, Martin Macák, Michaela Pokludová, Vlasta Šťavová, Martin Ukrop, and the CSIRT-MU team.
 
