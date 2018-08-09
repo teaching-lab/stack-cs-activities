@@ -1,6 +1,6 @@
-![The Stack Logo](logotype.jpg?raw=true)
-
-<img align="center" src="logotype.png" alt="The Stack Logo">
+<p align="center"> 
+<img src="logotype.png" alt="The Stack Logo">
+</p>
 
 # The Stack of Computer Science Teaching Activities
 
