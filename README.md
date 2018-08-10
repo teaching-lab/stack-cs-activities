@@ -15,7 +15,7 @@ You can browse [the full list of activities](activities.md). Or just have a quic
 * [Encryption modes](activities/encryption-modes/README.md) -- Learn block cipher modes of operation, their properties and use cases from scratch.
 * [Incident handling: A suspicious e-mail](activities/incident-handling-suspicious-email/README.md) -- Spot an e-mail scam within a corporate scenario that actually happened.
 
-Also, feel free to develop the [Ideas for new activities](activities-wip/ideas.md).
+Also, feel free to develop the [ideas for new activities](activities-wip/ideas.md).
 
 ## Knowledge base
 
@@ -33,9 +33,9 @@ We also appreciate suggestions for improvement, notes on your experience, or any
 
 The Stack was conceived and is maintained by [Valdemar Švábenský](https://www.fi.muni.cz/~xsvabens/), a member of the [*Teaching Lab*](https://is.muni.cz/predmet/fi/DUCIT) community at the [Faculty of Informatics, Masaryk University](https://fi.muni.cz).
 
-However, the Stack wouldn't exist without the significant contributions of other Teaching Lab members, especially Martin Ukrop and Ondráš Přibyla.
+However, the Stack wouldn't exist without the significant contributions of other Teaching Lab members, especially Martin Ukrop, who laid the foundations with his awesome Encryption modes activity, and Ondráš Přibyla, who shared his great teaching experience with us.
 
-A big 'thank you' goes to the authors of the activities (in alphabetical order): Radka Cieslarová, Jaroslav Čechák, Lukáš Daubner, Jan Horáček, Karel Kubíček, Martin Macák, Michaela Pokludová, Vlasta Šťavová, Martin Ukrop, and the CSIRT-MU team.
+A big 'thank you' goes to the authors of the activities (in alphabetical order): CSIRT-MU team, Radka Cieslarová, Jaroslav Čechák, Lukáš Daubner, Jan Horáček, Karel Kubíček, Martin Macák, Michaela Pokludová, Vlasta Šťavová, and Martin Ukrop.
 
 Finally, thanks to [Waldemarski](http://www.waldemarski.com/) for creating the logotype.
 

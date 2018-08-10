@@ -1,4 +1,4 @@
-This file, along with the folder [activities-wip](.) lists specific ideas for activities. If you want to develop any of them, your contributions will be greatly appreciated! Please, read the [readme](../README.md) for more information on how to join our efforts.
+This file, along with the folder [activities-wip](.), lists specific ideas for activities. If you want to develop any of them, your contributions will be greatly appreciated! Please, read the [readme](../README.md) for more information on how to join our efforts.
 
 * Theoretical CS and math:
 	* Cards with graphs and:
