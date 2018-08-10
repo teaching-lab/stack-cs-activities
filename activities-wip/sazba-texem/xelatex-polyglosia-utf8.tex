@@ -1,0 +1,49 @@
+%&program=xelatex
+%&encoding=UTF-8 Unicode
+%§
+\documentclass[a4paper,12pt]{article}
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{unicode-math}
+\usepackage{polyglossia}
+%§
+\setmainlanguage{czech}
+\setotherlanguage[variant=british]{english}
+%§
+\usepackage{hyperref}
+%§
+\def\uv#1{„#1“}
+%§
+\defaultfontfeatures{Scale=MatchLowercase,
+                     Mapping=tex-text}
+\setromanfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
+\setmathfont{Asana Math}
+%§
+\begin{document}
+\textenglish{Hello, World!}
+
+%§
+V~této větě by měla být použita nezlomitelná mezera~-- do 
+zdrojového textu se vkládá jako znak tilda (\char`\~).
+
+Text vložíme do „uvozovek“.
+
+%§
+\v{S}\'{\i}len\v{e} \v{z}lu\v{t}ou\v{c}k\'{y} k\r{u}\v{n}
+\'{u}p\v{e}l \v{d}\'{a}belsk\'{e} \'{o}dy.
+
+%§
+Je snadné vybrat {\fontspec{TeX Gyre Chorus} jiný font}, 
+použít barvičky (%
+{\addfontfeature{Colour=FF0000}R}%
+{\addfontfeature{Colour=00FF00}G}%
+{\addfontfeature{Colour=0000FF}B}%
+) apod.
+
+%§
+\end{document}
+% kódování souboru: UTF-8
+% engine: xelatex
