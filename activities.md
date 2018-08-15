@@ -1,4 +1,4 @@
-## ● List of activities ●
+## List of activities
 
 This is the full list of activities in the Stack divided into several categories. The activities within each category are listed in the alphabetical order and include a brief description.
 
