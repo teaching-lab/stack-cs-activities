@@ -28,7 +28,7 @@ Bordering theoretical CS and practical programming, activities in this section d
 If you teach programming, this is the right section for you.
 
 * [Data types in Python](activities/data-types-python/README.md) -- A brief practice of basic Python data types.
-* [Exceptions in C#](activities/exceptions-csharp/README.md) -- Understand exceptions in C\# and when to throw/catch them
+* [Exceptions in C#](activities/exceptions-csharp/README.md) -- Understand exceptions in C\# and when to throw/catch them.
 * [Pairing students based on file commands](activities/pairing-file-commands-python/README.md) -- Quickly group students based on pairing Python file commands with their description.
 * [Pairing students based on list comprehensions](activities/pairing-list-comprehensions-python/README.md) -- Quickly group students who have a Python list comprehension that generates the same list.
 * [Recursion with turtle graphics](activities/recursion-turtle-graphics/README.md) -- Interactive activity for understanding recursion by using turtle graphics in Python.
