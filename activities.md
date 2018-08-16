@@ -51,6 +51,7 @@ Cryptography, network security, and human aspects of computer security.
 
 * [Encryption modes](activities/encryption-modes/README.md) -- Learn block cipher modes of operation, their properties and use cases from scratch.
 * [Incident handling: A suspicious e-mail](activities/incident-handling-suspicious-email/README.md) -- Spot an e-mail scam within a corporate scenario that actually happened.
+* [Vulnerable source code](activities/vulnerable-source-code/README.md) -- Find vulnerabilities and propose fixes in C code snippets.
 
 ### Generic activities
 

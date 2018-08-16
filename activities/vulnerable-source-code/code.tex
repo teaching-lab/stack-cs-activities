@@ -1,0 +1,166 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1cm]{geometry}
+\usepackage{inconsolata}
+\usepackage[protrusion]{microtype}
+\usepackage[table]{xcolor}
+
+\pagenumbering{gobble}
+
+% Typesetting code
+\definecolor{base-blue}{RGB}{13, 91, 201}
+\definecolor{keywords}{RGB}{129, 19, 8}    % red
+\definecolor{identifiers}{RGB}{19, 8, 129} % blue
+\definecolor{strings}{RGB}{8, 129, 19}     % green
+\definecolor{comments}{RGB}{104, 104, 110} % gray
+\definecolor{error}{RGB}{220, 50, 47}      % bright red
+\usepackage{listings}	% listlisting environment
+\usepackage{upquote}
+\lstset{
+  basicstyle=\ttfamily\small\bfseries,
+  breakatwhitespace=false,
+  breaklines=true,
+  captionpos=b,
+  commentstyle=\ttfamily\color{comments}\bfseries,
+  escapeinside={\$}{)},
+  identifierstyle=\color{identifiers},
+  keywordstyle=\ttfamily\color{keywords},
+  language=C,
+  mathescape=true,
+  numbers=left,
+  stepnumber=1,
+  showspaces=false,
+  showstringspaces=false,
+  showtabs=false,
+  stringstyle=\ttfamily\color{strings},
+  tabsize=4,
+  aboveskip=-0.3em,
+  belowskip=-0.3em,
+  xleftmargin=2.15em,
+}
+% Frames around code lstlistings
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{etoolbox}
+\mdfdefinestyle{listingstyle}{%
+	innerleftmargin=0pt,
+	innerrightmargin=0pt,
+	rightmargin=0pt,
+	linewidth=0pt,
+	backgroundcolor=base-blue!5!white,
+}
+\BeforeBeginEnvironment{lstlisting}{\begin{mdframed}[style=listingstyle]}
+\AfterEndEnvironment{lstlisting}{\end{mdframed}\solutiontemplate}
+
+\newcommand{\solutiontemplate}{
+\begin{itemize}
+\setlength\itemsep{1cm}
+\item Purpose of the code:
+\item Vulnerability:
+\item Proposed fix:
+\end{itemize}
+\vspace{1cm}
+}
+
+\newcommand{\solution}[3]{
+\begin{itemize}
+\item Purpose of the code: #1
+\item Vulnerability: #2
+\item Proposed fix: #3
+\end{itemize}
+}
+
+\begin{document}
+
+\begin{lstlisting}
+/* Snippet 1 */
+char username[8];
+int allow = 0;
+printf("Enter your username: ");
+gets(username);
+if (grant_access(username)) {
+    allow = 1;
+}
+if (allow == 1) {
+    privileged_action();
+}
+\end{lstlisting}
+
+\begin{lstlisting}
+/* Snippet 2 */
+u_int nresp = packet_get_int();
+if (nresp > 0) {
+	response = xmalloc(nresp * sizeof(char*));
+	for (i = 0; i < nresp; i++)
+		response[i] = packet_get_string(NULL);
+}
+\end{lstlisting}
+
+\newpage
+
+\begin{lstlisting}
+/* Snippet 3 */
+char *mail_auth(char *mechanism, authresponse_t resp, int argc, char *argv[])
+{
+	char tmp[MAILTMPLEN];
+	AUTHENTICATOR *auth;
+	
+	/* make upper case copy of mechanism name */
+	ucase(strcpy(tmp, mechanism));
+	for (auth = mailauthenticators; auth; auth = auth->next)
+		if (auth->server && !strcmp(auth->name, tmp))
+			return (*auth->server) (resp, argc, argv);
+	return NIL; /* no authenticator found */
+}
+\end{lstlisting}
+
+\begin{lstlisting}
+/* Snippet 4 */
+char npath[MAXPATHLEN];
+int i;
+
+for (i = 0; *name != '\0' && i < sizeof(npath) - 1; i++, name++)
+{
+	npath[i] = *name;
+	if (*name == '"')
+		npath[++i] == '"';
+}
+npath[i] = '\0'
+\end{lstlisting}
+
+\newpage
+
+\begin{lstlisting}
+/* Snippet 5 */
+struct header {
+	unsigned int length;
+	unsigned int message_type;
+};
+
+char *read_packet(int sockfd) {
+	int n;
+	unsigned int length;
+	struct header hdr;
+	static char buffer[1024];
+
+	if (full_read(sockfd, (void *)&hdr, sizeof(hdr)) <= 0) {
+		error("full_read: %m");
+		return NULL;
+	}
+	
+	length = ntohl(hdr.length);
+	if (length > (1024 + sizeof(struct header) - 1)) {
+		error("not enough room in buffer\n");
+		return NULL;
+	}
+	
+	if (full_read(sockfd, buffer, length - sizeof(struct header)) <= 0) {
+		error("read: %m");
+		return NULL;
+	}
+
+	buffer[sizeof(buffer) - 1] = '\0';
+
+	return strdup(buffer);
+}
+\end{lstlisting}
+\end{document}
