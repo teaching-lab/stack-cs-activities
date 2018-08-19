@@ -26,7 +26,7 @@ Snippet 1:
 Snippet 2:
 \solution
 {The \texttt{nresp} variable is set by the user. It stores the size of a packet to tell the server how many responses to expect. It's then used to allocate the \texttt{response} array and fill it with network data.}
-{Integer overflow. On line 4, \texttt{nresp} is multiplied by the size of a cursor (4 bytes). Consequently, if users specify a value of \texttt{nresp} greater than 1073741823, the multiplication will exceed the maximum value that \texttt{unsigned int} can store (4294967295).}
+{Integer overflow. On line 4, \texttt{nresp} is multiplied by the size of a cursor (4 bytes on a 32-bit architecture). Consequently, if users specify a value of \texttt{nresp} greater than 1073741823, the multiplication will exceed the maximum value that \texttt{unsigned int} can store (4294967295).}
 {Check the size of the user input.}
 % Source: OpenSSH before version 3.4
 
@@ -51,8 +51,8 @@ Snippet 5:
 \solution
 {This code reads a packet header from the network and extracts a 32-bit length
 field into the \texttt{length} variable. The \texttt{length} variable represents the total number of bytes in the packet, so the program first checks that the data portion of the packet isn't longer than 1024 bytes to prevent an overflow. It then tries to read the rest of the packet from the network by reading \texttt{(length - sizeof(struct header))} bytes into buffer. This makes sense, as the code wants to read in the packet's data portion, which is the total length minus the length of the header.}
-{If users supply a length less than \texttt{sizeof(struct header)}, the subtraction of \texttt{(length - sizeof(struct header))} causes an integer underflow and ends up passing a very large size parameter to \texttt{full\_read()}. This error could result in a buffer overflow because at that point, \texttt{read()} would essentially copy data into the buffer until the connection is closed, which would allow attackers to take control of the process.}
-{Do not insert increment \texttt{i} on line 9.}
+{If users supply \texttt{length} less than \texttt{sizeof(struct header)}, the subtraction of \texttt{(length - sizeof(struct header))} causes an integer underflow and ends up passing a very large size parameter to \texttt{full\_read()}. This error could result in a buffer overflow because at that point, \texttt{read()} would essentially copy data into the buffer until the connection is closed, which would allow attackers to take control of the process.}
+{Check also the lower bound of \texttt{length}.}
 % Source: OpenBSD FTP demon
 
 \end{document}

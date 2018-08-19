@@ -106,6 +106,7 @@ char *mail_auth(char *mechanism, authresponse_t resp, int argc, char *argv[])
 	
 	/* make upper case copy of mechanism name */
 	ucase(strcpy(tmp, mechanism));
+
 	for (auth = mailauthenticators; auth; auth = auth->next)
 		if (auth->server && !strcmp(auth->name, tmp))
 			return (*auth->server) (resp, argc, argv);
@@ -148,6 +149,9 @@ char *read_packet(int sockfd) {
 	}
 	
 	length = ntohl(hdr.length);
+	/* ntohl() converts a given unsigned integer from network byte order
+	   to host byte order. */
+
 	if (length > (1024 + sizeof(struct header) - 1)) {
 		error("not enough room in buffer\n");
 		return NULL;
