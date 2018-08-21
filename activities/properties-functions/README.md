@@ -18,11 +18,12 @@ The students examine properties of functions (injective, surjective, and bijecti
 
 ## Setup and preparation
 
-* Print the cards with [functions](functions.pdf) and their [properties](properties.pdf) for each student group
-  * The students will work in groups of 3 or 4 people
-  * Each printed page can accommodate 4 groups (that is, at least 12 students)
-* Cut the cards and divide them into equal groups
-* The whole preparation takes at most 60 minutes
+* Print the cards with [functions](functions.pdf) and their [properties](properties.pdf) for each student group.
+	* The students will work in groups of 3 or 4 people.
+	* Each printed page can accommodate 4 groups (that is, at least 12 students).
+	* Use one-sided printing.
+* Cut the cards and divide them into equal groups.
+* The whole preparation takes at most 60 minutes.
 
 ## Activity overview
 

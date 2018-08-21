@@ -33,7 +33,7 @@ Snippet 2:
 \noindent
 Snippet 3:
 \solution
-{Copy two strings}
+{Copy two strings to find an authenticator}
 {Copying buffer data of the string \texttt{mechanism} with strcpy without checking size of the copy can result in buffer overflow.}
 {Check the size of \texttt{mechanism} with \texttt{strlen()} before copying, or use \texttt{n}-bytes copy functions like \texttt{strncpy()}.}
 % Source: University of Washington IMAP server, corrected in 1998

@@ -19,7 +19,7 @@ Here comes a short and comprehensive summary of the activity (2–3 sentences).
 
 * The students will need the task [handout](incident-handling-task.pdf) and the [attachment](incident-handling-task-attachment.pdf).
 	* If you have computers, send the files to the students. Avoid linking directly to this repo at the beginning, as it contains the [solution](incident-handling-task-solution.pdf).
-	* If you want to go unplugged, print the handout and the attachment for each student.
+	* If you want to go unplugged, print the handout and the attachment for each student. You can use two-sided printing.
 
 ## Activity overview
 

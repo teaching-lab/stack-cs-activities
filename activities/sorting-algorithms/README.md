@@ -18,7 +18,7 @@ In this activity, the students receive cards with numbers and demonstrate sortin
 
 ## Setup and preparation
 
-* Print the [number cards](number-cards.pdf) and cut them.
+* Print the [number cards](number-cards.pdf) and cut them. Use one-sided printing.
 
 ## Activity overview
 

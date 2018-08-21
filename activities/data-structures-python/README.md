@@ -19,8 +19,9 @@ Hands-on team activity for assigning features and use cases to different data st
 ## Setup and preparation
 
 * Print the set of [paper cards](cards.pdf) for each group.
-  * If possible, print on paper of 3 different colors: names and examples of the data structures on the first, features on the second, and use cases on the third. This will help both you and the students.
-  * Cut the pages into individual cards.
+	* Use one-sided printing.
+	* If possible, print on paper of 3 different colors: names and examples of the data structures on the first, features on the second, and use cases on the third. This will help both you and the students.
+	* Cut the pages into individual cards.
 * Print an [answer table](key.pdf) for each instructor.
 
 ## Activity overview

@@ -18,7 +18,8 @@ The students form small groups and cooperatively categorize small pieces of code
 
 ## Setup and preparation
 
-* Print the [code snippets](code.pdf) and cut it so that you have 10 snippets and the 3 categories for each group.
+* Print the [code snippets](code.pdf). Use one-sided printing.
+* Cut the papers so that you have 10 snippets and the 3 categories for each group.
 
 ## Activity overview
 

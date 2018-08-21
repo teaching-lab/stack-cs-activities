@@ -28,6 +28,7 @@ The goal of the activity is to practice recursion on a concrete example of a sim
   * [Distractor 2](print/tree_distractor_2.pdf) \([source code](code/tree_distractor_2.py)\)
   * [Distractor 3](print/tree_distractor_3.pdf) \([source code](code/tree_distractor_3.py)\)
   * [Distractor 4](print/tree_distractor_4.pdf) \([source code](code/tree_distractor_4.py)\)
+  * Use one-sided printing.
 
 ## Activity overview
 

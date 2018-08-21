@@ -21,6 +21,7 @@ Hands-on team activity for understanding block cipher modes of operation. From m
 
 * Go over the [introductory presentation](slides.pdf) and adjust it to your needs (add/remove info according to what your students know). 
 * Print the set of [paper cards](cards.pdf) for each group.
+  * Use one-sided printing.
   * If possible, print on paper of 3 different colors: encryption & decryption schemes on the first, features on the second and use cases on the third. This will help both you and the students.
   * Cut the pages into individual cards. If you plan to repeat the activity, you can laminate the cards.
   * On some pages, there are extra cards – if printing for multiple groups, some combinatory analysis can save you paper.

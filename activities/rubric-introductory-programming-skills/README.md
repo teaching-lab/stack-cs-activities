@@ -18,7 +18,7 @@ This rubric allows the student to self-assess his/her programming skills at the 
 
 ## Setup and preparation
 
-* Print the rubric \([English](rubric-en.pdf) or [Czech](rubric-cs.pdf) version\) for each student in the class.
+* Print the rubric \([English](rubric-en.pdf) or [Czech](rubric-cs.pdf) version\) for each student in the class. Use one-sided printing.
 
 ## Activity overview
 

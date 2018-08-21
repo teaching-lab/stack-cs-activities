@@ -18,7 +18,7 @@ In this activity, the students practice four proofs that demonstrate Pumping lem
 
 ## Setup and preparation
 
-* Print all the 4 pages (use one-sided printing) of the PDF handout \([English](handout-english.pdf) or [Czech](handout-czech.pdf)\) N/3 times, where N is the total number of students.
+* Print all the 4 pages of the PDF handout \([English](handout-english.pdf) or [Czech](handout-czech.pdf)\) N/3 times, where N is the total number of students. Use one-sided printing.
 
 ## Activity overview
 

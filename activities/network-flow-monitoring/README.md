@@ -20,8 +20,9 @@ The activity starts with a brief reading about the concept of network flows. Eac
 ## Setup and preparation
 
 * Print the [activity handout](flow-exercise-handout.pdf) for each student.
-  * There is one page with theory and exercise setting, one page with the solution, and two pages for the packet cards.
-  * Cut the packet cards so that there are 24 paper strips for each student.
+	* Use one-sided printing.
+	* There is one page with theory and exercise setting, one page with the solution, and two pages for the packet cards.
+	* Cut the packet cards so that there are 24 paper strips for each student.
 * Make sure that each student has free space on a table.
 
 ## Activity overview

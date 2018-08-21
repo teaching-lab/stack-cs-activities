@@ -18,9 +18,11 @@ The activity aims to present an overview of types of exceptions in C#. Participa
 
 ## Setup and preparation
 
-* Print and cut the cards ([ENGLISH](en/Exceptions-CSharp_Cards.pdf), [CZECH](cs/Exceptions-CSharp_Cards.pdf)). One set for each group.
-* Prepare the solution for projector ([ENGLISH](en/Exceptions-CSharp_Solution.pdf), [CZECH](cs/Exceptions-CSharp_Solution.pdf)).
-* Print the printable solution as a backup ([ENGLISH](en/Exceptions-CSharp_Solution-Projector.pdf), [CZECH](cs/Exceptions-CSharp_Solution-Projector.pdf)).
+* Print and cut the cards ([English](en/Exceptions-CSharp_Cards.pdf), [Czech](cs/Exceptions-CSharp_Cards.pdf)).
+	* Use one-sided printing.
+	* Print one set for each group.
+* Prepare the solution for projector ([English](en/Exceptions-CSharp_Solution.pdf), [Czech](cs/Exceptions-CSharp_Solution.pdf)).
+* Print the printable solution as a backup ([English](en/Exceptions-CSharp_Solution-Projector.pdf), [Czech](cs/Exceptions-CSharp_Solution-Projector.pdf)).
 
 ## Activity overview
 
@@ -43,4 +45,4 @@ The activity aims to present an overview of types of exceptions in C#. Participa
 
 ## Author
 
-Lukáš Daubner 2018
+Lukáš Daubner, 2018

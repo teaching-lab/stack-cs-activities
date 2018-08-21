@@ -17,7 +17,7 @@ Pair students for a subsequent activity by handing them cards with commands and 
 
 ## Setup and preparation
 
-* Print and cut the [cards](cards.pdf) so that you have 17 strips. There is an odd number of strips because you can have an odd number of students, so that you can create one group of 3.
+* Print and cut the [cards](cards.pdf) so that you have 17 strips. (Use one-sided printing.) There is an odd number of strips because you can have an odd number of students, so that you can create one group of 3.
 
 ## Activity overview
 

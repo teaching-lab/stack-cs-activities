@@ -19,7 +19,9 @@ Each student receives cards with names of data types and cards with expressions.
 
 ## Setup and preparation
 
-* Print the [cards](data-types-cards.pdf) for each student. The PDF contains one page with cards for 2 students.
+* Print the [cards](data-types-cards.pdf) for each student.
+	* The PDF contains one page with cards for 2 students.
+	* Use one-sided printing.
 * Cut the cards so that each student has 3 data type cards and 15 expression cards.
 
 ## Activity overview

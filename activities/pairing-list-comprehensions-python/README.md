@@ -17,7 +17,7 @@ Pair students for a subsequent activity by handing them cards with list comprehe
 
 ## Setup and preparation
 
-* Print and cut the [cards](cards.pdf) so that you have 16 strips.
+* Print and cut the [cards](cards.pdf) so that you have 16 strips. (Use one-sided printing.)
 
 ## Activity overview
 
