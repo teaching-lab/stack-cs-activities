@@ -39,7 +39,7 @@ The steps below are separated so that you can explain them one by one. The stude
 
 ## Tips and tricks
 
-* You can split the function cards to two sets: simpler and more difficult, and hand them out in two rounds.
+* You can split the function cards into two sets: simpler and more difficult, and hand them out in two rounds.
 * You can prepare simple variations to the functions and ask the students how would the function property change.
 * This is a good warm-up activity after a lecture on functions.
 

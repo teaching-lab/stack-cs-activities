@@ -29,7 +29,6 @@ The students prepare quiz questions \(see [Creating quiz questions](activities/c
   * Only one person from the group can answer to avoid one fast member answering all the questions.
   * If the asked person cannot answer, encourage discussion and hints.
 4. Have the groups record each question that was troublesome or incorrectly answered.
-* Která otázka byla sporná a diskutovali jste ji v rámci skupiny? K jakému řešení jste přišli?
 5. After both groups within a pair finish all their questions, have them revise the troublesome questions to make sure they understand correctly now.
 
 ## Tips and tricks

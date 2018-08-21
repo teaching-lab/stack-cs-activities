@@ -13,8 +13,8 @@ Hands-on team activity for understanding block cipher modes of operation. From m
 
 ## Learning outcomes
 
-* Understand the need for encryption modes (i.e. why ECB is not sufficient).
-* Know multiple modes of operation, their principles, benefits and drawbacks.
+* Understand the need for encryption modes (i.e., why ECB is not sufficient).
+* Know multiple modes of operation, their principles, benefits, and drawbacks.
 * Justify selection of the appropriate mode for selected use cases.
 
 ## Setup and preparation
@@ -31,9 +31,9 @@ Hands-on team activity for understanding block cipher modes of operation. From m
 ## Activity overview
 
 * Motivation ([introductory presentation](slides.pdf))
-  * Go over the motivational presentation with the group. Let the participants figure out every step themselves (e.g. letting them figure out we'll split the plaintext, use the cipher multiple times).
+  * Go over the motivational presentation with the group. Let the participants figure out every step themselves (e.g., letting them figure out we'll split the plaintext, use the cipher multiple times).
   * Emphasize we presume the key is fixed for the whole activity.
-  * Make sure they understand how bitwise XOR works and what properties it has (e.g. XORing with the same string twice results in the plaintext).
+  * Make sure they understand how bitwise XOR works and what properties it has (e.g., XORing with the same string twice results in the plaintext).
 * Division into groups
   * Let people divide into groups of 3–4 people each as they see fit.
 * Encryption schemes ([scheme cards with mode names](cards.pdf))
@@ -45,7 +45,7 @@ Hands-on team activity for understanding block cipher modes of operation. From m
   * Task for the group: *Match the decryption schemes to corresponding encryption schemes.*
 * Mode features ([feature cards](cards.pdf))
   * Give basic feature cards to each group.
-  * Task for the group: *Assign given features to the encryption modes. If a feature applies to multiple modes, you have it multiple times.*
+  * Task for the group: *Assign the given features to the encryption modes. If a feature applies to multiple modes, you have it multiple times.*
   * After the group reads the features, make sure they understand all of them.
   * If time and knowledge permits, give out bonus features after matching the basic ones. After the group reads them, make sure they understand them fully. (Don't underestimate these, they are much more complicated than the basic.)
 * Real-world use cases ([use case cards](cards.pdf))
@@ -66,10 +66,9 @@ Hands-on team activity for understanding block cipher modes of operation. From m
 
 ## Tips and tricks
 
-* Once the groups form, work with them individually, if there are enough instructors (there is no need to have them perfectly synchronized). If some groups are much faster than other, give them advanced features (and don't give them to the slower groups).
+* Once the groups form, work with them individually if there are enough instructors (there is no need to have them perfectly synchronized). If some groups are much faster than other, give them advanced features (and don't give them to the slower groups).
 * If possible convince groups that they want to use the table (as opposed to laying cards on the floor). The full matching takes quite a lot of space (and working on the floor for long tends to become uncomfortable).
-* Before giving a new set of cards to a group, check their matching according to the [answer table](key.pdf). If 
-enough time, have them correct their own mistake instead of pointing it out straight away.
+* Before giving a new set of cards to a group, check their matching according to the [answer table](key.pdf). If enough time, have them correct their own mistake instead of pointing it out straight away.
 * The activity does not require previous knowledge of cryptography (intuition will often do). The activity worked well for smart secondary school students (they just needed to understand XOR).
 * Group size is up to your choice, but 3–4 people turned out best (enough for discussion but still keeping everyone engaged).
 * The activity will progress faster with skilled participants and slower with less skilled ones.

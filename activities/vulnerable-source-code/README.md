@@ -1,6 +1,6 @@
 # Vulnerable source code
 
-The students form small groups and cooperatively find vulnerabiities in C code snippets.
+The students form small groups and cooperatively find vulnerabilities in C code snippets.
 
 | Parameters:        |               |
 | -----------------: | :------------ |
@@ -38,7 +38,7 @@ The students form small groups and cooperatively find vulnerabiities in C code s
 
 ## Related material
 
-* This book chapter on [C language issues](https://trailofbits.github.io/ctf/vulnerabilities/references/Dowd_ch06.pdf) provides many vulnerable code samples with explanation.
+* This book chapter on [C language issues](https://trailofbits.github.io/ctf/vulnerabilities/references/Dowd_ch06.pdf) provides many vulnerable code samples with explanations.
 * Some of the snippets for this activity were taken from [ESET security blog](https://www.welivesecurity.com/2017/01/30/examples-vulnerable-code-find/). 
 
 ## Author

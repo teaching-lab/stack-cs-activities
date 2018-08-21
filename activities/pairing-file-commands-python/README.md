@@ -1,6 +1,6 @@
 # Pairing students based on file commands
 
-Pair students for a subsequent activity by handing them cards with commands and their descripition. Student with a command forms the pair with the one who has the description.
+Pair students for a subsequent activity by handing them cards with commands and their description. A student with a command forms the pair with the one who has the description.
 
 | Parameters:        |               |
 | -----------------: | :------------ |

@@ -30,20 +30,20 @@ This rubric allows the student to self-assess his/her programming skills at the 
     * 10 means Ideal, or "This is my vision for the future after I pass multiple follow-up courses."
     * There are also two unlabeled steps between each of the consecutive steps.
     * The distances are ordinal but not interval, which means that, for example, the gap between 1 and 3 is smaller than between 7 and 9.
-3. Stress that the rubric has only informative purpose, and it is not graded in any way. Remind the students that this is an introductory course and it's ok if someone is unaware of all the areas.
+3. Stress that the rubric has only an informative purpose, and it is not graded in any way. Remind the students that this is an introductory course and it's ok if someone is unaware of all the areas.
 4. (Optional) If you want to see the results too, ask the students to write their name on the rubric.
 5. Hand out the printed rubric to each student and ask them to fill it out individually.
 6. (Optional) Collect the rubric from the students to get an overview of the skills of the group.
-	* This will allow you to get more detailed information than simply asking "Who of you have did some programming before?"
-	* You have more time to read and possibly evaluate the results and do not waste time of the lecture.
-	* Be sure to bring it back for the next class and return each rubric back to its owner.
+	* This will allow you to get more detailed information than simply asking "Who of you have done some programming before?"
+	* You have more time to read and possibly evaluate the results and do not waste the time of the lecture.
+	* Be sure to bring it back for the next class and return each rubric to its owner.
 7. Instruct students to keep it to track their progress over the semester. Remind them not to lose it :)
-8. At the final session of the semester, ask the students to fill it again (print a new one to avoid bias). Then, let each of them compare the versions from the first and final session and discuss in group whether they made any progress.
+8. At the final session of the semester, ask the students to fill it again (print a new one to avoid bias). Then, let each of them compare the versions from the first and final session and discuss in a group whether they made any progress.
 	* This is a very nice touch at the end of the semester.
 
 ## Tips and tricks
 
-* The rubric mentions Python, but can be easily adapted to another language.
+* The rubric mentions Python but can be easily adapted to another language.
 * You can use it at the very end of the first class session in the semester
 
 ## Related material

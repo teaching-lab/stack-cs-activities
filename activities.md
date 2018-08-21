@@ -7,7 +7,7 @@ This is the full list of activities in the Stack divided into several categories
 Tested in practice many times, iteratively improved, and nicely designed, these are the activities we're especially proud of.
 
 * [Encryption modes](activities/encryption-modes/README.md) -- Learn block cipher modes of operation, their properties and use cases from scratch.
-* [Incident handling: A suspicious e-mail](activities/incident-handling-suspicious-email/README.md) -- Spot an e-mail scam within a corporate scenario that actually happened.
+* [Incident handling: A suspicious e-mail](activities/incident-handling-suspicious-email/README.md) -- Spot an e-mail scam within a corporate scenario that really happened.
 
 ### Theoretical CS and math
 
@@ -50,7 +50,7 @@ Networks, operating systems, information technology, and other practical aspects
 Cryptography, network security, and human aspects of computer security.
 
 * [Encryption modes](activities/encryption-modes/README.md) -- Learn block cipher modes of operation, their properties and use cases from scratch.
-* [Incident handling: A suspicious e-mail](activities/incident-handling-suspicious-email/README.md) -- Spot an e-mail scam within a corporate scenario that actually happened.
+* [Incident handling: A suspicious e-mail](activities/incident-handling-suspicious-email/README.md) -- Spot an e-mail scam within a corporate scenario that really happened.
 * [Vulnerable source code](activities/vulnerable-source-code/README.md) -- Find vulnerabilities and propose fixes in C code snippets.
 
 ### Generic activities

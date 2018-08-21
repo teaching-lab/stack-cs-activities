@@ -32,9 +32,9 @@ Here comes a short and comprehensive summary of the activity (2–3 sentences).
 * After the exercise, emphasize some common security rules:
 	* E-mail headers cannot be trusted. If an e-mail appears to be from someone, it doesn't mean it is.
 	* Textual signatures absolutely cannot be trusted. Just because the e-mail is signed as "Bruce Wayne", for example, it doesn't mean it is him. This might sound really obvious, but there are still people who can be tricked by this.
-	* Generic greetings, such as "To Our Valued Customer", indicate that the e-mail is probably send out to many different people at once.
-	* If you spot anything suspicous in the e-mail, don't click on any links or open any attachments.
-	* Don't send any money online unless you really ordered something, and you are sure about who is the recipient.
+	* Generic greetings, such as "To Our Valued Customer", indicate that the e-mail is probably sent out to many different people at once.
+	* If you spot anything suspicious in the e-mail, don't click on any links or open any attachments.
+	* Don't send any money online unless you ordered something, and you are sure about who is the recipient.
 
 ## Related material
 

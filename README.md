@@ -13,13 +13,13 @@ Teaching computer science in lecture halls? Boring! We prefer active learning me
 You can browse [the full list of activities](activities.md). Or just have a quick look at our **flagship activities**:
 
 * [Encryption modes](activities/encryption-modes/README.md) -- Learn block cipher modes of operation, their properties and use cases from scratch.
-* [Incident handling: A suspicious e-mail](activities/incident-handling-suspicious-email/README.md) -- Spot an e-mail scam within a corporate scenario that actually happened.
+* [Incident handling: A suspicious e-mail](activities/incident-handling-suspicious-email/README.md) -- Spot an e-mail scam within a corporate scenario that really happened.
 
 Also, feel free to develop the [ideas for new activities](activities-wip/ideas.md).
 
 ## Knowledge base
 
-* [Why to assign activities](knowledge-base/why-to-assign-activities.md) -- Motivation for using activities in teaching.
+* [Why assign activities](knowledge-base/why-to-assign-activities.md) -- Motivation for using activities in teaching.
 * [How to assign activities](knowledge-base/how-to-assign-activities.md) -- Assigning tasks in a way that results in action.
 * [External resources](knowledge-base/references.md) -- Useful links to websites relevant for teaching CS.
 

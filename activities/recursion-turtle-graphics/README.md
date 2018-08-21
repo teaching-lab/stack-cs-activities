@@ -43,7 +43,7 @@ The activity has four phases detailed below.
 5. Let the students think individually.
 6. Commence voting and record the number of votes for each choice.
 
-### Phase 2: Recursive call \(repeat based on recursion depth, default is 3 times\)
+### Phase 2: Recursive call \(repeat based on recursion depth, the default is 3 times\)
 
 1. Gradually highlight the executed lines on the printed code of the `draw()` function, similarly as a debugger. At the same time, draw the position of the turtle and how it moves on the whiteboard.
 2. When the code execution reaches the recursive call, cover the current code with a new printed copy of the function. This imitates a stack.
@@ -62,7 +62,7 @@ The activity has four phases detailed below.
 
 You can discuss the learning outcomes and difficulty of the activity with the students. These questions are possible:
 
-* At which moment did you become certain about how the result will look like?
+* At which moment did you become sure about the result?
 * Which line of code did something different than you expected?
 * Which line of code did exactly what you expected?
 * (Extension) How would you need to change the function so that it draws one of the distractors?
@@ -73,7 +73,7 @@ You can discuss the learning outcomes and difficulty of the activity with the st
 * Preparing the activity will take you 15 to 60 minutes, depending on if you will change any of the source files.
 * If you don't have a magnetic whiteboard but you have a chalkboard or a flipchart, bring a duct tape and scissors to pin the choices.
 * The activity is ideal for the beginning of a lab session as a warm-up.
-* The part of this activity is for the students to make mistakes and then re-evaluate and correct their judgement.
+* The part of this activity is for the students to make mistakes and then re-evaluate and correct their judgment.
 * Typically, the students have troubles with the part of the code *after* the recursive call. Consider this when selecting distractors.
 * The following modifications are possible:
   * Set a number of recursive calls (parameter _depth_) other than the default 3. Every other recursive call will prolong the activity by 5 minutes. Be careful that if the depth is too large, the activity becomes boring. On the other hand, too small depth is not a challenge.

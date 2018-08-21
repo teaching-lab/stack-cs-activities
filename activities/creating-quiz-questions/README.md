@@ -1,6 +1,6 @@
 # Creating quiz questions
 
-In this homework activity, the students create quiz questions in small groups to practice concepts discussed in class. The quality of the questions are then checked by other students. The resulting questions can be used on the final exam.
+In this homework activity, the students create quiz questions in small groups to practice concepts discussed in class. The quality of the questions is then checked by other students. The resulting questions can be used on the final exam.
 
 | Parameters:        |              |
 | -----------------: | :----------- |
@@ -25,12 +25,12 @@ In this homework activity, the students create quiz questions in small groups to
 
 1. The students create small groups so that the total number of groups is even.
 2. Each group has to create a small number (around 5) quiz questions that test the understanding of a given concept.
-  * The topic and the reference can be the last lecture/lab/seminar, or a few pages from literature.
+  * The topic and the reference can be the last lecture/lab/seminar or a few pages from literature.
   * The questions can be multiple choice or with an open answer.
 3. The group writes the questions online \(for example, in a Google Document\).
 4. The group shares the questions with another group to receive feedback on the quality of the questions.
   * Each group receives feedback from one group and gives feedback to one group.
-  * The feedback can focus on correctness of the question, understandability, wording, feasibility of choices, and so on.
+  * The feedback can focus on the correctness of the question, understandability, wording, feasibility of choices, and so on.
 5. Based on the feedback, the group updates the questions.
 6. The teacher checks the resulting questions and suggests changes.
   * This takes about 1 minute for 1 question.
@@ -46,7 +46,7 @@ Example questions for an introductory Python programming class:
 ## Tips and tricks
 
 * This is a good practice activity before a midterm or a final exam.
-* If 10 pairs of students create 5 questions each, that's 50 questions in total. Announce that you'll pick some of them for the final exam (perhaps slightly changed so that they won't learn the answers by heart) so that they practice them.
+* If ten pairs of students create five questions each, that's 50 questions in total. Announce that you'll pick some of them for the final exam (perhaps slightly changed so that they won't learn the answers by heart) so that they practice them.
 * The students can create questions also individually, but the quality of the work is arguably higher when they work in pairs.
 * The students often formulate the questions unclearly. Don't expect them to be perfect in the first iteration.
 * Motivate the students by awarding points for creating good questions.
