@@ -1,6 +1,6 @@
-# Non-functional warm-up
+# Software requirements warm-up
 
-The students answer the set of questions to categorize the software requirements into functional, non-functional, or low-quality. They also state their argument, why is their opinion right.
+The students answer a set of questions to categorize given software requirements into functional, non-functional, or low-quality. They also argue about why is their opinion right.
 
 | Parameters:        |               |
 | -----------------: | :------------ |
@@ -14,7 +14,7 @@ The students answer the set of questions to categorize the software requirements
 ## Learning outcomes
 
 * Practice the categorization of software requirements.
-* Practice the disputation about the own opinion.
+* Practice the argumentation about own opinion.
 
 ## Setup and preparation
 
@@ -26,7 +26,7 @@ The students answer the set of questions to categorize the software requirements
   * The application will be written in C# (non-functional)
   * The plane will be able to server Martini (functional)
   * The system can be accessed from every platform (low-quality: what is every platform?)
-  * After the crash, the server will be up in 15 seconds (non-functional)
+  * After the crash, the server will be up in less than 15 seconds (non-functional)
   * The machine will not take less than 1000 euro. At the same time, it will only take up to 500 euro (low-quality: does not make sense)
   * The database will be backed up every day at 23:59 (non-functional)
   * The robot will be able to hold a mouse (low-quality: which mouse?)
@@ -39,7 +39,11 @@ The students answer the set of questions to categorize the software requirements
 ## Tips and tricks
 
 * Your answers may be different from the proposed because in some cases, it is debatable. The point of this activity is to let students think about software requirements more, so sometimes the question can have multiple right answers if they defend their opinion correctly.
-* This activity can be easily extended to a group activity with pieces of papers, or to Kahoot.
+* This activity can be easily extended to a group activity with pieces of papers, or to [Kahoot](https://kahoot.com).
+
+## Related material
+
+* [This article](https://www.altexsoft.com/blog/business/functional-and-non-functional-requirements-specification-and-types/) explains software requirements.
 
 ## Author
 
