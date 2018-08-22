@@ -18,7 +18,7 @@ The students form small groups and cooperatively join small pieces of code into 
 
 ## Setup and preparation
 
-* Print the [code parts](code-part1.pdf),(code-part2.pdf),(code-part3.pdf) for each group. Use one-sided printing.
+* Print the code parts [1](code-part1.png), [2](code-part2.png), [3](code-part3.png) for each group. Use one-sided printing.
 * Cut the papers.
 
 ## Activity overview
