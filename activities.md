@@ -6,6 +6,7 @@ This is the full list of activities in the Stack divided into several categories
 
 Tested in practice many times, iteratively improved, and nicely designed, these are the activities we're especially proud of.
 
+* [Code puzzle](activities/code-puzzle/README.md) -- An advanced Parson's problem in C\#.
 * [Encryption modes](activities/encryption-modes/README.md) -- Learn block cipher modes of operation, their properties and use cases from scratch.
 * [Incident handling: A suspicious e-mail](activities/incident-handling-suspicious-email/README.md) -- Spot an e-mail scam within a corporate scenario that really happened.
 

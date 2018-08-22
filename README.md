@@ -16,8 +16,6 @@ You can browse [the full list of activities](activities.md). Or just have a quic
 * [Encryption modes](activities/encryption-modes/README.md) -- Learn block cipher modes of operation, their properties and use cases from scratch.
 * [Incident handling: A suspicious e-mail](activities/incident-handling-suspicious-email/README.md) -- Spot an e-mail scam within a corporate scenario that really happened.
 
-Also, feel free to develop the [ideas for new activities](activities-wip/ideas.md).
-
 ## Knowledge base
 
 * [Why assign activities](knowledge-base/why-to-assign-activities.md) -- Motivation for using activities in teaching.
@@ -26,7 +24,7 @@ Also, feel free to develop the [ideas for new activities](activities-wip/ideas.m
 
 ## Contact us and join our efforts
 
-Feel free to contribute your own activities. Please, read the [contribution guidelines](CONTRIBUTING.md), format your submission accordingly, and we'll gladly welcome it in the Stack!
+Feel free to contribute your own activities. Please, read the [contribution guidelines](CONTRIBUTING.md), format your submission accordingly, and we'll gladly welcome it in the Stack! For example, you can start by developing the [ideas for new activities](activities-wip/ideas.md).
 
 We also appreciate suggestions for improvement, notes on your experience, or any other comments. Please, email Valdemar at *valdemar@mail.muni.cz*.
 

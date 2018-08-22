@@ -4,9 +4,9 @@ We'll be delighted if you share your great teaching activities with the world! P
 
 ### Structure and content
 
-Use the [template for new activities](activities/README.md). Do not change the template structure -- preserve all the headings in the given order.
+Use the [template for new activities](activities/README.md). Do *not* change the template structure -- preserve all the headings in the given order.
 
-If you attach any files, include also their source form that can be edited if needed. For example, if you are submitting a PDF, add also the corresponding Office / LaTeX source document.
+If you attach any files, include also their source form that can be edited if necessary. For example, if you are submitting a PDF, add also the corresponding Office / LaTeX source document.
 
 To see an exemplary submission, look at the flagship activities on the [main page](README.md).
 
