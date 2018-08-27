@@ -1,5 +1,5 @@
 <p align="center"> 
-<img src="logo/logotype/Stack-logotype-400.png" alt="The Stack Logo">
+<img src="images/logo/logotype/Stack-logotype-400.png" alt="The Stack Logo">
 </p>
 
 ---
