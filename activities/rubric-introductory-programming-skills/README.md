@@ -44,7 +44,8 @@ This rubric allows the student to self-assess his/her programming skills at the 
 ## Tips and tricks
 
 * The rubric mentions Python but can be easily adapted to another language.
-* You can use it at the very end of the first class session in the semester
+* You can use it at the very end of the first class session in the semester. Then, you can follow on this in the middle or at the end of the semester.
+* Beware that the students can lose the paper with the rubric before the end of the semester.
 
 ## Related material
 
