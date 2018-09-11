@@ -32,7 +32,7 @@ The students form small groups and cooperatively join small pieces of code into 
 ## Tips and tricks
 
 * Put the pieces of code for each group into the envelopes, so that it is easier to reuse this activity. It also reduces the chance of loss of some pieces.
-* If you are not sure which part is correct, you can check the [solution](solution.txt).
+* If you are not sure which part is correct, you can check the solution ([C# source](solution.cs) or a [plain text file](solution.txt)).
 
 ## Related material
 
@@ -41,4 +41,4 @@ The students form small groups and cooperatively join small pieces of code into 
 
 ## Author
 
-Martin Mac·k, 2017
+Martin Mac√°k, 2017
