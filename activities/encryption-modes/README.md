@@ -83,3 +83,12 @@ Hands-on team activity for understanding block cipher modes of operation. From m
 ## Author
 
 Created by Martin Ukrop in 2016.
+
+## Activity photo
+
+<p align="center"> 
+<img src="photo.jpg" alt="Encryption modes activity photo">
+</p>
+
+Students are evaluating the completed exercise with the teacher.
+Photo by Róbert Tamáš, 2017.
