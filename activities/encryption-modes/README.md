@@ -91,4 +91,4 @@ Created by Martin Ukrop in 2016.
 </p>
 
 Students are evaluating the completed exercise with the teacher.
-Photo by Róbert Tamáš, 2017.
+(Photo by Róbert Tamáš, 2017.)
