@@ -23,6 +23,7 @@ Each student receives cards with names of data types and cards with expressions.
 	* The PDF contains one page with cards for 2 students.
 	* Use one-sided printing.
 * Cut the cards so that each student has 3 data type cards and 15 expression cards.
+	* Prepare a separate set of cards for each student and pin each set together by a paperclip. This will avoid the hassle with distribution.
 
 ## Activity overview
 
@@ -33,6 +34,7 @@ Each student receives cards with names of data types and cards with expressions.
 ## Tips and tricks
 
 * If a student is stuck, ask him/her to evaluate the expression to a single value.
+* A quick check is that there should be 5 expressions in each of the 3 categories.
 * A brief follow-up activity can be to let the students think about as many operations as possible for the given data types, and then comparing the results with a neighbor.
 
 ## Related material
