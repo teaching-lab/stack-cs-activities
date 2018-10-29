@@ -14,7 +14,7 @@
    viewBox="0 0 507.99999 285.75001"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.1 r15371"
    sodipodi:docname="stack-reklama.svg"
    inkscape:export-filename="/home/xukrop/Downloads/stack-reklama.png"
    inkscape:export-xdpi="96"
@@ -38,7 +38,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.59582792"
-     inkscape:cx="1013.7155"
+     inkscape:cx="1083.3665"
      inkscape:cy="597.60675"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -51,9 +51,9 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1136"
-     inkscape:window-x="1920"
-     inkscape:window-y="27"
+     inkscape:window-height="1062"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1">
     <sodipodi:guide
        position="534.49905,259.04938"
@@ -74,7 +74,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -194,7 +194,7 @@
          id="tspan866"
          x="63.429314"
          y="270.84177"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:24.69444466px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:0.47028112px">zasobnik.fi.muni.cz</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:24.69444466px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:0.47028112px">stack.fi.muni.cz</tspan></text>
     <g
        id="g937"
        data-name="Go to Web"
@@ -202,7 +202,7 @@
        style="fill:#e6e6e6;fill-opacity:1">
       <polygon
          id="polygon933"
-         points="57.99,44.52 57.99,94.82 70.94,81.89 80.34,100 87.17,96.47 78.12,79.02 95.6,79.02 "
+         points="57.99,94.82 70.94,81.89 80.34,100 87.17,96.47 78.12,79.02 95.6,79.02 57.99,44.52 "
          style="fill:#e6e6e6;fill-opacity:1" />
       <path
          id="path935"
@@ -213,12 +213,12 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot969"
-       style="fill:none;stroke:black;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;font-family:'Open Sans';font-size:26.66666667px;line-height:100%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Open Sans Bold';text-anchor:start;text-align:start;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.66666603px;line-height:100%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
          id="flowRegion971"><rect
            id="rect973"
            width="1113.1881"
            height="460.62955"
            x="-16.162441"
            y="712.30444" /></flowRegion><flowPara
-         id="flowPara975"></flowPara></flowRoot>  </g>
+         id="flowPara975" /></flowRoot>  </g>
 </svg>
