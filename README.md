@@ -6,15 +6,17 @@
 
 # The Stack of Computer Science Teaching Activities
 
-Teaching computer science with abstract lectures? Boring! We prefer active learning methods. That's why we created the Stack: an open-source collection of teaching activities for understanding and practicing CS concepts. Each activity in the Stack features a thorough description, printable handouts, and supporting materials for teachers to easily use in their classes. For free.
+Teaching computer science with abstract lectures? Boring! We prefer active learning methods. That's why we created the Stack: an open-source collection of teaching activities for understanding and practicing CS concepts.
+
+Each activity in the Stack features a thorough description, printable handouts, and supporting materials for teachers to easily use in their classes. For free.
 
 ## Activities
 
 You can browse [the full list of activities](activities.md). Or just have a quick look at our **flagship activities**:
 
-* [Code puzzle](activities/code-puzzle/) -- An advanced Parson's problem in C\#.
+* [Code puzzle](activities/code-puzzle) -- An advanced Parson's problem in C\#.
 * [Encryption modes](activities/encryption-modes) -- Learn block cipher modes of operation, their properties and use cases from scratch.
-* [Incident handling: A suspicious e-mail](activities/incident-handling-suspicious-email/) -- Spot an e-mail scam within a corporate scenario that really happened.
+* [Incident handling: A suspicious e-mail](activities/incident-handling-suspicious-email) -- Spot an e-mail scam within a corporate scenario that really happened.
 
 ## Knowledge base
 
@@ -26,7 +28,8 @@ You can browse [the full list of activities](activities.md). Or just have a quic
 
 Feel free to contribute your own activities. Please, read the [contribution guidelines](CONTRIBUTING.md), format your submission accordingly, and we'll gladly welcome it in the Stack! For example, you can start by developing the [ideas for new activities](activities-wip/ideas.md).
 
-We also appreciate suggestions for improvement, notes on your experience, or any other comments. Please, email Valdemar at *valdemar@mail.muni.cz*.
+We also appreciate suggestions for improvement, notes on your experience, or any other comments.
+Please, email us at *teachinglab@fi.muni.cz*.
 
 ## Contributing authors
 
