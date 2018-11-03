@@ -28,13 +28,13 @@ Hands-on team activity for assigning features and use cases to different data st
 
 1. Let people divide into groups of 3–4 people each as they see fit.
 2. Give each group the cards with data structures and their features (first three pages).
-  * Task for the group: *Assign given features to the data structures. If a feature applies to multiple data structures, you have it multiple times.*
-  * After the group reads the features, make sure they understand all of them (especially those like mutability).
+	* Task for the group: *Assign given features to the data structures. If a feature applies to multiple data structures, you have it multiple times.*
+	* After the group reads the features, make sure they understand all of them (especially those like mutability).
 3. When a group is finished, give them the cards with real-world use cases (the last, fourth page).
-  * Task for the group: *Choose the appropriate data structures for the given use cases and justify your selection.*
+	* Task for the group: *Choose the appropriate data structures for the given use cases and justify your selection.*
 4. When two groups are finished, have pairs of the groups compare their selection of data structures for the given use cases. Let them justify their choice to the other group.
-  * If there are enough instructors, keep one instructor with each pair of groups.
-  * When relevant or asked for, offer your own opinion or extra information.
+	* If there are enough instructors, keep one instructor with each pair of groups.
+	* When relevant or asked for, offer your own opinion or extra information.
 5. When everyone is finished, invite the whole class to ask further questions or give feedback on what they learned.
 6. Preferably, continue with a programming exercise that practices data structures.
 
