@@ -41,7 +41,7 @@ Hands-on team activity for assigning features and use cases to different data st
 ## Tips and tricks
 
 * Once the groups form, work with them individually if there are enough instructors (there is no need to have them perfectly synchronized).
-* If possible, convince groups that they want to use the table (as opposed to laying cards on the floor). The full matching takes quite a lot of space (and working on the floor for long tends to become uncomfortable).
+* The groups should use the table (as opposed to laying cards on the floor) and have enough space on it. The full matching takes quite a lot of space (and working on the floor for long tends to become uncomfortable).
 * Before giving a new set of cards to a group, check their matching according to the [answer table](key.pdf). If there is enough time, have them correct their own mistake instead of pointing it out straight away.
 * Group size is up to your choice, but 3–4 people turned out best (enough for discussion but still keeping everyone engaged).
 * The activity will progress faster with skilled participants and slower with less skilled ones.
