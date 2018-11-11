@@ -27,10 +27,11 @@ In this exercise, the students draw a simple picture on paper. In pairs, one of 
 	* Lifting the pen up and then moving it at a different part of the drawing canvas (paper) is possible (`penup()` and `pendown()` in Python.)
 	* Show a few examples, which can be used as a fallback option if someone cannot think of anything.
 2. Each student draws their picture on a paper, which they mustn't show to anyone!
-3. Let them think about how they would explain the process of drawing the picture.
+3. Let them think about how they would explain the process of drawing the picture. The explanation must involve individual steps of how to draw the picture, not a description of what is in the picture.
 4. Pair the students and let them decide who will be explaining (A) and who will be drawing (B).
 	* Alternative: The one who is taller/born sooner/etc. will be explaining.
 5. In each pair, A explains his/her picture and B is drawing based on the instructions. The important thing is that A cannot look whether B is drawing correctly or not. However, B can ask for clarification of certain instructions.
+	* Give 5 minutes for this task.
 	* A more difficult alternative is that B can't ask for clarification, with the exception when B hasn't heard the instruction.
 6. When B finishes drawing, A checks the result. They both discuss any differences and what was their cause.
 7. At this point, walk around the groups and ask them if they had any problems and why. They will usually answer that some of the instructions were not precisely given or understood. Make a connection to writing programs: specific instructions are necessary for the computation to be performed.
