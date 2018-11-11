@@ -27,9 +27,10 @@ Each student receives cards with names of data types and cards with expressions.
 
 ## Activity overview
 
-1. Hand out the card set to all students and ask them to assign the expressions to the appropriate types. The students must not use a Python interpreter, only pen and paper.
-2. When two neighboring students are finished, ask them to compare their solutions and discuss any differences.
-3. Allow time for questions.
+1. The motivation for this activity is that data types in Python are often overlooked.
+2. Hand out the card set to all students and ask them to assign the expressions to the appropriate types. The students must not use a Python interpreter, only pen and paper.
+3. When two neighboring students are finished, ask them to compare their solutions and discuss any differences.
+4. Allow time for questions.
 
 ## Tips and tricks
 
