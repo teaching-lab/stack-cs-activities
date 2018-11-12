@@ -1,6 +1,6 @@
 # Activity template
 
-Here comes a short and comprehensive summary of the activity (2–3 sentences).
+This activity has students learning about lists of references and prepares them for some of the most common issues students face in dealing with lists (and lists of lists). That being, creating copies of lists (or thinking they've made copies and not understanding why thy are not genuinely different)
 
 | Parameters:        |                                     |
 | -----------------: | :---------------------------------- |
