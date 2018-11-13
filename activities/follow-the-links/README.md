@@ -25,7 +25,8 @@ This activity has students learning about lists of references and prepares them 
 * Cut up some lengths of string for each group
 * Distribute lengths of string, scissors, bluetac
 * If there are whiteboards in the room, distribute markers and erasers (1 per team) otherwise distribute squares of paper students can write on
-* Pass on a copy of the [algorithm](follow-the-links.pdf) to each group
+* Pass on a copy of the [task](task.pdf) to each group
+* Read the [solution](solution.pdf)
 
 ## Activity overview
 
