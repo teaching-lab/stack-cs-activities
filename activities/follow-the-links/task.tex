@@ -1,0 +1,49 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage{verbatim}% http://ctan.org/pkg/verbatim
+
+\title{List of lists of references -- Follow the links}
+\author{}
+\date{}
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+\maketitle
+
+\section*{Objectives}
+
+The \textbf{objectives of this activity} are:
+\begin{itemize}
+  \item To become familiar with lists of lists
+  \item To become familiar with algorithms involving lists
+\end{itemize}
+
+\section*{Task}
+
+Consider the following algorithm:
+\begin{verbatim}
+make list of nums...
+... get N
+... create the list innerList with room for N elements
+... create the list outerList with room for N elements
+... for i from 0 to N-1...
+... ... set innerList[i] to hold 0
+... for i from 0 to N-1...
+... ... set outerList[i] to hold innerList
+... for i from 0 to N-1...
+... ... for j from 0 to N-1...
+... ... ... set outerList[i][j] to hold (N*i + j)
+\end{verbatim}
+Assume N is 4. With the materials you've been given:
+\begin{enumerate}
+	\item Create two rectangles for \texttt{innerList} and \texttt{outerList} respectively with room for four squares within them.
+	\item Step through the algorithm creating links (with thread) between \texttt{innerList}/\texttt{outerList} and what their contents are.
+	\item As contents change, write out the new value and then move or change the links to match.
+	\item Discuss your findings with your group. 
+\end{enumerate}
+\textit{Note: your tutor may ask one or more of the groups in the class to report back to the whole class}
+
+\end{document}

@@ -22,6 +22,7 @@ Activities to learn theoretical aspects of computer science and mathematics.
 Bordering theoretical CS and practical programming, activities in this section deal with conceptual as well as applied aspects of algorithms and data structures.
 
 * [Data structures in Python](activities/data-structures-python) -- Practice properties and use cases of basic Python data structures.
+* [Follow the links](activities/follow-the-links) -- Understand references to lists in lists in a hands-on activity.
 * [Live sorting algorithms](activities/sorting-algorithms) -- Fun activity in which the students experience sorting algorithms.
 
 ### Programming
