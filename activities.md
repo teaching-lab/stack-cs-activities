@@ -24,6 +24,7 @@ Bordering theoretical CS and practical programming, activities in this section d
 * [Data structures in Python](activities/data-structures-python) -- Practice properties and use cases of basic Python data structures.
 * [Follow the links](activities/follow-the-links) -- Understand references to lists in lists in a hands-on activity.
 * [Live sorting algorithms](activities/sorting-algorithms) -- Fun activity in which the students experience sorting algorithms.
+* [Recursive sorting of a list](activities/recursion-sort-list) -- Students sit in a row and cooperate to recursively sort a list of numbers.
 
 ### Programming
 
@@ -43,6 +44,7 @@ If you teach programming, this is the right section for you.
 
 Software specification, design, and analysis.
 
+* [Correcting a textual use case specification](activities/correcting-use-case) -- Correct mistakes in a description of a use case.
 * [Software requirements warm-up](activities/software-requirements-warm-up) -- Classify requirements as functional or non-functional.
 * [State diagram created together](activities/state-diagram-created-together) -- The whole class creates a UML state diagram for a given use case.
 
