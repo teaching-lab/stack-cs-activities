@@ -24,7 +24,7 @@ Students in each row in a classroom cooperatively sort a list using recursion.
 * Print `(M // 3) + 1` papers, where `M` is the number of rows you have.
 * Cut each paper to three strips containing `N` sticky note frames.
 * Place a sticky note with an integer into each frame on each strip (choose arbitrary integers).
-* Provide the following instructions to the students -- either prepare a copy for each student or display a slide (in such case, there is [LaTex source](slide.tex) available and an [example picture](frames_example.png)):
+* Provide the following instructions to the students -- either prepare a copy for each student or display a slide (in such case, there is [an example slide](slide.pdf) available and an [example picture](frames_example.png)):
 
 1. **if** anyone *asks me for the help*:
     * **if** the list has only one element
