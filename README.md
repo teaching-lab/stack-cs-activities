@@ -4,7 +4,7 @@
 
 ---
 
-# The Stack of Computer Science Teaching Activities
+# The Stack of Activities for Teaching Computer Science
 
 Teaching computer science with abstract lectures? Boring! We prefer active learning methods. That's why we created the Stack: an open-source collection of teaching activities for understanding and practicing CS concepts.
 
@@ -23,6 +23,7 @@ You can browse [the full list of activities](activities.md). Or just have a quic
 * [Why assign activities](knowledge-base/why-to-assign-activities.md) -- Motivation for using activities in teaching.
 * [How to assign activities](knowledge-base/how-to-assign-activities.md) -- Assigning tasks in a way that results in action.
 * [External resources](knowledge-base/references.md) -- Useful links to websites relevant for teaching CS.
+* [Meta-Stack](https://github.com/teaching-lab/stack-cs-teacher-training) -- Activities for training computer science teachers.
 
 ## Contact us and join our efforts
 
