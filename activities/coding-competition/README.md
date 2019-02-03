@@ -1,4 +1,4 @@
-# Coding Competition
+# Coding competition
 
 Students solve a set of easy practice problems in programming lectures or labs. If a student solves a task, (s)he stands up and marks it on a whiteboard. At the end of the competition, students present correct solutions to each task.
 
