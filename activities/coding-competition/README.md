@@ -1,48 +1,44 @@
 # Coding Competition
 
-The Coding Competition activity is  programming lectures. Students are asked to solve set of easy problems. If someone solves a task, he stands up and marks it on a whiteboard. At the end of the competition students present corrrect solution of the each task.
-
+Students solve a set of easy practice problems in programming lectures or labs. If a student solves a task, (s)he stands up and marks it on a whiteboard. At the end of the competition, students present correct solutions to each task.
 
 | Parameters:        |                                     |
 | -----------------: | :---------------------------------- |
 | **Duration:**      | 80 minutes                          |
 | **Participants:**  | whole class                         |
 | **Instructors:**   | 1 teacher                           |
-| **Class:**         | PCs                                 |
+| **Class:**         | PCs, whiteboard                     |
 | **Resources:**     | set of easy programming tasks       |
-| **Prerequisites:** | none                                |
+| **Prerequisites:** | depend on the chosen task           |
 
 ## Learning outcomes
 
-* motivation, more intensive work during the lecture
-* the teacher has an overview of how students work
-* students can compare their own knowledge with the others
-* physical activity 
+* Students practice coding under time pressure.
+* Students practice explaining and comparing their solutions to others.
 
 ## Setup and preparation
 
-* The teacher share a (printed) document with 8-12 easy programming tasks related with a lecture topic. Solving of each task should not take more than 5 minutes.
-* huge table on a whiteboard, row for each student and column for each task.
+* Prepare a (printed) document with 8-12 easy programming tasks related to a lecture topic. Solving each task should take an average student at most 5 minutes.
+* Prepare a huge table on a whiteboard, with one row for each student and one column for each task.
  
 ## Activity overview
 
-* Before the start - Teacher describes all competition rules. Students fill their own names (nicknames) into the table on the whiteboard (reduce a shame). 
-* During the competition - Each student solves all tasks individually. If he finish some, he can mark it into the table. Time of the competition is precisly measured, teacher regurally informs how many minutes left. 
-* After the competition - the teacher according the table randomly pick some students to introduce their solution. Student is not examined by a teacher, he talks directly to the class and describe them how he solved the problem. Other students can ask or offer their ideas. One presentation takes at most 1 minute including questions. The winner is rewarded by candy or bonus points.
+* Before the start: Teacher explains the competition rules. Students fill their own names (nicknames) in the table on the whiteboard (reduce a shame).
+* During the competition: Each student solves all tasks individually. Upon solving a task, (s)he marks it in the table. The teacher measures time and regurally informs students how many minutes they have left. 
+* After the competition: According to the table, the teacher randomly picks some students to present their solution. The student is not examined by a teacher, (s)he talks directly to the class and explains how (s)he solved the problem. Other students can ask questions or offer their ideas. One presentation takes at most 1 minute including questions. The winner is rewarded by candy or bonus points.
 
 ## Tips and tricks
 
-* To motivate also weaker students, there should be at least two very simple tasks in the set. You should avouid to do it too difficult, otherwise anybody will participate on activity.
-* In the table students can write an order in which they solved each task. It allows more precise evaluation of the competition.
-* You can use table in a shared document to make the activity more calm.
-* If someone do not want to present his solution, do not force him. 
-
+* This activity can be made shorter if you use fewer tasks.
+* To motivate also weaker students, there should be at least two very simple tasks in the set. You should avoid too difficult tasks.
+* In the table, students can mark an order in which they solved each task. This allows more precise evaluation of the competition.
+* Instead of a whiteboard, you can use a shared online document. This eliminates the physical activity and makes the environment more calm.
+* If a student does not want to present his/her solution, do not force him/her.
 
 ## Related material
 
-* inspired by naboj.org, codeforces.ru and Teaching lab lectures
+* inspired by [Codeforces](http://codeforces.com/) and [Náboj](https://math.naboj.org/) competitions.
 
 ## Author
 
-written by Filip Lux 2019
-
+Filip Lux, 2019
