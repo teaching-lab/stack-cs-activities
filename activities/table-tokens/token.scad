@@ -1,6 +1,6 @@
 d = 50; // inner radius of the token
 
-magnet_d = 4; // magnet diameter
+magnet_d = 4.1; // magnet diameter
 magnet_h = 1; // magnet height
 magnet_alpha = 30; // angle between magnets
 
@@ -18,6 +18,7 @@ big_d = d + magnet_d*2 + corner_t*2 + t*4;
 $fa = 0.5; 
 $fs = 0.5; 
 
+module token(){
 difference(){
 
 union(){
@@ -37,3 +38,9 @@ union(){
             cylinder(d=magnet_d, h=4, center=true);
 
 }
+}
+
+module inner(){
+    cylinder(d=d,h = h - bottom_t );
+}
+token();
