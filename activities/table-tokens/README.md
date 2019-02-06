@@ -70,10 +70,10 @@ This should give quite a nice explicit visualization of where the path is.
 
 ## Gallery
 
-![Pic1](pics/IMG0221.JPG?raw=true)
-![Pic1](pics/IMG0222.JPG?raw=true)
-![Pic1](pics/IMG0223.JPG?raw=true)
-![Pic1](pics/IMG0224.JPG?raw=true)
+![Pic1](pics/IMG_0221.JPG?raw=true)
+![Pic1](pics/IMG_0222.JPG?raw=true)
+![Pic1](pics/IMG_0223.JPG?raw=true)
+![Pic1](pics/IMG_0224.JPG?raw=true)
 
 ## Author
 
