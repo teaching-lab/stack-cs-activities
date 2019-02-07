@@ -23,13 +23,13 @@ This rubric allows the student to self-assess his/her programming skills at the 
 ## Activity overview
 
 1. Decide on the purpose of the rubric. Do you want to leave it just for the students or do you want to look at the results too?
-2. Explain that each student will receive a paper that lists five skills crucial for this course. Ask the students to subjectively self-assess themselves in each of the five skills on a scale from 1 to 10, where:
-    * 1 means Unaware, or "I don't know anything about this."
-    * 4 means Beginner, or "I have seen this somewhere."
-    * 7 means Course Graduate, or "I will get this far at the end of this course."
-    * 10 means Ideal, or "This is my vision for the future after I pass multiple follow-up courses."
+2. Explain that each student will receive a paper that lists five skills crucial for this course. Ask the students to subjectively self-assess themselves in each of the five skills on a 10-step scale from 0 to 9, where:
+    * 0 means Unaware, or "I don't know anything about this."
+    * 3 means Beginner, or "I have seen this somewhere."
+    * 6 means Course Graduate, or "I will get this far at the end of this course."
+    * 9 means Ideal, or "This is my vision for the future after I pass multiple follow-up courses."
     * There are also two unlabeled steps between each of the consecutive steps.
-    * The distances are ordinal but not interval, which means that, for example, the gap between 1 and 3 is smaller than between 7 and 9.
+    * The distances are ordinal but not interval, which means that, for example, the gap between 0 and 3 is smaller than between 6 and 9.
 3. Stress that the rubric has only an informative purpose, and it is not graded in any way. Remind the students that this is an introductory course and it's ok if someone is unaware of all the areas.
 4. (Optional) If you want to see the results too, ask the students to write their name on the rubric.
 5. Hand out the printed rubric to each student and ask them to fill it out individually.
@@ -46,6 +46,7 @@ This rubric allows the student to self-assess his/her programming skills at the 
 * The rubric mentions Python but can be easily adapted to another language.
 * You can use it at the very end of the first class session in the semester. Then, you can follow on this in the middle or at the end of the semester.
 * Beware that the students can lose the paper with the rubric before the end of the semester.
+* An online version (for example, in Google Forms) is easier to evaluate and saves paper.
 
 ## Related material
 
