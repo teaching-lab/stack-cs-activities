@@ -38,7 +38,7 @@ The Stack was conceived and is maintained by [Valdemar Švábenský](https://www
 
 However, the Stack wouldn't exist without the significant contributions of other Teaching Lab members, especially Martin Ukrop, who laid the foundations with his awesome Encryption modes activity, and Ondráš Přibyla, who shared his great teaching experience with us.
 
-A big 'thank you' goes to the authors of the activities (in alphabetical order): Bibiána Ťureková, CSIRT-MU team, Jan Horáček, Jaroslav Čechák, Karel Kubíček, Lukáš Daubner, Martin Macák, Martin Ukrop, Matej Troják, Michaela Pokludová, Phillip Abramson, Radka Cieslarová, and Vlasta Šťavová.
+A big 'thank you' goes to the authors of the activities (in alphabetical order): Bibiána Ťureková, CSIRT-MU team, Jakub Žák, Jan Horáček, Jaroslav Čechák, Karel Kubíček, Lukáš Daubner, Martin Macák, Martin Ukrop, Matej Troják, Michaela Pokludová, Phillip Abramson, Radka Cieslarová, and Vlasta Šťavová.
 
 Finally, thanks to [Waldemarski](http://www.waldemarski.com/) for creating the logotype.
 

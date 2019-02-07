@@ -30,6 +30,7 @@ Bordering theoretical CS and practical programming, activities in this section d
 
 If you teach programming, this is the right section for you.
 
+* [Code review](activities/code-review) -- Students program a task individually and then review their solutions.
 * [Code puzzle](activities/code-puzzle) -- An advanced Parson's problem in C\#.
 * [Data types in Python](activities/data-types-python) -- A brief practice of basic Python data types.
 * [Exceptions in C#](activities/exceptions-csharp) -- Understand exceptions in C\# and when to throw/catch them.
