@@ -35,8 +35,13 @@ Hands-on team activity for assigning features and use cases to different data st
 4. When two groups are finished, have pairs of the groups compare their selection of data structures for the given use cases. Let them justify their choice to the other group.
 	* If there are enough instructors, keep one instructor with each pair of groups.
 	* When relevant or asked for, offer your own opinion or extra information.
-5. When everyone is finished, invite the whole class to ask further questions or give feedback on what they learned.
-6. Preferably, continue with a programming exercise that practices data structures.
+5. (Optional) When a group is finished but others are still working, have them experimentally [measure the timing](https://docs.python.org/3/library/timeit.html) of basic operations in various data structures. This prevents the faster groups from being idle.
+	* Create a list and a set with a thousand, a million, or a billion elements by gradually appending numbers in a for loop starting from 1.
+	* Create large lists and tuples using the `range` function.
+	* Insert elements into list and set.
+	* Lookup elements in the list, tuple, and set.
+6. When everyone is finished, invite the whole class to ask further questions or give feedback on what they learned.
+7. Preferably, continue with a programming exercise that practices data structures.
 
 ## Tips and tricks
 
