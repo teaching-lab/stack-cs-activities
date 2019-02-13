@@ -26,7 +26,7 @@ The students individually program an assignment and then review each other's sol
 
 ## Activity overview
 
-* Explain the best practices for writing readable code. Focus on the specifics on the given programming language.
+* Explain the best practices for writing readable code. This includes style and specifics of the given programming language, such as [PEP8](https://www.python.org/dev/peps/pep-0008/) for Python or [Google Style Guide](https://google.github.io/styleguide/javaguide.html) for Java. It also includes general principles of programming, such as [these](https://www.makeuseof.com/tag/basic-programming-principles/). 
 * Let students program the assignment.
 * When two students finish, they sit together to read and understand each other's code. Then, they compare and discuss which code is 'better' and why (better naming of the variables, better input sanitization, lower complexity, better readability, ...).
 * After the discussion, the two students merge their codes to create one 'best' solution. Merge two pairs and repeat the previous step.
@@ -40,9 +40,7 @@ The students individually program an assignment and then review each other's sol
 
 ## Related material
 
-* What activities are related to this?
-* Are there any relevant web resources, books, etc.?
-* TODO
+* [How should we do code reviews?](https://blog.lelonek.me/how-should-we-do-code-reviews-ced54cede375)
 
 ## Author
 
