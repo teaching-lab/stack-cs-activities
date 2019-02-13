@@ -18,12 +18,12 @@ Students solve a set of easy practice problems in programming lectures or labs. 
 
 ## Setup and preparation
 
-* Prepare a (printed) document with 8-12 easy programming tasks related to a lecture topic. Solving each task should take an average student at most 5 minutes.
+* Prepare a (printed) document with 8-12 easy programming tasks related to a lecture topic. Solving each task should take an average student at most 5 minutes. An example document in Czech is [here](tasks-cz.pdf).
 * Prepare a huge table on a whiteboard, with one row for each student and one column for each task.
  
 ## Activity overview
 
-* Before the start: Teacher explains the competition rules. Students fill their own names (nicknames) in the table on the whiteboard (reduce a shame).
+* Before the start: Teacher explains the competition rules. Students fill their own names (nicknames) in the table on the whiteboard.
 * During the competition: Each student solves all tasks individually. Upon solving a task, (s)he marks it in the table. The teacher measures time and regurally informs students how many minutes they have left. 
 * After the competition: According to the table, the teacher randomly picks some students to present their solution. The student is not examined by a teacher, (s)he talks directly to the class and explains how (s)he solved the problem. Other students can ask questions or offer their ideas. One presentation takes at most 1 minute including questions. The winner is rewarded by candy or bonus points.
 
@@ -31,13 +31,14 @@ Students solve a set of easy practice problems in programming lectures or labs. 
 
 * This activity can be made shorter if you use fewer tasks.
 * To motivate also weaker students, there should be at least two very simple tasks in the set. You should avoid too difficult tasks.
-* In the table, students can mark an order in which they solved each task. This allows more precise evaluation of the competition.
+* In the table, students can mark an order in which they solved each task. This allows more freedom in evaluating the competition, such as awarding more points to the first student who solved a task. This also motivates the students to report solved tasks as soon as possible.
 * Instead of a whiteboard, you can use a shared online document. This eliminates the physical activity and makes the environment more calm.
 * If a student does not want to present his/her solution, do not force him/her.
 
 ## Related material
 
-* inspired by [Codeforces](http://codeforces.com/) and [Náboj](https://math.naboj.org/) competitions.
+* [Introductory programming problems in Czech](https://www.fi.muni.cz/IB111/sbirka/index.html).
+* Inspired by [Codeforces](http://codeforces.com/) and [Náboj](https://math.naboj.org/) competitions.
 
 ## Author
 

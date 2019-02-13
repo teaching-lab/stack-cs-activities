@@ -1,0 +1,209 @@
+\documentclass{paper}
+\usepackage{graphicx}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{listings}
+
+\lstset{language=Python}
+\lstset{label={lst:code_direct}}
+\lstset{basicstyle=\ttfamily\footnotesize,breaklines=true}
+
+\begin{document}
+
+\title{Coding Competition}
+\date{31. 1. 2019}
+\maketitle
+\def\labelitemi{--}
+
+\section*{Pokyny pro soutežící}
+\begin{itemize}
+\item{Na řešení deseti příkladů máte 50 minut. Pořadí příkladů nutně nezohledňuje jejich předpokládanou časovou náročnost.}
+\item{Jaknile vyřešíš nějaký příklad, zaznamenej to do herního plánu na tabuli. Za každý zaznamenaný příklad získáš bod, soutěžící s nejvyšším počtem bodů vítězí.}
+\item{Je možné používat vlastní notebook včetně všech dostupných materálů. Příklady řeší každý samostatně. Není možné s nikým dalším komunikovat a to fyzicky, ani virtuálně.}
+\end{itemize}
+
+
+\section*{Příklad 1: Hello World!}
+\noindent
+Argumentem funkce \verb!welcome(n)! je přirozené číslo \verb!n! zapsané v desítkové soustavě. Pokud má toto číslo v binárním zápise na konci jedničku, funkce vypíše na standardní výstup řetězec "Hello World!", v opačném případě (tedy pokud poslední cifrou binárního zápisu čísla \verb!n! je nula) vypíše funkce řetězec "(no answer)".
+
+
+\begin{lstlisting}
+>>> welcome(1)
+Hello World!
+
+>>> welcome(2)
+(no answer)
+
+>>> welcome(9)
+Hello World!
+
+>>> welcome(32)
+(no answer)
+
+\end{lstlisting}
+
+\section*{Příklad 2: Násobilka}
+\noindent
+Funkce \verb!multiple(n)! vytiskne prvních deset násobků čísla \verb!n!.
+
+\begin{lstlisting}
+>>> multiple(1)
+1 2 3 4 5 6 7 8 9 10
+
+>>> multiple(7)
+7 14 21 28 35 42 49 56 63 70
+\end{lstlisting}
+
+
+\section*{Příklad 3: Mínus jedna}
+\noindent
+Na řádku v textovém řetězci \verb!text! je napsáno několik i víceciferných přirozených čísel oddělených mezerami. Funkce \verb!minus_one(text)! od každého čísla odečte jedničku a výsledek vytiskne na výstup opět na jeden řádek.
+
+
+\begin{lstlisting}
+>>> minus_one('10 12 6 345')
+9 11 5 344
+
+>>> minus_one('324593')
+324592
+
+>>> minus_one('1 1 1 1 1')
+0 0 0 0 0
+
+\end{lstlisting}
+
+\section*{Příklad 4: Najdi soudělná čísla}
+\noindent
+Funkce \verb!divisible(l, r)! dostane jako argument dvě přirozená čísla $l, r; l < r$, která udávají rozsah intervalu. Vaším úkolem je najít taková přirozená čísla $a, b$, pro která platí $l \leq a < b \leq r$ a zároveň $a$ je dělitelem $b$. Pokud je možných řešení více, vypište libovolné z nich. Pokud není žádné, funkce vypíše řetězec "no solution".
+
+
+\begin{lstlisting}
+>>> divisible(2, 12)
+6 12
+
+>>> divisible(1, 4)
+2 4
+
+>>> divisible(20, 29)
+no solution
+
+\end{lstlisting}
+
+
+\section*{Příklad 5: Balíky}
+\noindent
+Představ si, že vlastníš balíkovou službu a rádi byste v ní zautomatizovali rozhodování, jestli nějaký předmět dokážete zabalit do vašich balíků, nebo ne. Používáte pouze tři typy balíků, mají rozměry $2 \times 3 \times 6$, $1 \times 2 \times 10$ a $1 \times 5 \times 5$. Funkce \verb!package(a, b, c)! dostane tři čísla udávající rozměry zboží. Pokud se zboží vejde do některého z balíků, funkce vytiskne "YES", pokud ne, pak funkce vytiskne "NO". Zboží může být v balíku libovolně převráceno, počítejte ale pouze s ortogonálními pozicemi (zboží nemůže být v balíku šikmo).
+
+
+\begin{lstlisting}
+>>> package(1, 3, 5)
+YES
+>>> package(8, 2, 1)
+YES
+>>> package(6, 3, 2)
+YES
+>>> package(7, 2, 3)
+NO
+
+\end{lstlisting}
+
+
+\section*{Příklad 6: Nejbližší větší prvočíslo}
+\noindent
+Funkce \verb!closest_prime(n)! spočítá a vráti nejbližší větší prvočíslo k zadanému číslu \verb!n!. Pokud je už \verb!n! prvočíslo, vrátí \verb!n!. 
+
+
+\begin{lstlisting}
+>>> print(closest_prime(5))
+5
+
+>>> print(closest_prime(8))
+11
+
+>>> print(closest_prime(32))
+37
+\end{lstlisting}
+
+
+
+\section*{Příklad 7: Filter seznamů}
+
+\noindent
+Je potřeba profiltrovat seznam čísel jen na dělitelná zadaným číslem. Funkce \verb!list_filter(alist, divisor)! pro zadaný seznam \verb!alist! vytvoří nový seznam, který bude obsahovat jenom taková čísla, která jsou dělitelná číslem \verb!divisor!. Seznam obsahuje pouze přirozená čísla a může být i prázdný. Funkce vrací nový seznam.
+
+
+\begin{lstlisting}
+>>> print(list_filter([], 5))
+[]
+
+>>> print(list_filter([1, 2, 3, 4], 2))
+[2, 4]
+
+>>> print(list_filter([1, 2, 3, 4, 5], 4))
+[4]
+
+>>> print(list_filter([1, 3, 5], 7))
+[]
+
+>>> print(list_filter([1, 3, 5], 1))
+[1, 3, 5]
+\end{lstlisting}
+
+
+
+\section*{Příklad 8: Tři nejdelší slova}
+\noindent
+Funkce \verb!three_words(text)! vybere z textového řetězce \verb!text! tři nejdelší slova a vytiskne je na výstup v pořadí od nejdelšího po nejkratší. Stejná slova se nevypisují vícekrát. Slova se stejným počtem písmen jsou seřazena podle abecedy. Můžete předpokládat, že řetězec \verb!text! neobsahuje interpunkci, slova jsou oddělena mezerami.
+
+
+\begin{lstlisting}
+>>> three_words('lepsi je udelat malo veci dobre nez hodne veci spatne')
+spatne udelat dobre
+
+>>> three_words('kdo chce hybat svetem at nejprve hybe sam sebou')
+nejprve svetem hybat
+
+\end{lstlisting}
+
+
+
+\section*{Příklad 9: Samohlásky}
+
+\noindent
+Funkce \verb!last_three_vowels(text)! nahradí první tři samohlásky řetězce \verb!text! znakem \verb!'.'!. Pokud se v textu vyskytují méně než tři samohlásky, nahradí je všechny. Vstupní řetězec je složen pouze z malých písmen anglické abecedy a mezer, za samohlásky považujeme znaky $a$, $e$, $i$, $o$, $u$ a $y$. Funkce vytiskne nový vstup přímo do konzole, nevrací jej.
+
+\begin{lstlisting}
+>>> last_three_vowels("ticha voda brehy mele")
+t.ch. v.da brehy mele
+
+>>> last_three_vowels("hello world")
+h.ll. w.rld
+
+>>> last_three_vowels("oi")
+..
+
+>>> last_three_vowels("strc prst skrz krk")
+strc prst skrz krk
+\end{lstlisting}
+
+
+\section*{Příklad 10: Kontrola uzávorkování}
+
+\noindent
+Řetězec \verb!text! je složen pouze ze znaků \verb!()[]{}!, funkce \verb!parenthesis_check(text)! Zkontroluje, zda se jedná o korektní uzávorkování.
+
+\begin{lstlisting}
+>>> parenthesis_check('([]({()}))[]{[()]}')
+True
+
+>>> parenthesis_check('([)]')
+False
+
+\end{lstlisting}
+
+
+\end{document}
