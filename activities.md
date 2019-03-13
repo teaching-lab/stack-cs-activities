@@ -38,6 +38,7 @@ If you teach programming, this is the right section for you.
 * [Pairing students based on list comprehensions](activities/pairing-list-comprehensions-python) -- Quickly group students who have a Python list comprehension that generates the same list.
 * [Recursion with turtle graphics](activities/recursion-turtle-graphics) -- Interactive activity for understanding recursion by using turtle graphics in Python.
 * [Rubric of introductory programming skills](activities/rubric-introductory-programming-skills) -- A self-assessment of core skills at the start of an intro programming course.
+* [Test-driven development](activities/test-driven-development) -- Practice writing code and tests in TDD.
 * [The good, the bad, and the ugly](activities/good-bad-ugly) -- Categorize pieces of code as good, bad, or ugly.
 * [Turtle graphics drawing](activities/turtle-graphics-drawing) -- A pen-and-paper drawing exercise that subsequently translates to code.
 
