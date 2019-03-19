@@ -39,7 +39,7 @@ Hands-on team activity for understanding block cipher modes of operation. From m
 * Encryption schemes ([scheme cards with mode names](cards.pdf))
   * Give cards with encryption schemes to each group.
   * Task for the group: *Go over the schemes, identify differences, find out if you understand the notation.*
-  * If necessary, explain the schematics, field coloring, XOR, nonce, counter and string concatenation.
+  * If necessary, explain the schematics, field coloring, XOR, nonce (a single number for the whole encryption, not secret), counter (increasing numbers) and string concatenation (||).
 * Decryption schemes ([scheme cards with letters](cards.pdf))
   * Give cards with decryption schemes to each group.
   * Task for the group: *Match the decryption schemes to corresponding encryption schemes.*
