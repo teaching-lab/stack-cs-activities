@@ -25,7 +25,7 @@ Students form pairs and write code and tests in the Test Driven Development (TDD
 
 1. Teacher explains the required functionality of the program. A suitable assignment is leap year detection (write a function that takes an integer argument and returns true if it represent a leap year, otherwise it returns false).
 2. Teacher divides students into pairs. (If there is an odd number of students, the teacher can join a group or form one trio.)
-3. Teacher shows an example of a unit test on a projector. The example remains visible until the end of the activity.
+3. Teacher shows an example of a unit test on a projector. For C\#, you can use the example in the [FactorialProject](FactorialProject) folder. The example remains visible until the end of the activity.
 4. Students divide the cards and start working.
      1. Blue card student writes the basic skeleton of classes and methods (without any functionality).
      2. Red card student writes the first basic unit test.
