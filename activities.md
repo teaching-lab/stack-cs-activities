@@ -6,8 +6,8 @@ This is the full list of activities in the Stack divided into several categories
 
 Tested in practice many times, iteratively improved, and nicely designed, these are the activities we're especially proud of.
 
-* [Code puzzle](activities/code-puzzle) -- An advanced Parson's problem in C\#.
 * [Encryption modes](activities/encryption-modes) -- Learn block cipher modes of operation, their properties and use cases from scratch.
+* [Code puzzle](activities/code-puzzle) -- An advanced Parson's problem in C\#.
 * [Incident handling: A suspicious e-mail](activities/incident-handling-suspicious-email) -- Spot an e-mail scam within a corporate scenario that really happened.
 
 ### Theoretical CS and math
@@ -62,6 +62,7 @@ Cryptography, network security, and human aspects of computer security.
 
 * [Encryption modes](activities/encryption-modes) -- Learn block cipher modes of operation, their properties and use cases from scratch.
 * [Incident handling: A suspicious e-mail](activities/incident-handling-suspicious-email) -- Spot an e-mail scam within a corporate scenario that really happened.
+* [Stages of cyber attacks](activities/cyber-attack-stages) -- Match the four stages of a cyber attack with their definitions and examples.
 * [Vulnerable source code](activities/vulnerable-source-code) -- Find vulnerabilities and propose fixes in C code snippets.
 
 ### Generic activities
