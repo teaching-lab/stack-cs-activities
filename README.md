@@ -14,8 +14,8 @@ Each activity in the Stack features a thorough description, printable handouts, 
 
 You can browse [the full list of activities](activities.md). Or just have a quick look at our **flagship activities**:
 
-* [Code puzzle](activities/code-puzzle) -- An advanced Parson's problem in C\#.
 * [Encryption modes](activities/encryption-modes) -- Learn block cipher modes of operation, their properties and use cases from scratch.
+* [Code puzzle](activities/code-puzzle) -- An advanced Parson's problem in C\#.
 * [Incident handling: A suspicious e-mail](activities/incident-handling-suspicious-email) -- Spot an e-mail scam within a corporate scenario that really happened.
 
 ## Knowledge base
