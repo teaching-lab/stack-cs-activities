@@ -37,6 +37,7 @@ Each student receives cards with names of data types and cards with expressions.
 * If a student is stuck, ask him/her to evaluate the expression to a single value.
 * A quick check is that there should be 5 expressions in each of the 3 categories.
 * A brief follow-up activity can be to let the students think about as many operations as possible for the given data types, and then comparing the results with a neighbor.
+* If you don't have time to cut the paper into cards, have the students write in the paper directly.
 
 ## Related material
 
