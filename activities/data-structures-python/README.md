@@ -58,4 +58,4 @@ Hands-on team activity for assigning features and use cases to different data st
 
 ## Author
 
-This activity ~~ripped off~~ was inspired by Martin Ukrop's [Encryption modes](activities/encryption-modes/README.md) and was written down by Valdemar Švábenský in 2018.
+This activity ~~ripped off~~ was inspired by Martin Ukrop's [Encryption modes](/activities/encryption-modes/README.md) and was written down by Valdemar Švábenský in 2018.
