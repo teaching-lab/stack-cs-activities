@@ -4,7 +4,7 @@ Hands-on team activity for assigning features and use cases to different data st
 
 | Parameters:        |                               |
 | -----------------: | :---------------------------- |
-| **Duration:**      | 30 minutes                    |
+| **Duration:**      | 25 minutes                    |
 | **Participants:**  | 6–30 students                 |
 | **Instructors:**   | 1–X teachers (ideally 1 per 6-8 participants) |
 | **Class:**         | table for each group          |
@@ -36,6 +36,7 @@ Hands-on team activity for assigning features and use cases to different data st
 	* If there are enough instructors, keep one instructor with each pair of groups.
 	* When relevant or asked for, offer your own opinion or extra information.
 5. (Optional) When a group is finished but others are still working, have them think of other use cases when they would use the data structures.
+	* The students might not understand what a use case is. Explain what exactly you want from them.
 6. (Optional) When a group is finished but others are still working, have them experimentally [measure the timing](https://docs.python.org/3/library/timeit.html) of basic operations in various data structures. This prevents the faster groups from being idle.
 	* Create a list and a set with a thousand, a million, or a billion elements by gradually appending numbers in a for loop starting from 1.
 	* Create large lists and tuples using the `range` function.
