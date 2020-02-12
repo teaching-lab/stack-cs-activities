@@ -1,6 +1,6 @@
 # Mutual practice exam
 
-The students prepare quiz questions \(see [Creating quiz questions](activities/creating-quiz-questions/README.md)\). Then, small groups mutually test each other on these questions.
+The students prepare quiz questions \(see [Creating quiz questions](/activities/creating-quiz-questions/README.md)\). Then, small groups mutually test each other on these questions.
 
 | Parameters:        |              |
 | -----------------: | :----------- |
@@ -17,7 +17,7 @@ The students prepare quiz questions \(see [Creating quiz questions](activities/c
 
 ## Setup and preparation
 
-* The students prepare quiz questions as in the activity [Creating quiz questions](activities/creating-quiz-questions/README.md).
+* The students prepare quiz questions as in the activity [Creating quiz questions](/activities/creating-quiz-questions/README.md).
 * The students bring these questions to class (online or printed)
 
 ## Activity overview
@@ -47,7 +47,7 @@ The students prepare quiz questions \(see [Creating quiz questions](activities/c
 
 ## Related material
 
-* [Creating quiz questions](activities/creating-quiz-questions/README.md) activity.
+* [Creating quiz questions](/activities/creating-quiz-questions/README.md) activity.
 
 ## Author
 
