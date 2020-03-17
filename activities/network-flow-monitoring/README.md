@@ -19,9 +19,9 @@ The activity starts with a brief reading about the concept of network flows. Eac
 
 ## Setup and preparation
 
-* Print the [activity handout](flow-exercise-handout.pdf) for each student.
+* Print the [activity handout](flows-activity-handout.pdf) for each student.
 	* Use one-sided printing.
-	* There is one page with theory and exercise setting, one page with the solution, and two pages for the packet cards.
+	* There is one page with theory and activity setting, one page with the solution, and two pages for the packet cards.
 	* Cut the packet cards so that there are 24 paper strips for each student.
 * Make sure that each student has free space on a table.
 
@@ -39,7 +39,8 @@ The activity starts with a brief reading about the concept of network flows. Eac
 ## Related material
 
 * The initial version of the activity originated in a [Master's thesis](https://is.muni.cz/th/yqkg2/?lang=en). The attached ZIP file contains prepared lecture slides and handouts to cover more information about flows.
+* There is also an online version of the activity. Go to [app.diagrams.net](https://app.diagrams.net/) (an online app for working with diagrams; formerly draw.io). Select Device / Open Existing Diagram and import [the online activity handout](flows-activity-online.xml​).
 
 ## Author
 
-[CSIRT-MU team](https://csirt.muni.cz/), 2016--2018
+[CSIRT-MU team](https://csirt.muni.cz/), 2016--2020
