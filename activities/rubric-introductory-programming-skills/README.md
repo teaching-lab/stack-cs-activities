@@ -51,6 +51,7 @@ This rubric allows the student to self-assess his/her programming skills at the 
 ## Related material
 
 * There is a rubric of teaching skills in the [Teacher's Reflective Diary](https://github.com/teaching-lab/reflective-diary) that follows the same principle.
+* The paper [A Large-scale Evaluation of a Rubric for the Automatic Assessment of Algorithms and Programming Concepts](https://dl.acm.org/doi/abs/10.1145/3328778.3366840) presents a grading rubric for code (see Table 1).
 
 ## Author
 
