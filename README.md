@@ -42,6 +42,10 @@ A big 'thank you' goes to the authors of the activities (in alphabetical order):
 
 Finally, thanks to [Waldemarski](http://www.waldemarski.com/) for creating the logotype.
 
+## Presentations
+
+We presented Stack activities at the Masaryk University's [Open Space Conference 2019](https://is.muni.cz/do/rect/el/prezentace/osk2019/index.html) (Czech only).
+
 ## License
 
 <img align="right" width="88" height="31" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons Licence BY NC SA 4.0" title="Creative Commons Licence BY NC SA 4.0">
