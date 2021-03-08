@@ -44,7 +44,13 @@ Finally, thanks to [Waldemarski](http://www.waldemarski.com/) for creating the l
 
 ## Presentations
 
-We presented Stack activities at the Masaryk University's [Open Space Conference 2019](https://is.muni.cz/do/rect/el/prezentace/osk2019/index.html) (Czech only).
+Information about the Stack was published in the following poster:
+
+V. Švábenský and M. Ukrop, The Stack: Unplugged Activities for Teaching Computer Science, in *Proceedings of the 52nd ACM Technical Symposium on Computer Science Education (SIGCSE)*, 2021.
+
+The poster abstract is available in the [ACM Digital Library](https://dl.acm.org/doi/10.1145/3408877.3439569) and [here](https://crocs.fi.muni.cz/public/papers/sigcse2021).
+
+We also presented Stack activities at the Masaryk University's [Open Space Conference 2019](https://is.muni.cz/do/rect/el/prezentace/osk2019/index.html) (Czech only).
 
 ## License
 
