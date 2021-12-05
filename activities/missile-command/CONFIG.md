@@ -1,8 +1,19 @@
 # Configuration of Missile Command
 
-There are two files that contain configuration: `aliens.sdl` and `scene.sdl`. The first one can probably be left alone, but you will need to set up the other.
+There are three files that contain configuration: `settings.sdl`, `aliens.sdl` and `scene.sdl`. The first two can probably be left alone, but you will need to set up the other.
 
-Both of these files are written in [SDLang](https://sdlang.org). I know it's an obscure language, but it's quite expressive and I think it flows quite naturally in this case.
+These files are written in [SDLang](https://sdlang.org). I know it's an obscure language, but it's quite expressive and I think it flows quite naturally in this case.
+
+## Settings file
+
+This little file contains only two settings, and by default it looks like this:
+
+    time-scale 1.0
+    strings pause="Paused..." victory="Victory!" defeat="Defeat..."
+
+The number after `time-scale` says how many times faster the game should run (relative to the base values defined in the alien file). So `2.0` means twice faster than normal, `10.0` ten times as fast. This setting is mainly useful for testing your scenes before you use them in class — if your scene is an hour long, it will take only 6 minutes to test if you put `10.0` here. However, the game is intended to be played at `1.0`. (Please note that you must write the numbers with decimal part even if they are integers. Otherwise there will be a parse error.)
+
+The three strings after the `string` tag are pretty much self-explanatory. The one at `pause` will show up whenever the game is paused, the one at `victory` will show when the game is won, and the `defeat` one is shown when the game is lost. You can translate them into your language to make it nicer for your class (e. g., in Czech you could use `strings pause="Pauza..." victory="Vítězství!" defeat="Porážka..."`).
 
 ## Scene setup
 
@@ -10,7 +21,7 @@ The file `scene.sdl` controls the whole progress of the game — simply put, it 
 
 It contains instructions of two kinds. One of them is `event`, which is an one-shot thing that happens once and that's it (e. g. a ton of aliens arrives at 15:00). The other is `scene`, which is in effect for longer amount of time and it specifies things that need to occur periodically (e. g. each minute add a bomber).
 
-Each scene starts at the given time and it is in effect until the start of another event. You can provide the events and scenes in any order.
+Each scene starts at the given time and it is in effect until the start of another scene (events just happen and they do not affect the scene progression). You can provide the events and scenes in any order.
 
 ### Scene syntax
 
@@ -87,7 +98,7 @@ At 30:00, a second mother ship appears. Now, if the players endure for another 5
 
 Here you can change the parameters of the aliens, and even add your own to the game! The structure of this file is very similar to the scene file. Let's have a look at an example:
 
-    "basic transport" time-to-fall=300 strength=1.0
+    "basic transport" time-to-fall=300 strength=0.7
     "elite transport" time-to-fall=240 strength=1.0 lives=2
     
     "bomber" on-top=true {

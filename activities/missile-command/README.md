@@ -51,6 +51,8 @@ It's good to use this for some questions that are not entirely straightforward a
 
 The exact numbers depend on your [configuration](CONFIG.md), but in general: don't overdo it with the ships. Keep in mind that some (most) of the ships take multiple hits to defeat.
 
+Test your scenes before you use them in class. The setting `time-scale` (see the [configuration specs](CONFIG.md)) can make the game run much faster (as fast as you want), so even an hour-long scene can be tested in a few minutes. You should make sure that the aliens will be well capable of wiping out the cities if left alone. Then, count how many clicks you need to keep the cities alive to get an estimate of how many questions will the students need to solve.
+
 Keep it light. Emphasize the fact that this is done just for fun. You can start the game with a bit of joke: *"I chose the numbers of ships however it seemed fit to me, but it's certainly unbalanced. So, if you win, it's because you did well, if you lose, it's because it was badly balanced anyway."* You certainly don't want to reinforce the feeling that everything must be done fast in order to be of any value (especially in math).
 
 ## Related material
@@ -62,3 +64,14 @@ Keep it light. Emphasize the fact that this is done just for fun. You can start 
 ## Author
 
 Darek Cidlinský, 2021.
+
+### Art credits and thanks
+
+Missile Command uses some art from OpenGameArt. Here's the full list:
+* The background starmap comes from Gamedevtuts: https://opengameart.org/content/simple-shoot-em-up-sprites-spaceship-starscape-ufo-0
+* The alien ships were drawn by Carlos Alface: https://opengameart.org/content/alien-spaceship-invasion
+* The cities were made by Hansjörg Malthaner (http://opengameart.org/users/varkalandar): https://opengameart.org/content/200-isometric-cityscapes
+* The shield effect was made by sholev and Bonsaiheldin (http://bonsaiheld.org). https://opengameart.org/content/shield-aura-effect
+* The fire effect was made by Martin Jelínek: https://opengameart.org/content/fire-fx-burning-fire-animation
+
+It also uses the EB Garamond font from Georg Duffner (http://www.georgduffner.at/ebgaramond/index.html), which is licensed under the SIL Open Font License (see [OFL.txt](OFL.txt)).
