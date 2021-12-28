@@ -11,7 +11,7 @@ This little file contains only two settings, and by default it looks like this:
     time-scale 1.0
     strings pause="Paused..." victory="Victory!" defeat="Defeat..."
 
-The number after `time-scale` says how many times faster the game should run (relative to the base values defined in the alien file). So `2.0` means twice faster than normal, `10.0` ten times as fast. This setting is mainly useful for testing your scenes before you use them in class — if your scene is an hour long, it will take only 6 minutes to test if you put `10.0` here. However, the game is intended to be played at `1.0`. (Please note that you must write the numbers with decimal part even if they are integers. Otherwise there will be a parse error.)
+The number after `time-scale` says how many times faster the game should run (relative to the base values defined in the alien file). So `2.0` means twice faster than normal, `10.0` ten times as fast. This setting is useful mainly for testing your scenes before you use them in class — if your scene is an hour long, it will take only 6 minutes to test if you put `10.0` here. However, the game is intended to be played at `1.0`. (Please note that you must write the numbers with decimal part even if they are integers. Otherwise there will be a parse error.)
 
 The three strings after the `string` tag are pretty much self-explanatory. The one at `pause` will show up whenever the game is paused, the one at `victory` will show when the game is won, and the `defeat` one is shown when the game is lost. You can translate them into your language to make it nicer for your class (e. g., in Czech you could use `strings pause="Pauza..." victory="Vítězství!" defeat="Porážka..."`).
 
@@ -34,7 +34,7 @@ The syntax for `scene`s is simple. Here's an example:
 
 The time after `at` says when the scene comes into effect (measured from the start of the game). It always needs to have hours, minutes and seconds. The effects that take place go into the curly braces (here the opening brace must be on the same line as the `scene` word).
 
-Each of those periodic effects is defined by the word `each` and a string in upright qutes that says how often the effect happens. (You can use minutes and seconds, in this order, so `1 minute`, `35 seconds` or `1 minutes 12 second` is OK (the singular/plural forms can be used freely), but `12 seconds 1 minute` or `1 hour` is not.) The effect itself goes into curly braces again. For the list of possible effects, see below.
+Each of those periodic effects is defined by the word `each` and a string in quotes that says how often the effect happens. (You can use minutes and seconds, in this order, so `1 minute`, `35 seconds` or `1 minutes 12 second` is OK (the singular/plural forms can be used freely), but `12 seconds 1 minute` or `1 hour` is not.) The effect itself goes into curly braces again. For the list of possible effects, see below.
 
 The `each` effects are **not** triggered at the start of the scene, so if you have `scene at=00:10:00 { each "10 minutes" { arrive "mother ship" } }`, it means that the first mother ship arrives 20 minutes into the game.
 
@@ -44,8 +44,8 @@ The syntax for `event`s is almost the same as the syntax for `scenes`; it just u
 
     event at=00:35:00 {
     	arrive "elite transport"
-	arrive "mother ship"
-	arrive "leviathan"
+    	arrive "mother ship"
+    	arrive "leviathan"
     }
 
 ### Effect list
@@ -65,14 +65,14 @@ Put one effect on each line. If you want to put more of them on the same line, s
     	each "2 minutes" { arrive-random-choice "bomber" "basic transport" }
     }
     event at=00:07:30 {
-    	arrive "command ship"    	
+    	arrive "command ship"
     }
     scene at=00:15:00 {
     	each "1 minutes 20 seconds" { arrive-random-choice "bomber" "bomber" "basic transport" "elite transport" }
-	each "4 minutes" { arrive "command ship" }
+    	each "4 minutes" { arrive "command ship" }
     }
     event at=00:15:50 {
-    	arrive "command ship"    	
+    	arrive "command ship"
     }
     event at=00:25:00 {
     	arrive "mother ship"
