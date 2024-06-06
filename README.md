@@ -42,13 +42,31 @@ A big 'thank you' goes to the authors of the activities (in alphabetical order):
 
 Finally, thanks to [Waldemarski](http://www.waldemarski.com/) for creating the logotype.
 
-## Presentations
+## Presentations and how to cite
 
 Information about the Stack was published in the following poster:
 
 V. Švábenský and M. Ukrop, The Stack: Unplugged Activities for Teaching Computer Science, in *Proceedings of the 52nd ACM Technical Symposium on Computer Science Education (SIGCSE)*, 2021.
 
 The poster abstract is available in the [ACM Digital Library](https://dl.acm.org/doi/10.1145/3408877.3439569) and [here](https://crocs.fi.muni.cz/public/papers/sigcse2021).
+
+To cite the Stack in an academic publication, please use the following BibTeX entry:
+```bibtex
+@inproceedings{Svabensky2021thestack,
+    author    = {\v{S}v\'{a}bensk\'{y}, Valdemar and Ukrop, Martin},
+    title     = {{The Stack: Unplugged Activities for Teaching Computer Science}},
+    booktitle = {Proceedings of the 52nd ACM Technical Symposium on Computer Science Education},
+    series    = {SIGCSE ’21},
+    publisher = {Association for Computing Machinery},
+    address   = {New York, NY, USA},
+    year      = {2021},
+    pages     = {1242},
+    numpages  = {1},
+    isbn      = {978-1-4503-8062-1},
+    url       = {https://doi.org/10.1145/3408877.3439569},
+    doi       = {10.1145/3408877.3439569},
+}
+```
 
 We also presented Stack activities at the Masaryk University's [Open Space Conference 2019](https://is.muni.cz/do/rect/el/prezentace/osk2019/index.html) (Czech only).
 
